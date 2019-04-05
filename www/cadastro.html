@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Comanda Digital - Login</title>
+    <script src="https://www.gstatic.com/firebasejs/5.9.2/firebase.js"></script>
+    <script src="js/jquery-3.3.1.min.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="css/semantic/semantic.min.css">
+    <script src="css/semantic/semantic.min.js" type="text/javascript"></script>
+    <script src="js/conexao.js" type="text/javascript"></script>
+    <style type="text/css">
+        body {
+          background-image: url("img/background.png")
+        }
+        body > .grid {
+          height: 100%;
+        }
+        .image {
+          margin-top: -100px;
+        }
+        .column {
+          max-width: 450px;
+        }
+    </style>
+</head>
+<body class="text-center">
+    <div class="ui middle aligned center aligned grid">
+        <div class="row center aligned">
+            <div class="ui column inverted segment">
+                <h2 class="ui red image header">
+                    <img src="img/hamburger.png" class="ui image">
+                    <div class="content">
+                        Cadastro de Usuário
+                    </div>
+                </h2>
+                <form action="" class="ui large form">
+                    <div class="ui stacked segment">
+                        <div class="field">
+                            <div class="ui left icon input">
+                                <i class="user icon"></i>
+                                <input type="text" name="usuario" id="usuario" placeholder="Digite seu usuario">
+                            </div>
+                        </div>
+                        <div class="field" class="campo_senha">
+                            <div class="ui left icon input">
+                                <i class="lock icon"></i>
+                                <input type="password" name="senha" id="senha" placeholder="Digite sua senha">
+                            </div>
+                        </div>
+                        <div class="field" id="campo_confirmacao_senha">
+                                <div class="ui left icon input">
+                                    <i class="lock icon"></i>
+                                    <input type="password" name="confirmacao_senha" id="confirmacao_senha" placeholder="Confirme sua senha">
+                                </div>
+                                <div class="ui pointing red basic label" id="pointing_confirm">
+                                    Senhas não coincidem
+                                </div>
+                            </div>
+                        <div class="ui fluid large green submit button" onclick="novoUsuario();">Cadastrar</div>
+                    </div>
+                    <div class="ui error message" id="mensagem_erro">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    $(document).ready(function(){
+        $("#pointing_confirm").hide();
+    });
+
+    $("#confirmacao_senha").keyup(function(){
+        senha = $("#senha").val()
+        if($("#confirmacao_senha").val() != senha){
+            $("#campo_confirmacao_senha").addClass("error")
+            $("#pointing_confirm").show(300);
+        }else{
+            $("#campo_confirmacao_senha").removeClass("error");
+            $("#pointing_confirm").hide(300);
+        }
+    });
+</script>
+</html>
