@@ -9,6 +9,12 @@
   "installed_plugins": {
     "cordova-plugin-whitelist": {
       "PACKAGE_NAME": "com.example.appcomanda"
+    },
+    "cordova-plugin-camera": {
+      "PACKAGE_NAME": "com.example.appcomanda"
+    },
+    "cordova-plugin-barcodescanner": {
+      "PACKAGE_NAME": "com.example.appcomanda"
     }
   },
   "dependent_plugins": {}
