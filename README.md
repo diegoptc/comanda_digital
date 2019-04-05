@@ -12,3 +12,6 @@ Aplicativo de comanda digital - Prova 01 - Desenvolvimento Mobile
 > **Funcionário**: User: 321 Password: pass
 
 > Token para cadastro de funcionários: 180c4e8f50a356b7408cd08029083d77
+
+> QR Code com o token
+![Imagem não encontrada](https://i.imgur.com/nDZEa1Z.png)
