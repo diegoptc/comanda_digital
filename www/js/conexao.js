@@ -17,20 +17,26 @@ function autenticar(){
     if(cpf != "" && senha != ""){
         firebase.database().ref("usuario").child(cpf).orderByKey().once("value", snapshot => {
             if(snapshot.exists()){
-                if(senha != snapshot.val().senha){ //Verificação de senha
+                //Descriptografando a senha do usuário para comparação
+                var senha_descriptografada = CryptoJS.AES.decrypt(snapshot.val().senha, cpf + senha).toString(CryptoJS.enc.Utf8);
+                //Verificação de senha
+                if(senha != senha_descriptografada){ 
                     $("#mensagem_erro").html("Senha incorreta");
                     $("#mensagem_erro").show(300);
                 }
-                else{ //Senha correta, redireciona para próxima página
+                //Senha correta, redireciona para próxima página
+                else{ 
                     window.location = "cadastro.html";
                 }
             }
-            else{ //Usuário não existe
+            //Usuário não existe
+            else{ 
                 $("#mensagem_erro").html("Este usuário não existe no sistema")
                 $("#mensagem_erro").show(300);
             }
         })
     }
+    //Campos vazios
     else{
         $("#mensagem_erro").htlm("Entre com cpf e senha");
         $("#mensagem_erro").show(300);
@@ -52,13 +58,17 @@ function novoUsuario(){
     }
     else{
         firebase.database().ref("usuario").child(cpf).orderByKey().once("value", snapshot => {
-            if(snapshot.exists()){ //Usuário já existe no banco de dados
+            //Usuário já existe no banco de dados
+            if(snapshot.exists()){ 
                 $("#mensagem_erro").html("Já existe um usuário com este CPF!");
                 $("#mensagem_erro").show(300)
             }
-            else{ //Cadastra usuário no banco de dados
-                firebase.database().ref("usuario").child(cpf).update({cpf: cpf, senha: senha});
-               alert("Usuário cadastrado com sucesso");
+            //Cadastra usuário no banco de dados
+            else{ 
+                //Criptografando a senha do usuário com chave de criptografia formada pelo cpf + senha
+                var senha_criptografada = CryptoJS.AES.encrypt(senha, cpf + senha).toString();
+                firebase.database().ref("usuario").child(cpf).update({cpf: cpf, senha: senha_criptografada});
+                alert("Usuário cadastrado com sucesso");
             }
         })
     }
