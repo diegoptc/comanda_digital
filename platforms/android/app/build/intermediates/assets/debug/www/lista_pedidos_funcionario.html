@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Comanda Digital</title>
+        <script src="https://www.gstatic.com/firebasejs/5.9.2/firebase.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/semantic/semantic.min.css">
+        <link rel="stylesheet" href="css/folha.css">
+        <script src="js/jquery-3.3.1.min.js" type="text/javascript"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script> 
+        <script src="js/conexao.js" type="text/javascript"></script>
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+    </head>
+
+    <body>
+        <ul>
+            <li><a href="menu_cliente.html">Menu</a></li>
+        </ul>
+        <div id="listaPedidos" class="form-group">
+            <!--Listagem-->
+        </div>
+    </body>
+
+    <script>
+        $(document).ready(function(){
+            firebase.database().ref().child("pedido").orderByKey().once("value", snapshot => {
+                var tabela = "<table class='table table-striped'><tr><th>Status</th><th>Lanche</th><th>Mesa</th></tr>";
+                    snapshot.forEach(pedido => {
+                    //Verifica se o pedido não foi iniciado (para iniciar)
+                    if(pedido.val().status == "Na fila"){
+                        tabela+= "<tr><td><button class='btn btn-info' onclick=statusPedido('" + pedido.key + "')>Fazer</button></td><td>" + pedido.val().pedido + "</td><td>" + pedido.val().mesa + "</td></tr>";
+                    }
+                    //Opção de pedido concluido
+                    if(pedido.val().status == "Iniciado"){
+                        tabela+= "<tr><td><button class='btn btn-warning' onclick=finalizarPedido('" + pedido.key + "')>Finalizar</button></td><td>" + pedido.val().pedido + "</td><td>" + pedido.val().mesa + "</td></tr>";
+                    }
+                })
+                tabela+= "</table";
+                document.getElementById("listaPedidos").innerHTML = tabela;
+            })
+        })
+
+        function statusPedido(idPedido){
+            firebase.database().ref("pedido").child(idPedido).update({status: "Iniciado"})
+            location.href = "lista_pedidos_funcionario.html";
+        }
+
+        function finalizarPedido(idPedido){
+            //Confirmar a conclusão do pedido
+            var confirmar =  confirm("Concluir pedido?");
+            if(confirmar){
+                firebase.database().ref("pedido").child(idPedido).update({status: "Entregue"})
+                location.href = "lista_pedidos_funcionario.html";
+            }
+        }
+    </script>
+</html>

@@ -35,7 +35,7 @@ function autenticar(){
                     if(snapshot.val().grupo == "Cliente")
                         window.location = "menu_cliente.html";
                     else
-                       window.location = "CRUD_mesa.html";
+                       window.location = "menu_funcionario.html";
                 }
             }
             //Usuário não existe
@@ -246,6 +246,10 @@ function fazerPedido(){
         }
     }
 }
+
+/*------------------------------------------------------------------------------------
+    LISTAGEM DE PEDIDO
+------------------------------------------------------------------------------------*/
 
 /*------------------------------------------------------------------------------------
     LIMPAR FORMULÁRIO
