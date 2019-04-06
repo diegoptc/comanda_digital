@@ -32,8 +32,7 @@ function autenticar(){
                 //Verifica o grupo de usuário para redirecionamento
                 else{
                     if(snapshot.val().grupo == "Cliente")
-                        //window.location = "visoa_cliente.html";
-                        lerMesa();
+                        window.location = "menu_cliente.html";
                     else
                        window.location = "CRUD_mesa.html";
                 }
