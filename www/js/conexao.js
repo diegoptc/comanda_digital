@@ -31,6 +31,8 @@ function autenticar(){
                 //Senha correta, redireciona para próxima página
                 //Verifica o grupo de usuário para redirecionamento
                 else{
+                    localStorage.setItem("usuarioLogado", usuario); //Armazena em cache o usuário logado
+                    //localStorage.getItem("usuarioLogado"); //Recupera o usuário logado (em cache)
                     if(snapshot.val().grupo == "Cliente")
                         window.location = "menu_cliente.html";
                     else
@@ -179,6 +181,22 @@ function lerMesa(){
 
         }
     );
+}
+
+/*------------------------------------------------------------------------------------
+   CADASTRAR PEDIDO DE CLIENTE
+------------------------------------------------------------------------------------*/
+//Adicionar itens ao lanche final
+function addItem(valor){
+    var valorAux = parseFloat(valor);
+    //Se ainda não tive nenhum valor
+    if(document.getElementById("valor").value == ""){
+        document.getElementById("valor").value = valorAux;
+    }
+    //Se não soma com o atual
+    else{
+        document.getElementById("valor").value = parseFloat(document.getElementById("valor").value) + valorAux;
+    }
 }
 
 /*------------------------------------------------------------------------------------

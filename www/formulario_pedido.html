@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Comanda Digital - Menu</title>
+        <title>Comanda Digital</title>
         <script src="https://www.gstatic.com/firebasejs/5.9.2/firebase.js"></script>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
         <link rel="stylesheet" href="css/semantic/semantic.min.css">
@@ -33,7 +33,7 @@
                     <legend>Carnes</legend>
                     <div class="form-group">
                         <div class="ui labeled button" tabindex="0">
-                            <div class="ui basic blue button" style="width: 150px">
+                            <div class="ui basic blue button" onclick="addItem('0.50')" style="width: 150px">
                                 Presunto
                             </div>
                             <a class="ui basic left pointing blue label">R$ 0,50</a>
@@ -41,7 +41,7 @@
                     </div>
                     <div class="form-group">
                         <div class="ui labeled button" tabindex="0">
-                            <div class="ui basic blue button" style="width: 150px">
+                            <div class="ui basic blue button" onclick="addItem('0.80')" style="width: 150px">
                                 Bacon
                             </div>
                             <a class="ui basic left pointing blue label">R$ 0,80</a>
@@ -49,7 +49,7 @@
                     </div>
                     <div class="form-group">
                         <div class="ui labeled button" tabindex="0">
-                            <div class="ui basic blue button" style="width: 150px">
+                            <div class="ui basic blue button" onclick="addItem('0.80')" style="width: 150px">
                                 Hamburguer de boi
                             </div>
                             <a class="ui basic left pointing blue label">R$ 0,80</a>
@@ -57,7 +57,7 @@
                     </div>
                     <div class="form-group">
                         <div class="ui labeled button" tabindex="0">
-                            <div class="ui basic blue button" style="width: 150px">
+                            <div class="ui basic blue button" onclick="addItem('0.80')" style="width: 150px">
                             Salsicha
                             </div>
                             <a class="ui basic left pointing blue label">R$ 0,80</a>
@@ -69,7 +69,7 @@
                     <legend>Vegetais</legend>
                     <div class="form-group">
                         <div class="ui labeled button" tabindex="0">
-                            <div class="ui basic blue button" style="width: 150px">
+                            <div class="ui basic blue button" onclick="addItem('0.20')" style="width: 150px">
                                 Alface
                             </div>
                             <a class="ui basic left pointing blue label">R$ 0,20</a>
@@ -77,7 +77,7 @@
                     </div>
                     <div class="form-group">
                         <div class="ui labeled button" tabindex="0">
-                            <div class="ui basic blue button" style="width: 150px">
+                            <div class="ui basic blue button" onclick="addItem('0.50')" style="width: 150px">
                                 Tomate
                             </div>
                             <a class="ui basic left pointing blue label">R$ 0,50</a>
@@ -85,7 +85,7 @@
                     </div>
                     <div class="form-group">
                         <div class="ui labeled button" tabindex="0">
-                            <div class="ui basic blue button" style="width: 150px">
+                            <div class="ui basic blue button" onclick="addItem('0.50')" style="width: 150px">
                                 Picles
                             </div>
                             <a class="ui basic left pointing blue label">R$ 0,50</a>
@@ -93,7 +93,7 @@
                     </div>
                     <div class="form-group">
                         <div class="ui labeled button" tabindex="0">
-                            <div class="ui basic blue button" style="width: 150px">
+                            <div class="ui basic blue button" onclick="addItem('0.10')" style="width: 150px">
                                 Cebola
                             </div>
                             <a class="ui basic left pointing blue label">R$ 0,10</a>
@@ -105,14 +105,14 @@
                     <legend>Adicionais</legend>
                     <div class="form-group">
                         <div class="ui labeled button" tabindex="0">
-                            <div class="ui basic blue button" style="width: 150px">
+                            <div class="ui basic blue button" onclick="addItem('0.50')" style="width: 150px">
                                 Queijo
                             </div>
                             <a class="ui basic left pointing blue label">R$ 0,50</a>
                         </div>
                     </div>
                     <div class="form-group">
-                        <div class="ui labeled button" tabindex="0">
+                        <div class="ui labeled button" onclick="addItem('0.20')" tabindex="0">
                             <div class="ui basic blue button" style="width: 150px">
                                 Milho
                             </div>
@@ -120,7 +120,7 @@
                         </div>
                     </div>
                     <div class="form-group">
-                        <div class="ui labeled button" tabindex="0">
+                        <div class="ui labeled button" onclick="addItem('0.50')" tabindex="0">
                             <div class="ui basic blue button" style="width: 150px">
                                 Batata-palha
                             </div>
@@ -128,7 +128,7 @@
                         </div>
                     </div>
                     <div class="form-group">
-                        <div class="ui labeled button" tabindex="0">
+                        <div class="ui labeled button" onclick="addItem('0.50')" tabindex="0">
                             <div class="ui basic blue button" style="width: 150px">
                                 Ovo frito
                             </div>
@@ -141,7 +141,7 @@
                     <legend>Condimentos</legend>
                     <div class="form-group">
                         <div class="ui labeled button" tabindex="0">
-                            <div class="ui basic blue button" style="width: 150px">
+                            <div class="ui basic blue button" onclick="addItem('1')" style="width: 150px">
                                 Maionese
                             </div>
                             <a class="ui basic left pointing blue label">R$ 1,00</a>
@@ -149,7 +149,7 @@
                     </div>
                     <div class="form-group">
                         <div class="ui labeled button" tabindex="0">
-                            <div class="ui basic blue button" style="width: 150px">
+                            <div class="ui basic blue button" onclick="addItem('1')" style="width: 150px">
                                 Mostarda
                             </div>
                             <a class="ui basic left pointing blue label">R$ 1,00</a>
@@ -157,7 +157,7 @@
                     </div>
                     <div class="form-group">
                         <div class="ui labeled button" tabindex="0">
-                            <div class="ui basic blue button" style="width: 150px">
+                            <div class="ui basic blue button" onclick="addItem('1')" style="width: 150px">
                                 Ketchup
                             </div>
                             <a class="ui basic left pointing blue label">R$ 1,00</a>
@@ -165,12 +165,16 @@
                     </div>
                     <div class="form-group">
                         <div class="ui labeled button" tabindex="0">
-                            <div class="ui basic blue button" style="width: 150px">
+                            <div class="ui basic blue button" onclick="addItem('3')" style="width: 150px">
                                 Barbecue
                             </div>
                             <a class="ui basic left pointing blue label">R$ 3,00</a>
                         </div>
                     </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Valor final R$</legend>
+                    <input class="form-control" type="text" id="valor" placeholder="Valor em R$" readonly>
                 </fieldset>
             </fieldset>
         </div>
