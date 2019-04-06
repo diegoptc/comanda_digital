@@ -32,7 +32,6 @@ function autenticar(){
                 //Verifica o grupo de usuário para redirecionamento
                 else{
                     localStorage.setItem("usuarioLogado", usuario); //Armazena em cache o usuário logado
-                    //localStorage.getItem("usuarioLogado"); //Recupera o usuário logado (em cache)
                     if(snapshot.val().grupo == "Cliente")
                         window.location = "menu_cliente.html";
                     else
@@ -217,12 +216,24 @@ function fazerPedido(){
         if(result){
             cordova.plugins.barcodeScanner.scan(
                 result => {
-                    var numeroMesa = result.text.toString();
+                    //Recupera o número da mesa
+                    var numeroMesa = "result.text.toString()";
                     firebase.database().ref("mesa").child(numeroMesa).orderByKey().once("value", snapshot => {
+                        //Se a mesa existir após a leitura do QR Code
                         if(snapshot.exists()){
+                            //Recupera o cliente
+                            var usuario = localStorage.getItem("usuarioLogado"); //Recupera o usuário logado (em cache)
+                            //Recupera os itens do pedido
+                            var pedido = document.getElementById("itens").value;
+                            //Recupera o valor do pedido
+                            var valor = "R$ " + document.getElementById("valor").value;
+                            //Cadastra o pedido com as informações recuperadas
+                            firebase.database().ref("pedido").push({cliente: usuario, mesa: numeroMesa, pedido: pedido, valor: valor})
+                            
                             alert("Seu pedido foi enviado para cozinha, aguarde um pouco :D");
                             location.href = "menu_cliente.html";
                         }
+                        //Se for lido outro QR Code
                         else{
                             alert("Não há nenhuma mesa relacionada com este QR Code!");
                         }
