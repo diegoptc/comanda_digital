@@ -20,12 +20,12 @@
         "source": "C:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\src\\main\\res\\menu\\history.xml"
     },
     {
-        "merged": "C:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\xml_camera_provider_paths.xml.flat",
-        "source": "C:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\src\\main\\res\\xml\\camera_provider_paths.xml"
-    },
-    {
         "merged": "C:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\menu_encode.xml.flat",
         "source": "C:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\src\\main\\res\\menu\\encode.xml"
+    },
+    {
+        "merged": "C:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\xml_camera_provider_paths.xml.flat",
+        "source": "C:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\src\\main\\res\\xml\\camera_provider_paths.xml"
     },
     {
         "merged": "C:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\menu_capture.xml.flat",
@@ -84,12 +84,12 @@
         "source": "C:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\src\\main\\res\\drawable\\share_via_barcode.png"
     },
     {
-        "merged": "C:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-port-hdpi_screen.png.flat",
-        "source": "C:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\src\\main\\res\\drawable-port-hdpi\\screen.png"
-    },
-    {
         "merged": "C:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout_history_list_item.xml.flat",
         "source": "C:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\src\\main\\res\\layout\\history_list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\drawable-port-hdpi_screen.png.flat",
+        "source": "C:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\src\\main\\res\\drawable-port-hdpi\\screen.png"
     },
     {
         "merged": "C:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\res\\merged\\debug\\layout_capture.xml.flat",

@@ -248,8 +248,21 @@ function fazerPedido(){
 }
 
 /*------------------------------------------------------------------------------------
-    LISTAGEM DE PEDIDO
+    ATUALIZAR STATUS DO PEDIDO - INICIADO E ENTREGUE
 ------------------------------------------------------------------------------------*/
+function statusPedido(idPedido){
+    firebase.database().ref("pedido").child(idPedido).update({status: "Iniciado"})
+    location.href = "lista_pedidos_funcionario.html";
+}
+
+function finalizarPedido(idPedido){
+    //Confirmar a conclusão do pedido
+    var confirmar =  confirm("Concluir pedido?");
+    if(confirmar){
+        firebase.database().ref("pedido").child(idPedido).update({status: "Entregue"})
+        location.href = "lista_pedidos_funcionario.html";
+    }
+}
 
 /*------------------------------------------------------------------------------------
     LIMPAR FORMULÁRIO
