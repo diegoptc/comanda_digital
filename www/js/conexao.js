@@ -395,6 +395,7 @@ function limparPedido(){
         document.getElementById("qtdMostarda").value = "0";
         document.getElementById("qtdKetchup").value = "0";
         document.getElementById("qtdBarbecue").value = "0";
-        document.getElementById("itens").value = "";
+        document.getElementById("itens_aux").value = "";
+        location.href = "formulario_pedido.html";
     }
 }

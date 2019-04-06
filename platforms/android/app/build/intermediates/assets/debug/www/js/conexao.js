@@ -212,10 +212,24 @@ function addItem(valor, quantidadeID){
     //Recupera a lista atual
     var tabela = "<tr><th>Item</th><th>Quantidade</th></tr>";
     listaSemRepeticoes.forEach(obj => {
+        //console.log(obj.toString())
         if(obj != ""){
+            var qtdItem = "";
             //Gambiarra para encontrar o id do item através do nome
-            var qtdItem = obj.toString().toLowerCase();
-            tabela += "<tr><td>"+ obj + "</td><td>" + qtdItem + "</td></tr>";
+            if(obj.toString() == "Batata-palha"){
+                qtdItem = "qtdBatataPalha";
+            }
+            else if(obj.toString() == "Hambuguer de boi"){
+                qtdItem = "qtdBoi"; 
+            }
+            else if(obj.toString() == "Ovo frito"){
+                qtdItem = "qtdOvoFrito";
+            }
+            else{
+                qtdItem = "qtd" + obj.toString(); 
+            }
+           
+            tabela += "<tr><td>"+ obj + "</td><td>" + document.getElementById(qtdItem).value + "</td></tr>";
         }
     })
     document.getElementById("tabela").innerHTML = tabela;
@@ -270,7 +284,22 @@ function delItem(valor, quantidadeID){
         var tabela = "<tr><th>Item</th><th>Quantidade</th></tr>";
         lista.forEach(obj => {
             if(obj != ""){
-                tabela += "<tr><td>"+ obj + "</td><td>" + itens[0][quantidadeID] + "</td></tr>";
+                var qtdItem = "";
+                //Gambiarra para encontrar o id do item através do nome
+                if(obj.toString() == "Batata-palha"){
+                    qtdItem = "qtdBatataPalha";
+                }
+                else if(obj.toString() == "Hambuguer de boi"){
+                    qtdItem = "qtdBoi"; 
+                }
+                else if(obj.toString() == "Ovo frito"){
+                    qtdItem = "qtdOvoFrito";
+                }
+                else{
+                    qtdItem = "qtd" + obj.toString(); 
+                }
+               
+                tabela += "<tr><td>"+ obj + "</td><td>" + document.getElementById(qtdItem).value + "</td></tr>";
             }
         })
         document.getElementById("tabela").innerHTML = tabela;
