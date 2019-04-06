@@ -37,7 +37,10 @@
                                 Presunto
                             </div>
                             <a class="ui basic left pointing green label">R$ 0,50</a>
-                            <a class="ui basic left pointing blue label"><input id="qtdPresunto" type="text" value="0" class="input" readonly></a>
+                            <a class="ui basic left blue label"><input id="qtdPresunto" type="text" value="0" class="input" readonly></a>
+                            <div>
+                                <a style="border: none" class="ui basic left red label"><button onclick="delItem('0.50', 'qtdPresunto')" class="btn btn-danger">X</button></a>
+                            </div>
                         </div>
                     </div>
                     <div class="form-group">
@@ -46,7 +49,10 @@
                                 Bacon
                             </div>
                             <a class="ui basic left pointing green label">R$ 0,80</a>
-                            <a class="ui basic left pointing blue label"><input id="qtdBacon" type="text" value="0" class="input" readonly></a>
+                            <a class="ui basic left blue label"><input id="qtdBacon" type="text" value="0" class="input" readonly></a>
+                            <div>
+                                <a style="border: none" class="ui basic left red label"><button onclick="delItem('0.80', 'qtdBacon')" class="btn btn-danger">X</button></a>
+                            </div>
                         </div>
                     </div>
                     <div class="form-group">
@@ -55,7 +61,10 @@
                                 Hamburguer de boi
                             </div>
                             <a class="ui basic left pointing green label">R$ 0,80</a>
-                            <a class="ui basic left pointing blue label"><input id="qtdBoi" type="text" value="0" class="input" readonly></a>
+                            <a class="ui basic left blue label"><input id="qtdBoi" type="text" value="0" class="input" readonly></a>
+                            <div>
+                                <a style="border: none" class="ui basic left red label"><button onclick="delItem('0.80', 'qtdBoi')" class="btn btn-danger">X</button></a>
+                            </div>
                         </div>
                     </div>
                     <div class="form-group">
@@ -64,7 +73,10 @@
                             Salsicha
                             </div>
                             <a class="ui basic left pointing green label">R$ 0,80</a>
-                            <a class="ui basic left pointing blue label"><input id="qtdSalsicha" type="text" value="0" class="input" readonly></a>
+                            <a class="ui basic left blue label"><input id="qtdSalsicha" type="text" value="0" class="input" readonly></a>
+                            <div>
+                                <a style="border: none" class="ui basic left red label"><button onclick="delItem('0.80', 'qtdSalsicha')" class="btn btn-danger">X</button></a>
+                            </div>
                         </div>
                     </div>
                 </fieldset>
@@ -77,7 +89,10 @@
                                 Alface
                             </div>
                             <a class="ui basic left pointing green label">R$ 0,20</a>
-                            <a class="ui basic left pointing blue label"><input id="qtdAlface" type="text" value="0" class="input" readonly></a>
+                            <a class="ui basic left blue label"><input id="qtdAlface" type="text" value="0" class="input" readonly></a>
+                            <div>
+                                <a style="border: none" class="ui basic left red label"><button onclick="delItem('0.20', 'qtdAlface')" class="btn btn-danger">X</button></a>
+                            </div>
                         </div>
                     </div>
                     <div class="form-group">
@@ -86,7 +101,10 @@
                                 Tomate
                             </div>
                             <a class="ui basic left pointing green label">R$ 0,50</a>
-                            <a class="ui basic left pointing blue label"><input id="qtdTomate" type="text" value="0" class="input" readonly></a>
+                            <a class="ui basic left blue label"><input id="qtdTomate" type="text" value="0" class="input" readonly></a>
+                            <div>
+                                <a style="border: none" class="ui basic left red label"><button onclick="delItem('0.50', 'qtdTomate')" class="btn btn-danger">X</button></a>
+                            </div>
                         </div>
                     </div>
                     <div class="form-group">
@@ -95,7 +113,10 @@
                                 Picles
                             </div>
                             <a class="ui basic left pointing green label">R$ 0,50</a>
-                            <a class="ui basic left pointing blue label"><input id="qtdPicles" type="text" value="0" class="input" readonly></a>
+                            <a class="ui basic left blue label"><input id="qtdPicles" type="text" value="0" class="input" readonly></a>
+                            <div>
+                                <a style="border: none" class="ui basic left red label"><button onclick="delItem('0.50', 'qtdPicles')" class="btn btn-danger">X</button></a>
+                            </div>
                         </div>
                     </div>
                     <div class="form-group">
@@ -104,7 +125,10 @@
                                 Cebola
                             </div>
                             <a class="ui basic left pointing green label">R$ 0,10</a>
-                            <a class="ui basic left pointing blue label"><input id="qtdCebola" type="text" value="0" class="input" readonly></a>
+                            <a class="ui basic left blue label"><input id="qtdCebola" type="text" value="0" class="input" readonly></a>
+                            <div>
+                                <a style="border: none" class="ui basic left red label"><button onclick="delItem('0.10', 'qtdCebola')" class="btn btn-danger">X</button></a>
+                            </div>
                         </div>
                     </div>
                 </fieldset>
@@ -117,34 +141,46 @@
                                 Queijo
                             </div>
                             <a class="ui basic left pointing green label">R$ 0,50</a>
-                            <a class="ui basic left pointing blue label"><input id="qtdQueijo" type="text" value="0" class="input" readonly></a>
+                            <a class="ui basic left blue label"><input id="qtdQueijo" type="text" value="0" class="input" readonly></a>
+                            <div>
+                                <a style="border: none" class="ui basic left red label"><button onclick="delItem('0.50', 'qtdQueijo')" class="btn btn-danger">X</button></a>
+                            </div>
                         </div>
                     </div>
                     <div class="form-group">
-                        <div class="ui labeled button" onclick="addItem('0.20', 'qtdMilho')" tabindex="0">
-                            <div class="ui basic blue button" style="width: 150px">
+                        <div class="ui labeled button" tabindex="0">
+                            <div class="ui basic blue button" onclick="addItem('0.50', 'qtdMilho')" style="width: 150px">
                                 Milho
                             </div>
-                            <a class="ui basic left pointing green label">R$ 0,20</a>
-                            <a class="ui basic left pointing blue label"><input id="qtdMilho" type="text" value="0" class="input" readonly></a>
+                            <a class="ui basic left pointing green label">R$ 0,50</a>
+                            <a class="ui basic left blue label"><input id="qtdMilho" type="text" value="0" class="input" readonly></a>
+                            <div>
+                                <a style="border: none" class="ui basic left red label"><button onclick="delItem('0.50', 'qtdMilho')" class="btn btn-danger">X</button></a>
+                            </div>
                         </div>
                     </div>
                     <div class="form-group">
-                        <div class="ui labeled button" onclick="addItem('0.50', 'qtdBatataPalha')" tabindex="0">
-                            <div class="ui basic blue button" style="width: 150px">
-                                Batata-palha
+                        <div class="ui labeled button" tabindex="0">
+                            <div class="ui basic blue button" onclick="addItem('0.50', 'qtdBatataPalha')" style="width: 150px">
+                                Batata palha
                             </div>
                             <a class="ui basic left pointing green label">R$ 0,50</a>
-                            <a class="ui basic left pointing blue label"><input id="qtdBatataPalha" type="text" value="0" class="input" readonly></a>
+                            <a class="ui basic left blue label"><input id="qtdBatataPalha" type="text" value="0" class="input" readonly></a>
+                            <div>
+                                <a style="border: none" class="ui basic left red label"><button onclick="delItem('0.50', 'qtdBatataPalha')" class="btn btn-danger">X</button></a>
+                            </div>
                         </div>
                     </div>
                     <div class="form-group">
-                        <div class="ui labeled button" onclick="addItem('0.50', 'qtdOvoFrito')" tabindex="0">
-                            <div class="ui basic blue button" style="width: 150px">
+                        <div class="ui labeled button" tabindex="0">
+                            <div class="ui basic blue button" onclick="addItem('0.60', 'qtdOvoFrito')" style="width: 150px">
                                 Ovo frito
                             </div>
-                            <a class="ui basic left pointing green label">R$ 0,50</a>
-                            <a class="ui basic left pointing blue label"><input id="qtdOvoFrito" type="text" value="0" class="input" readonly></a>
+                            <a class="ui basic left pointing green label">R$ 0,60</a>
+                            <a class="ui basic left blue label"><input id="qtdOvoFrito" type="text" value="0" class="input" readonly></a>
+                            <div>
+                                <a style="border: none" class="ui basic left red label"><button onclick="delItem('0.60', 'qtdOvoFrito')" class="btn btn-danger">X</button></a>
+                            </div>
                         </div>
                     </div>
                 </fieldset>
@@ -157,7 +193,10 @@
                                 Maionese
                             </div>
                             <a class="ui basic left pointing green label">R$ 1,00</a>
-                            <a class="ui basic left pointing blue label"><input id="qtdMaionese" type="text" value="0" class="input" readonly></a>
+                            <a class="ui basic left blue label"><input id="qtdMaionese" type="text" value="0" class="input" readonly></a>
+                            <div>
+                                <a style="border: none" class="ui basic left red label"><button onclick="delItem('1', 'qtdMaionese')" class="btn btn-danger">X</button></a>
+                            </div>
                         </div>
                     </div>
                     <div class="form-group">
@@ -166,7 +205,10 @@
                                 Mostarda
                             </div>
                             <a class="ui basic left pointing green label">R$ 1,00</a>
-                            <a class="ui basic left pointing blue label"><input id="qtdMostarda" type="text" value="0" class="input" readonly></a>
+                            <a class="ui basic left blue label"><input id="qtdMostarda" type="text" value="0" class="input" readonly></a>
+                            <div>
+                                <a style="border: none" class="ui basic left red label"><button onclick="delItem('1', 'qtdMostarda')" class="btn btn-danger">X</button></a>
+                            </div>
                         </div>
                     </div>
                     <div class="form-group">
@@ -175,7 +217,10 @@
                                 Ketchup
                             </div>
                             <a class="ui basic left pointing green label">R$ 1,00</a>
-                            <a class="ui basic left pointing blue label"><input id="qtdKetchup" type="text" value="0" class="input" readonly></a>
+                            <a class="ui basic left blue label"><input id="qtdKetchup" type="text" value="0" class="input" readonly></a>
+                            <div>
+                                <a style="border: none" class="ui basic left red label"><button onclick="delItem('1', 'qtdKetchup')" class="btn btn-danger">X</button></a>
+                            </div>
                         </div>
                     </div>
                     <div class="form-group">
@@ -184,19 +229,26 @@
                                 Barbecue
                             </div>
                             <a class="ui basic left pointing green label">R$ 3,00</a>
-                            <a class="ui basic left pointing blue label"><input id="qtdBarbecue" type="text" value="0" class="input" readonly></a>
+                            <a class="ui basic left blue label"><input id="qtdBarbecue" type="text" value="0" class="input" readonly></a>
+                            <div>
+                                <a style="border: none" class="ui basic left red label"><button onclick="delItem('3', 'qtdBarbecue')" class="btn btn-danger">X</button></a>
+                            </div>
                         </div>
                     </div>
                 </fieldset>
                 <fieldset>
                     <legend>Comanda</legend>
-                    <div class="form-group">
-                        <label for="itens">Lista de itens</label>
-                        <textarea rols="10" type="text" class="form-control" id="itens" readonly></textarea>
+                    <div style="">
+                        <textarea type="text" id="itens_aux" readonly></textarea>
+                    </div>
+                    <div id="itens" class="form-group">
+                        <table id="tabela" class="table table-striped">
+
+                        </table>
                     </div>
                     <div id="opcoes" class="ui buttons">
                         <label for="valor">Valor total em R$</label>
-                        <input class="form-control" type="text" id="valor" placeholder="0" readonly>
+                        <input class="form-control" type="text" id="valor" placeholder="0.00" readonly>
                         <button class="ui positive button" onclick="fazerPedido()">Fazer pedido</button>
                         <div class="or" data-text=""></div>
                         <button class="ui negative button" onclick="limparPedido()">Cancelar</button>
