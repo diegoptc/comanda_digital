@@ -33,34 +33,38 @@
                     <legend>Carnes</legend>
                     <div class="form-group">
                         <div class="ui labeled button" tabindex="0">
-                            <div class="ui basic blue button" onclick="addItem('0.50')" style="width: 150px">
+                            <div class="ui basic blue button" onclick="addItem('0.50', 'qtdPresunto')" style="width: 150px">
                                 Presunto
                             </div>
-                            <a class="ui basic left pointing blue label">R$ 0,50</a>
+                            <a class="ui basic left pointing green label">R$ 0,50</a>
+                            <a class="ui basic left pointing blue label"><input id="qtdPresunto" type="text" value="0" class="input" readonly></a>
                         </div>
                     </div>
                     <div class="form-group">
                         <div class="ui labeled button" tabindex="0">
-                            <div class="ui basic blue button" onclick="addItem('0.80')" style="width: 150px">
+                            <div class="ui basic blue button" onclick="addItem('0.80', 'qtdBacon')" style="width: 150px">
                                 Bacon
                             </div>
-                            <a class="ui basic left pointing blue label">R$ 0,80</a>
+                            <a class="ui basic left pointing green label">R$ 0,80</a>
+                            <a class="ui basic left pointing blue label"><input id="qtdBacon" type="text" value="0" class="input" readonly></a>
                         </div>
                     </div>
                     <div class="form-group">
                         <div class="ui labeled button" tabindex="0">
-                            <div class="ui basic blue button" onclick="addItem('0.80')" style="width: 150px">
+                            <div class="ui basic blue button" onclick="addItem('0.80', 'qtdBoi')" style="width: 150px">
                                 Hamburguer de boi
                             </div>
-                            <a class="ui basic left pointing blue label">R$ 0,80</a>
+                            <a class="ui basic left pointing green label">R$ 0,80</a>
+                            <a class="ui basic left pointing blue label"><input id="qtdBoi" type="text" value="0" class="input" readonly></a>
                         </div>
                     </div>
                     <div class="form-group">
                         <div class="ui labeled button" tabindex="0">
-                            <div class="ui basic blue button" onclick="addItem('0.80')" style="width: 150px">
+                            <div class="ui basic blue button" onclick="addItem('0.80', 'qtdSalsicha')" style="width: 150px">
                             Salsicha
                             </div>
-                            <a class="ui basic left pointing blue label">R$ 0,80</a>
+                            <a class="ui basic left pointing green label">R$ 0,80</a>
+                            <a class="ui basic left pointing blue label"><input id="qtdSalsicha" type="text" value="0" class="input" readonly></a>
                         </div>
                     </div>
                 </fieldset>
@@ -69,34 +73,38 @@
                     <legend>Vegetais</legend>
                     <div class="form-group">
                         <div class="ui labeled button" tabindex="0">
-                            <div class="ui basic blue button" onclick="addItem('0.20')" style="width: 150px">
+                            <div class="ui basic blue button" onclick="addItem('0.20', 'qtdAlface')" style="width: 150px">
                                 Alface
                             </div>
-                            <a class="ui basic left pointing blue label">R$ 0,20</a>
+                            <a class="ui basic left pointing green label">R$ 0,20</a>
+                            <a class="ui basic left pointing blue label"><input id="qtdAlface" type="text" value="0" class="input" readonly></a>
                         </div>
                     </div>
                     <div class="form-group">
                         <div class="ui labeled button" tabindex="0">
-                            <div class="ui basic blue button" onclick="addItem('0.50')" style="width: 150px">
+                            <div class="ui basic blue button" onclick="addItem('0.50', 'qtdTomate')" style="width: 150px">
                                 Tomate
                             </div>
-                            <a class="ui basic left pointing blue label">R$ 0,50</a>
+                            <a class="ui basic left pointing green label">R$ 0,50</a>
+                            <a class="ui basic left pointing blue label"><input id="qtdTomate" type="text" value="0" class="input" readonly></a>
                         </div>
                     </div>
                     <div class="form-group">
                         <div class="ui labeled button" tabindex="0">
-                            <div class="ui basic blue button" onclick="addItem('0.50')" style="width: 150px">
+                            <div class="ui basic blue button" onclick="addItem('0.50', 'qtdPicles')" style="width: 150px">
                                 Picles
                             </div>
-                            <a class="ui basic left pointing blue label">R$ 0,50</a>
+                            <a class="ui basic left pointing green label">R$ 0,50</a>
+                            <a class="ui basic left pointing blue label"><input id="qtdPicles" type="text" value="0" class="input" readonly></a>
                         </div>
                     </div>
                     <div class="form-group">
                         <div class="ui labeled button" tabindex="0">
-                            <div class="ui basic blue button" onclick="addItem('0.10')" style="width: 150px">
+                            <div class="ui basic blue button" onclick="addItem('0.10', 'qtdCebola')" style="width: 150px">
                                 Cebola
                             </div>
-                            <a class="ui basic left pointing blue label">R$ 0,10</a>
+                            <a class="ui basic left pointing green label">R$ 0,10</a>
+                            <a class="ui basic left pointing blue label"><input id="qtdCebola" type="text" value="0" class="input" readonly></a>
                         </div>
                     </div>
                 </fieldset>
@@ -105,34 +113,38 @@
                     <legend>Adicionais</legend>
                     <div class="form-group">
                         <div class="ui labeled button" tabindex="0">
-                            <div class="ui basic blue button" onclick="addItem('0.50')" style="width: 150px">
+                            <div class="ui basic blue button" onclick="addItem('0.50', 'qtdQueijo')" style="width: 150px">
                                 Queijo
                             </div>
-                            <a class="ui basic left pointing blue label">R$ 0,50</a>
+                            <a class="ui basic left pointing green label">R$ 0,50</a>
+                            <a class="ui basic left pointing blue label"><input id="qtdQueijo" type="text" value="0" class="input" readonly></a>
                         </div>
                     </div>
                     <div class="form-group">
-                        <div class="ui labeled button" onclick="addItem('0.20')" tabindex="0">
+                        <div class="ui labeled button" onclick="addItem('0.20', 'qtdMilho')" tabindex="0">
                             <div class="ui basic blue button" style="width: 150px">
                                 Milho
                             </div>
-                            <a class="ui basic left pointing blue label">R$ 0,20</a>
+                            <a class="ui basic left pointing green label">R$ 0,20</a>
+                            <a class="ui basic left pointing blue label"><input id="qtdMilho" type="text" value="0" class="input" readonly></a>
                         </div>
                     </div>
                     <div class="form-group">
-                        <div class="ui labeled button" onclick="addItem('0.50')" tabindex="0">
+                        <div class="ui labeled button" onclick="addItem('0.50', 'qtdBatataPalha')" tabindex="0">
                             <div class="ui basic blue button" style="width: 150px">
                                 Batata-palha
                             </div>
-                            <a class="ui basic left pointing blue label">R$ 0,50</a>
+                            <a class="ui basic left pointing green label">R$ 0,50</a>
+                            <a class="ui basic left pointing blue label"><input id="qtdBatataPalha" type="text" value="0" class="input" readonly></a>
                         </div>
                     </div>
                     <div class="form-group">
-                        <div class="ui labeled button" onclick="addItem('0.50')" tabindex="0">
+                        <div class="ui labeled button" onclick="addItem('0.50', 'qtdOvoFrito')" tabindex="0">
                             <div class="ui basic blue button" style="width: 150px">
                                 Ovo frito
                             </div>
-                            <a class="ui basic left pointing blue label">R$ 0,50</a>
+                            <a class="ui basic left pointing green label">R$ 0,50</a>
+                            <a class="ui basic left pointing blue label"><input id="qtdOvoFrito" type="text" value="0" class="input" readonly></a>
                         </div>
                     </div>
                 </fieldset>
@@ -141,40 +153,49 @@
                     <legend>Condimentos</legend>
                     <div class="form-group">
                         <div class="ui labeled button" tabindex="0">
-                            <div class="ui basic blue button" onclick="addItem('1')" style="width: 150px">
+                            <div class="ui basic blue button" onclick="addItem('1', 'qtdMaionese')" style="width: 150px">
                                 Maionese
                             </div>
-                            <a class="ui basic left pointing blue label">R$ 1,00</a>
+                            <a class="ui basic left pointing green label">R$ 1,00</a>
+                            <a class="ui basic left pointing blue label"><input id="qtdMaionese" type="text" value="0" class="input" readonly></a>
                         </div>
                     </div>
                     <div class="form-group">
                         <div class="ui labeled button" tabindex="0">
-                            <div class="ui basic blue button" onclick="addItem('1')" style="width: 150px">
+                            <div class="ui basic blue button" onclick="addItem('1', 'qtdMostarda')" style="width: 150px">
                                 Mostarda
                             </div>
-                            <a class="ui basic left pointing blue label">R$ 1,00</a>
+                            <a class="ui basic left pointing green label">R$ 1,00</a>
+                            <a class="ui basic left pointing blue label"><input id="qtdMostarda" type="text" value="0" class="input" readonly></a>
                         </div>
                     </div>
                     <div class="form-group">
                         <div class="ui labeled button" tabindex="0">
-                            <div class="ui basic blue button" onclick="addItem('1')" style="width: 150px">
+                            <div class="ui basic blue button" onclick="addItem('1', 'qtdKetchup')" style="width: 150px">
                                 Ketchup
                             </div>
-                            <a class="ui basic left pointing blue label">R$ 1,00</a>
+                            <a class="ui basic left pointing green label">R$ 1,00</a>
+                            <a class="ui basic left pointing blue label"><input id="qtdKetchup" type="text" value="0" class="input" readonly></a>
                         </div>
                     </div>
                     <div class="form-group">
                         <div class="ui labeled button" tabindex="0">
-                            <div class="ui basic blue button" onclick="addItem('3')" style="width: 150px">
+                            <div class="ui basic blue button" onclick="addItem('3', 'qtdBarbecue')" style="width: 150px">
                                 Barbecue
                             </div>
-                            <a class="ui basic left pointing blue label">R$ 3,00</a>
+                            <a class="ui basic left pointing green label">R$ 3,00</a>
+                            <a class="ui basic left pointing blue label"><input id="qtdBarbecue" type="text" value="0" class="input" readonly></a>
                         </div>
                     </div>
                 </fieldset>
                 <fieldset>
-                    <legend>Valor final R$</legend>
-                    <input class="form-control" type="text" id="valor" placeholder="Valor em R$" readonly>
+                    <div id="opcoes" class="ui buttons">
+                        <legend>Valor total em R$</legend>
+                        <input class="form-control" type="text" id="valor" placeholder="0" readonly>
+                        <button class="ui positive button" onclick="fazerPedido()">Fazer pedido</button>
+                        <div class="or" data-text=""></div>
+                        <button class="ui negative button" onclick="limparPedido()">Cancelar</button>
+                    </div>
                 </fieldset>
             </fieldset>
         </div>

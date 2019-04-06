@@ -125,7 +125,7 @@ function addMesa(){
     var descricao = document.getElementById("descricao").value;
     firebase.database().ref("mesa").child(numero).update({numero: numero, descricao: descricao});
     //Atualiza a página
-    location.href = "cadastrarMesa.html";
+    location.href = "CRUD_mesa.html";
 }
 
 /*------------------------------------------------------------------------------------
@@ -149,7 +149,7 @@ function delMesa(id){
     if(confirmar){
         //Encontra a mesa correspondente ao id
         firebase.database().ref("mesa").child(id).remove(); //Remove o registro no firebase
-        location.href = "cadastrarMesa.html"; //Refresh
+        location.href = "CRUD_mesa.html"; //Refresh
     }
 }
 
@@ -162,40 +162,46 @@ function listagem(){
 }
 
 /*------------------------------------------------------------------------------------
-    LEITURA QR CODE DE MESA
+    FAZER PEDIDO - LER QR CODE DA MESA
 ------------------------------------------------------------------------------------*/
-function lerMesa(){
-    cordova.plugins.barcodeScanner.scan(
-        result => {
-            var numeroMesa = result.text.toString();
-            firebase.database().ref("mesa").child(numeroMesa).orderByKey().once("value", snapshot => {
-                if(snapshot.exists()){
-                    alert("Existe");
-                }
-                else{
-                    alert("Não há nenhuma mesa com este valor");
-                }
-            })
-        },
-        error => {
-
-        }
-    );
+function fazerPedido(){
+    var result = confirm("A câmera será aberta para você ler o QR Code de sua mesa e prosseguir com o pedido.")
+    if(result){
+        cordova.plugins.barcodeScanner.scan(
+            result => {
+                var numeroMesa = result.text.toString();
+                firebase.database().ref("mesa").child(numeroMesa).orderByKey().once("value", snapshot => {
+                    if(snapshot.exists()){
+                        alert(numeroMesa);
+                    }
+                    else{
+                        alert("Não há nenhuma mesa relacionada com este QR Code!");
+                    }
+                })
+            },
+            error => {
+                alert("Verifique as permissões para uso da câmera!");
+            }
+        );
+    }
 }
 
 /*------------------------------------------------------------------------------------
    CADASTRAR PEDIDO DE CLIENTE
 ------------------------------------------------------------------------------------*/
 //Adicionar itens ao lanche final
-function addItem(valor){
+function addItem(valor, quantidadeID){
+    //Recupera o valor do item
     var valorAux = parseFloat(valor);
+    //Incrementa a quantidade do item
+    document.getElementById(quantidadeID).value = parseInt(document.getElementById(quantidadeID).value) + 1;
     //Se ainda não tive nenhum valor
     if(document.getElementById("valor").value == ""){
         document.getElementById("valor").value = valorAux;
     }
     //Se não soma com o atual
     else{
-        document.getElementById("valor").value = parseFloat(document.getElementById("valor").value) + valorAux;
+        document.getElementById("valor").value = (parseFloat(document.getElementById("valor").value) + valorAux).toFixed(2);
     }
 }
 
@@ -205,4 +211,27 @@ function addItem(valor){
 function limpar(){
     document.getElementById("numero").value = "";
     document.getElementById("descricao").value = "";
+}
+
+function limparPedido(){
+    var result = confirm("Confirmar cancelamento?");
+    if(result){
+        document.getElementById("valor").value = "";
+        document.getElementById("qtdPresunto").value = "0";
+        document.getElementById("qtdBacon").value = "0";
+        document.getElementById("qtdBoi").value = "0";
+        document.getElementById("qtdSalsicha").value = "0";
+        document.getElementById("qtdAlface").value = "0";
+        document.getElementById("qtdTomate").value = "0";
+        document.getElementById("qtdPicles").value = "0";
+        document.getElementById("qtdCebola").value = "0";
+        document.getElementById("qtdQueijo").value = "0";
+        document.getElementById("qtdMilho").value = "0";
+        document.getElementById("qtdBatataPalha").value = "0";
+        document.getElementById("qtdOvoFrito").value = "0";
+        document.getElementById("qtdMaionese").value = "0";
+        document.getElementById("qtdMostarda").value = "0";
+        document.getElementById("qtdKetchup").value = "0";
+        document.getElementById("qtdBarbecue").value = "0";
+    }
 }

@@ -101,3 +101,14 @@ input:checked + .slider:before {
   position: relative;
   flex-wrap: wrap;
 }
+
+/* INPUTS DE QUANTIDADE EM FORMULÁRIO DEPEDIDO */
+.input{
+  background-color:rgba(0, 0, 0, 0);
+  color: blue;
+  border: none;
+  outline:none;
+  transition:height 1s;
+  -webkit-transition:height 1s;
+  width: 10px;
+}

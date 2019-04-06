@@ -189,10 +189,15 @@
                     </div>
                 </fieldset>
                 <fieldset>
+                    <legend>Comanda</legend>
+                    <div class="form-group">
+                        <label for="itens">Lista de itens</label>
+                        <textarea rols="4" type="text" class="form-control" id="itens" readonly></textarea>
+                    </div>
                     <div id="opcoes" class="ui buttons">
-                        <legend>Valor total em R$</legend>
+                        <label for="valor">Valor total em R$</label>
                         <input class="form-control" type="text" id="valor" placeholder="0" readonly>
-                        <button class="ui positive button" onclick="">Fazer pedido</button>
+                        <button class="ui positive button" onclick="fazerPedido()">Fazer pedido</button>
                         <div class="or" data-text=""></div>
                         <button class="ui negative button" onclick="limparPedido()">Cancelar</button>
                     </div>
