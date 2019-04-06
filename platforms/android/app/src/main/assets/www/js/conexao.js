@@ -161,7 +161,7 @@ function listagem(){
 }
 
 /*------------------------------------------------------------------------------------
-   CALCULAR PEDIDO DE CLIENTE
+   CALCULAR PEDIDO DE CLIENTE - ADICIONAR ITEM
 ------------------------------------------------------------------------------------*/
 //Adicionar itens ao lanche final
 function addItem(valor, quantidadeID){
@@ -192,14 +192,88 @@ function addItem(valor, quantidadeID){
     //Se ainda não tiver nenhum pedido
     if(document.getElementById("valor").value == ""){
         document.getElementById("valor").value = valorAux.toFixed(2);
-        //Adiciona o nome do item na lista de itens
-        document.getElementById("itens").value = itens[0][quantidadeID];
     }
     //Se não soma com o valor atual
     else{
         document.getElementById("valor").value = (parseFloat(document.getElementById("valor").value) + valorAux).toFixed(2);
-        //Atualiza os itens na listagem
-        document.getElementById("itens").value += " | "  + itens[0][quantidadeID];
+    }
+
+    //** Oculto **/
+    //Insere o item na lista
+    document.getElementById("itens_aux").value += itens[0][quantidadeID] + "," ;
+    //Divide os itens
+    const lista = document.getElementById("itens_aux").value.toString().split(",");
+    //Elimina repetições
+    const listaSemRepeticoes = [...new Set(lista)];
+    //Insere a nova lista
+    document.getElementById("itens_aux").value = listaSemRepeticoes.toString();
+
+    //** Visivel **/
+    //Recupera a lista atual
+    var tabela = "<tr><th>Item</th><th>Quantidade</th></tr>";
+    listaSemRepeticoes.forEach(obj => {
+        if(obj != ""){
+            //Gambiarra para encontrar o id do item através do nome
+            var qtdItem = obj.toString().toLowerCase();
+            tabela += "<tr><td>"+ obj + "</td><td>" + qtdItem + "</td></tr>";
+        }
+    })
+    document.getElementById("tabela").innerHTML = tabela;
+}
+
+/*------------------------------------------------------------------------------------
+   CALCULAR PEDIDO DE CLIENTE - REMOVER ITEM
+------------------------------------------------------------------------------------*/
+function delItem(valor, quantidadeID){
+  
+    //Verifica se a quantidade não é zero
+    if(document.getElementById(quantidadeID).value != 0){
+        //Decrementa a quantidade do item
+        document.getElementById(quantidadeID).value = parseInt(document.getElementById(quantidadeID).value) - 1;
+        //Recupera o valor  unitário do item
+        var valorAux = parseFloat(valor);
+        //Decrementa o valor do item no valor total R$
+        document.getElementById("valor").value = (parseFloat(document.getElementById("valor").value) - valorAux).toFixed(2);
+        //Atualiza a lista de pedidos
+        //Nomes dos itens
+        var itens = 
+        [{
+            qtdPresunto: "Presunto" + document.getElementById("qtdPresunto").value,
+            qtdBoi: "Hambuguer de boi",
+            qtdBacon: "Bacon",
+            qtdSalsicha: "Salsicha",
+            qtdAlface: "Alface",
+            qtdTomate: "Tomate",
+            qtdPicles: "Picles",
+            qtdCebola: "Cebola",
+            qtdQueijo: "Queijo",
+            qtdMilho: "Milho",
+            qtdBatataPalha: "Batata-palha",
+            qtdOvoFrito: "Ovo frito",
+            qtdMaionese: "Maionese",
+            qtdMostarda: "Mostarda",
+            qtdKetchup: "Ketchup",
+            qtdBarbecue: "Barbecue"
+        }]
+
+        const lista = document.getElementById("itens_aux").value.toString().split(",");
+        //Encontra o index do item inserido
+        var index = lista.indexOf(itens[0][quantidadeID]);
+        if(index !== -1) {
+            //Remove caso já existir
+            lista.splice(index, 1);
+        }
+        //Atualiza a lista
+        document.getElementById("itens_aux").value = lista.toString();
+
+        //Atualiza a tabela
+        var tabela = "<tr><th>Item</th><th>Quantidade</th></tr>";
+        lista.forEach(obj => {
+            if(obj != ""){
+                tabela += "<tr><td>"+ obj + "</td><td>" + itens[0][quantidadeID] + "</td></tr>";
+            }
+        })
+        document.getElementById("tabela").innerHTML = tabela;
     }
 }
 

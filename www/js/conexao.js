@@ -212,8 +212,24 @@ function addItem(valor, quantidadeID){
     //Recupera a lista atual
     var tabela = "<tr><th>Item</th><th>Quantidade</th></tr>";
     listaSemRepeticoes.forEach(obj => {
+        console.log(obj.toString())
         if(obj != ""){
-            tabela += "<tr><td>"+ obj + "</td><td>" + "teste" + "</td></tr>";
+            var qtdItem = "";
+            //Gambiarra para encontrar o id do item através do nome
+            if(obj.toString() == "Batata-palha"){
+                qtdItem = "qtdBatataPalha";
+            }
+            else if(obj.toString() == "Hambuguer de boi"){
+                qtdItem = "qtdBoi"; 
+            }
+            else if(obj.toString() == "Ovo frito"){
+                qtdItem = "qtdOvoFrito";
+            }
+            else{
+                qtdItem = "qtd" + obj.toString(); 
+            }
+           
+            tabela += "<tr><td>"+ obj + "</td><td>" + document.getElementById(qtdItem).value + "</td></tr>";
         }
     })
     document.getElementById("tabela").innerHTML = tabela;
