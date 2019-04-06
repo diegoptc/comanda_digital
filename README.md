@@ -14,3 +14,16 @@ Aplicativo de comanda digital - Prova 01 - Desenvolvimento Mobile
 > Token para cadastro de funcionários: 180c4e8f50a356b7408cd08029083d77
 
 > ![Imagem não encontrada](https://i.imgur.com/nDZEa1Z.png)
+
+### QR Code das mesas
+> Mesa 1
+
+![Imagem não encontrada](https://i.imgur.com/cefamTU.png)
+
+> Mesa 2
+
+![Imagem não encontrada](https://i.imgur.com/Tg728K4.png)
+
+> Mesa 3
+
+![Imagem não encontrada](https://i.imgur.com/AJ71U8r.png)
