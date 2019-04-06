@@ -1,4 +1,6 @@
-//Inicializando o firebase
+/*------------------------------------------------------------------------------------
+    INICIALIZAÇÃO DO FIREBASE
+------------------------------------------------------------------------------------*/
 var config = {
     apiKey: "AIzaSyC1UdL35EsKpGZo_tNyzTQpX11ZZuEpx0g",
     authDomain: "appinventario-a8acd.firebaseapp.com",
@@ -9,7 +11,9 @@ var config = {
 };
 firebase.initializeApp(config);
 
-/** AUTENTICAR USUÁRIO **/
+/*------------------------------------------------------------------------------------
+    AUTENTICAR USUÁRIO
+------------------------------------------------------------------------------------*/
 function autenticar(){
     var usuario = document.getElementById("usuario").value;
     var senha = document.getElementById("senha").value;
@@ -29,10 +33,9 @@ function autenticar(){
                 else{
                     if(snapshot.val().grupo == "Cliente")
                         //window.location = "visoa_cliente.html";
-                        alert("Conectado como cliente");
+                        lerMesa();
                     else
-                       //window.location = "visao_funcionario.html";
-                       alert("Conectado como funcionário");                  
+                       window.location = "CRUD_mesa.html";
                 }
             }
             //Usuário não existe
@@ -49,7 +52,9 @@ function autenticar(){
     }
 }
 
-/** NOVO USUÁRIO **/
+/*------------------------------------------------------------------------------------
+    NOVO USUÁRIO
+------------------------------------------------------------------------------------*/
 function novoUsuario(){
     var usuario = document.getElementById("usuario").value;
     var senha = document.getElementById("senha").value;
@@ -97,14 +102,90 @@ function novoUsuario(){
     }
 }
 
-/** LER TOKEN **/
+/*------------------------------------------------------------------------------------
+    LER TOKEN EM QR CODE
+------------------------------------------------------------------------------------*/
 function lerToken(){
     cordova.plugins.barcodeScanner.scan(
-        function(result){
-            $("#token").val(result.text);
+        result => { 
+            document.getElementById("token").value = result.text; 
         },
-        function(error){
-            alert("Scanning failed: " + error);
+        error => { 
+            alert("Erro interno: " + error); 
         }
     );
+}
+
+/*------------------------------------------------------------------------------------
+    CADASTRAR/ATUALIZAR MESA
+------------------------------------------------------------------------------------*/
+function addMesa(){
+    var numero = document.getElementById("numero").value;
+    var descricao = document.getElementById("descricao").value;
+    firebase.database().ref("mesa").child(numero).update({numero: numero, descricao: descricao});
+    //Atualiza a página
+    location.href = "cadastrarMesa.html";
+}
+
+/*------------------------------------------------------------------------------------
+    ATUALIZAR MESA
+------------------------------------------------------------------------------------*/
+function attMesa(id){
+    //Encontra a mesa correspondente ao id
+    firebase.database().ref("mesa").child(id).orderByKey().once("value", snapshot => {
+        //Repassa os valores para os imputs
+        document.getElementById("numero").value = snapshot.val().numero;
+        document.getElementById("descricao").value = snapshot.val().descricao;
+    })
+}
+
+/*------------------------------------------------------------------------------------
+    REMOVER MESA
+------------------------------------------------------------------------------------*/
+function delMesa(id){
+    //Confirmar a remoção da mesa
+    var confirmar =  confirm("Confirmar exclusão?");
+    if(confirmar){
+        //Encontra a mesa correspondente ao id
+        firebase.database().ref("mesa").child(id).remove(); //Remove o registro no firebase
+        location.href = "cadastrarMesa.html"; //Refresh
+    }
+}
+
+/*------------------------------------------------------------------------------------
+    LISTAGEM DE MESAS
+------------------------------------------------------------------------------------*/
+function listagem(){
+    var div = document.getElementById("listagem");
+    document.getElementById("isListagem").checked ? div.style.display = "block" : div.style.display = "none";
+}
+
+/*------------------------------------------------------------------------------------
+    LEITURA QR CODE DE MESA
+------------------------------------------------------------------------------------*/
+function lerMesa(){
+    cordova.plugins.barcodeScanner.scan(
+        result => {
+            var numeroMesa = result.text.toString();
+            firebase.database().ref("mesa").child(numeroMesa).orderByKey().once("value", snapshot => {
+                if(snapshot.exists()){
+                    alert("Existe");
+                }
+                else{
+                    alert("Não há nenhuma mesa com este valor");
+                }
+            })
+        },
+        error => {
+
+        }
+    );
+}
+
+/*------------------------------------------------------------------------------------
+    LIMPAR FORMULÁRIO
+------------------------------------------------------------------------------------*/
+function limpar(){
+    document.getElementById("numero").value = "";
+    document.getElementById("descricao").value = "";
 }
