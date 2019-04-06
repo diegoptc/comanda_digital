@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sat Apr 06 13:37:14 BRT 2019
+#Sat Apr 06 13:44:38 BRT 2019
 20.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 143.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 237.path=www/css/semantic/components/embed.js

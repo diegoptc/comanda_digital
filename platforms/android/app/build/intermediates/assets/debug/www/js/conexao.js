@@ -217,7 +217,7 @@ function fazerPedido(){
             cordova.plugins.barcodeScanner.scan(
                 result => {
                     //Recupera o número da mesa
-                    var numeroMesa = "result.text.toString()";
+                    var numeroMesa = result.text.toString();
                     firebase.database().ref("mesa").child(numeroMesa).orderByKey().once("value", snapshot => {
                         //Se a mesa existir após a leitura do QR Code
                         if(snapshot.exists()){
@@ -225,9 +225,10 @@ function fazerPedido(){
                             var usuario = localStorage.getItem("usuarioLogado"); //Recupera o usuário logado (em cache)
                             //Recupera os itens do pedido
                             var pedido = document.getElementById("itens").value;
-                            //Recupera o valor d opedido
+                            //Recupera o valor do pedido
                             var valor = "R$ " + document.getElementById("valor").value;
-                            firebase.database().ref("pedido").push({cliente: usuario, mesa: numeroMesa, pedido: pedido, valor: valor})
+                            //Cadastra o pedido com as informações recuperadas
+                            firebase.database().ref("pedido").push({cliente: usuario, mesa: numeroMesa, pedido: pedido, valor: valor, status: "Na fila"})
                             
                             alert("Seu pedido foi enviado para cozinha, aguarde um pouco :D");
                             location.href = "menu_cliente.html";

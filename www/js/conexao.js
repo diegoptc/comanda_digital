@@ -35,7 +35,7 @@ function autenticar(){
                     if(snapshot.val().grupo == "Cliente")
                         window.location = "menu_cliente.html";
                     else
-                       window.location = "CRUD_mesa.html";
+                       window.location = "menu_funcionario.html";
                 }
             }
             //Usuário não existe
@@ -217,7 +217,7 @@ function fazerPedido(){
             cordova.plugins.barcodeScanner.scan(
                 result => {
                     //Recupera o número da mesa
-                    var numeroMesa = "result.text.toString()";
+                    var numeroMesa = result.text.toString();
                     firebase.database().ref("mesa").child(numeroMesa).orderByKey().once("value", snapshot => {
                         //Se a mesa existir após a leitura do QR Code
                         if(snapshot.exists()){
@@ -228,7 +228,7 @@ function fazerPedido(){
                             //Recupera o valor do pedido
                             var valor = "R$ " + document.getElementById("valor").value;
                             //Cadastra o pedido com as informações recuperadas
-                            firebase.database().ref("pedido").push({cliente: usuario, mesa: numeroMesa, pedido: pedido, valor: valor})
+                            firebase.database().ref("pedido").push({cliente: usuario, mesa: numeroMesa, pedido: pedido, valor: valor, status: "Na fila"})
                             
                             alert("Seu pedido foi enviado para cozinha, aguarde um pouco :D");
                             location.href = "menu_cliente.html";
@@ -246,6 +246,10 @@ function fazerPedido(){
         }
     }
 }
+
+/*------------------------------------------------------------------------------------
+    LISTAGEM DE PEDIDO
+------------------------------------------------------------------------------------*/
 
 /*------------------------------------------------------------------------------------
     LIMPAR FORMULÁRIO
