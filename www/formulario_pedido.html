@@ -11,9 +11,7 @@
         <link rel="stylesheet" href="css/folha.css">
         <script src="js/jquery-3.3.1.min.js" type="text/javascript"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script> 
-        <script src="js/conexao.js" type="text/javascript"></script>
         <script type="text/javascript" src="cordova.js"></script>
-        <script type="text/javascript" src="js/index.js"></script>
     </head>
 
     <body>
@@ -37,7 +35,7 @@
                                 Presunto
                             </div>
                             <a class="ui basic left pointing green label">R$ 0,50</a>
-                            <a class="ui basic left blue label"><input id="qtdPresunto" type="text" value="0" class="input" readonly></a>
+                            <a class="ui basic left blue label"><input id="qtdPresunto" type="text" value="0" class="input" readonly style="width: 20px"></a>
                             <div>
                                 <a style="border: none" class="ui basic left red label"><button onclick="delItem('0.50', 'qtdPresunto')" class="btn btn-danger">X</button></a>
                             </div>
@@ -49,7 +47,7 @@
                                 Bacon
                             </div>
                             <a class="ui basic left pointing green label">R$ 0,80</a>
-                            <a class="ui basic left blue label"><input id="qtdBacon" type="text" value="0" class="input" readonly></a>
+                            <a class="ui basic left blue label"><input id="qtdBacon" type="text" value="0" class="input" readonly style="width: 20px"></a>
                             <div>
                                 <a style="border: none" class="ui basic left red label"><button onclick="delItem('0.80', 'qtdBacon')" class="btn btn-danger">X</button></a>
                             </div>
@@ -61,7 +59,7 @@
                                 Hamburguer de boi
                             </div>
                             <a class="ui basic left pointing green label">R$ 0,80</a>
-                            <a class="ui basic left blue label"><input id="qtdBoi" type="text" value="0" class="input" readonly></a>
+                            <a class="ui basic left blue label"><input id="qtdBoi" type="text" value="0" class="input" readonly style="width: 20px"></a>
                             <div>
                                 <a style="border: none" class="ui basic left red label"><button onclick="delItem('0.80', 'qtdBoi')" class="btn btn-danger">X</button></a>
                             </div>
@@ -73,7 +71,7 @@
                             Salsicha
                             </div>
                             <a class="ui basic left pointing green label">R$ 0,80</a>
-                            <a class="ui basic left blue label"><input id="qtdSalsicha" type="text" value="0" class="input" readonly></a>
+                            <a class="ui basic left blue label"><input id="qtdSalsicha" type="text" value="0" class="input" readonly style="width: 20px"></a>
                             <div>
                                 <a style="border: none" class="ui basic left red label"><button onclick="delItem('0.80', 'qtdSalsicha')" class="btn btn-danger">X</button></a>
                             </div>
@@ -89,7 +87,7 @@
                                 Alface
                             </div>
                             <a class="ui basic left pointing green label">R$ 0,20</a>
-                            <a class="ui basic left blue label"><input id="qtdAlface" type="text" value="0" class="input" readonly></a>
+                            <a class="ui basic left blue label"><input id="qtdAlface" type="text" value="0" class="input" readonly style="width: 20px"></a>
                             <div>
                                 <a style="border: none" class="ui basic left red label"><button onclick="delItem('0.20', 'qtdAlface')" class="btn btn-danger">X</button></a>
                             </div>
@@ -101,7 +99,7 @@
                                 Tomate
                             </div>
                             <a class="ui basic left pointing green label">R$ 0,50</a>
-                            <a class="ui basic left blue label"><input id="qtdTomate" type="text" value="0" class="input" readonly></a>
+                            <a class="ui basic left blue label"><input id="qtdTomate" type="text" value="0" class="input" readonly style="width: 20px"></a>
                             <div>
                                 <a style="border: none" class="ui basic left red label"><button onclick="delItem('0.50', 'qtdTomate')" class="btn btn-danger">X</button></a>
                             </div>
@@ -113,7 +111,7 @@
                                 Picles
                             </div>
                             <a class="ui basic left pointing green label">R$ 0,50</a>
-                            <a class="ui basic left blue label"><input id="qtdPicles" type="text" value="0" class="input" readonly></a>
+                            <a class="ui basic left blue label"><input id="qtdPicles" type="text" value="0" class="input" readonly style="width: 20px"></a>
                             <div>
                                 <a style="border: none" class="ui basic left red label"><button onclick="delItem('0.50', 'qtdPicles')" class="btn btn-danger">X</button></a>
                             </div>
@@ -125,7 +123,7 @@
                                 Cebola
                             </div>
                             <a class="ui basic left pointing green label">R$ 0,10</a>
-                            <a class="ui basic left blue label"><input id="qtdCebola" type="text" value="0" class="input" readonly></a>
+                            <a class="ui basic left blue label"><input id="qtdCebola" type="text" value="0" class="input" readonly style="width: 20px"></a>
                             <div>
                                 <a style="border: none" class="ui basic left red label"><button onclick="delItem('0.10', 'qtdCebola')" class="btn btn-danger">X</button></a>
                             </div>
@@ -141,7 +139,7 @@
                                 Queijo
                             </div>
                             <a class="ui basic left pointing green label">R$ 0,50</a>
-                            <a class="ui basic left blue label"><input id="qtdQueijo" type="text" value="0" class="input" readonly></a>
+                            <a class="ui basic left blue label"><input id="qtdQueijo" type="text" value="0" class="input" readonly style="width: 20px"></a>
                             <div>
                                 <a style="border: none" class="ui basic left red label"><button onclick="delItem('0.50', 'qtdQueijo')" class="btn btn-danger">X</button></a>
                             </div>
@@ -153,7 +151,7 @@
                                 Milho
                             </div>
                             <a class="ui basic left pointing green label">R$ 0,50</a>
-                            <a class="ui basic left blue label"><input id="qtdMilho" type="text" value="0" class="input" readonly></a>
+                            <a class="ui basic left blue label"><input id="qtdMilho" type="text" value="0" class="input" readonly style="width: 20px"></a>
                             <div>
                                 <a style="border: none" class="ui basic left red label"><button onclick="delItem('0.50', 'qtdMilho')" class="btn btn-danger">X</button></a>
                             </div>
@@ -165,7 +163,7 @@
                                 Batata palha
                             </div>
                             <a class="ui basic left pointing green label">R$ 0,50</a>
-                            <a class="ui basic left blue label"><input id="qtdBatataPalha" type="text" value="0" class="input" readonly></a>
+                            <a class="ui basic left blue label"><input id="qtdBatataPalha" type="text" value="0" class="input" readonly style="width: 20px"></a>
                             <div>
                                 <a style="border: none" class="ui basic left red label"><button onclick="delItem('0.50', 'qtdBatataPalha')" class="btn btn-danger">X</button></a>
                             </div>
@@ -177,7 +175,7 @@
                                 Ovo frito
                             </div>
                             <a class="ui basic left pointing green label">R$ 0,60</a>
-                            <a class="ui basic left blue label"><input id="qtdOvoFrito" type="text" value="0" class="input" readonly></a>
+                            <a class="ui basic left blue label"><input id="qtdOvoFrito" type="text" value="0" class="input" readonly style="width: 20px"></a>
                             <div>
                                 <a style="border: none" class="ui basic left red label"><button onclick="delItem('0.60', 'qtdOvoFrito')" class="btn btn-danger">X</button></a>
                             </div>
@@ -193,7 +191,7 @@
                                 Maionese
                             </div>
                             <a class="ui basic left pointing green label">R$ 1,00</a>
-                            <a class="ui basic left blue label"><input id="qtdMaionese" type="text" value="0" class="input" readonly></a>
+                            <a class="ui basic left blue label"><input id="qtdMaionese" type="text" value="0" class="input" readonly style="width: 20px"></a>
                             <div>
                                 <a style="border: none" class="ui basic left red label"><button onclick="delItem('1', 'qtdMaionese')" class="btn btn-danger">X</button></a>
                             </div>
@@ -205,7 +203,7 @@
                                 Mostarda
                             </div>
                             <a class="ui basic left pointing green label">R$ 1,00</a>
-                            <a class="ui basic left blue label"><input id="qtdMostarda" type="text" value="0" class="input" readonly></a>
+                            <a class="ui basic left blue label"><input id="qtdMostarda" type="text" value="0" class="input" readonly style="width: 20px"></a>
                             <div>
                                 <a style="border: none" class="ui basic left red label"><button onclick="delItem('1', 'qtdMostarda')" class="btn btn-danger">X</button></a>
                             </div>
@@ -217,7 +215,7 @@
                                 Ketchup
                             </div>
                             <a class="ui basic left pointing green label">R$ 1,00</a>
-                            <a class="ui basic left blue label"><input id="qtdKetchup" type="text" value="0" class="input" readonly></a>
+                            <a class="ui basic left blue label"><input id="qtdKetchup" type="text" value="0" class="input" readonly style="width: 20px"></a>
                             <div>
                                 <a style="border: none" class="ui basic left red label"><button onclick="delItem('1', 'qtdKetchup')" class="btn btn-danger">X</button></a>
                             </div>
@@ -229,7 +227,7 @@
                                 Barbecue
                             </div>
                             <a class="ui basic left pointing green label">R$ 3,00</a>
-                            <a class="ui basic left blue label"><input id="qtdBarbecue" type="text" value="0" class="input" readonly></a>
+                            <a class="ui basic left blue label"><input id="qtdBarbecue" type="text" value="0" class="input" readonly style="width: 20px"></a>
                             <div>
                                 <a style="border: none" class="ui basic left red label"><button onclick="delItem('3', 'qtdBarbecue')" class="btn btn-danger">X</button></a>
                             </div>
@@ -238,7 +236,7 @@
                 </fieldset>
                 <fieldset>
                     <legend>Comanda</legend>
-                    <div style="">
+                    <div style="display: none">
                         <textarea type="text" id="itens_aux" readonly></textarea>
                     </div>
                     <div id="itens" class="form-group">
@@ -257,4 +255,236 @@
             </fieldset>
         </div>
     </body>
+    <script>
+        /*------------------------------------------------------------------------------------
+            INICIALIZAÇÃO DO FIREBASE
+        ------------------------------------------------------------------------------------*/
+        var config = {
+            apiKey: "AIzaSyC1UdL35EsKpGZo_tNyzTQpX11ZZuEpx0g",
+            authDomain: "appinventario-a8acd.firebaseapp.com",
+            databaseURL: "https://appinventario-a8acd.firebaseio.com",
+            projectId: "appinventario-a8acd",
+            storageBucket: "appinventario-a8acd.appspot.com",
+            messagingSenderId: "827922887965"
+        };
+        firebase.initializeApp(config);
+
+        /*------------------------------------------------------------------------------------
+            CALCULAR PEDIDO DE CLIENTE - ADICIONAR ITEM
+        ------------------------------------------------------------------------------------*/
+        //Adicionar itens ao lanche final
+        function addItem(valor, quantidadeID){
+            //Nomes dos itens
+            var itens = 
+            [{
+                qtdPresunto: "Presunto",
+                qtdBoi: "Hambuguer de boi",
+                qtdBacon: "Bacon",
+                qtdSalsicha: "Salsicha",
+                qtdAlface: "Alface",
+                qtdTomate: "Tomate",
+                qtdPicles: "Picles",
+                qtdCebola: "Cebola",
+                qtdQueijo: "Queijo",
+                qtdMilho: "Milho",
+                qtdBatataPalha: "Batata-palha",
+                qtdOvoFrito: "Ovo frito",
+                qtdMaionese: "Maionese",
+                qtdMostarda: "Mostarda",
+                qtdKetchup: "Ketchup",
+                qtdBarbecue: "Barbecue"
+            }]
+            //Incrementa a quantidade do item
+            document.getElementById(quantidadeID).value = parseInt(document.getElementById(quantidadeID).value) + 1;
+            //Recupera o valor  unitário do item
+            var valorAux = parseFloat(valor);
+            //Se ainda não tiver nenhum pedido
+            if(document.getElementById("valor").value == ""){
+                document.getElementById("valor").value = valorAux.toFixed(2);
+            }
+            //Se não soma com o valor atual
+            else{
+                document.getElementById("valor").value = (parseFloat(document.getElementById("valor").value) + valorAux).toFixed(2);
+            }
+
+            //** Oculto **/
+            //Insere o item na lista
+            document.getElementById("itens_aux").value += itens[0][quantidadeID] + "," ;
+            //Divide os itens
+            const lista = document.getElementById("itens_aux").value.toString().split(",");
+            //Elimina repetições
+            const listaSemRepeticoes = [...new Set(lista)];
+            //Insere a nova lista
+            document.getElementById("itens_aux").value = listaSemRepeticoes.toString();
+
+            //** Visivel **/
+            //Recupera a lista atual
+            var tabela = "<tr><th>Item</th><th>Quantidade</th></tr>";
+            listaSemRepeticoes.forEach(obj => {
+                //console.log(obj.toString())
+                if(obj != ""){
+                    var qtdItem = "";
+                    //Gambiarra para encontrar o id do item através do nome
+                    if(obj.toString() == "Batata-palha"){
+                        qtdItem = "qtdBatataPalha";
+                    }
+                    else if(obj.toString() == "Hambuguer de boi"){
+                        qtdItem = "qtdBoi"; 
+                    }
+                    else if(obj.toString() == "Ovo frito"){
+                        qtdItem = "qtdOvoFrito";
+                    }
+                    else{
+                        qtdItem = "qtd" + obj.toString(); 
+                    }
+                
+                    tabela += "<tr><td>"+ obj + "</td><td>" + document.getElementById(qtdItem).value + "</td></tr>";
+                }
+            })
+            document.getElementById("tabela").innerHTML = tabela;
+        }
+
+        /*------------------------------------------------------------------------------------
+            CALCULAR PEDIDO DE CLIENTE - REMOVER ITEM
+        ------------------------------------------------------------------------------------*/
+        function delItem(valor, quantidadeID){
+        
+            //Verifica se a quantidade não é zero
+            if(document.getElementById(quantidadeID).value != 0){
+                //Decrementa a quantidade do item
+                document.getElementById(quantidadeID).value = parseInt(document.getElementById(quantidadeID).value) - 1;
+                //Recupera o valor  unitário do item
+                var valorAux = parseFloat(valor);
+                //Decrementa o valor do item no valor total R$
+                document.getElementById("valor").value = (parseFloat(document.getElementById("valor").value) - valorAux).toFixed(2);
+                //Atualiza a lista de pedidos
+                //Nomes dos itens
+                var itens = 
+                [{
+                    qtdPresunto: "Presunto" + document.getElementById("qtdPresunto").value,
+                    qtdBoi: "Hambuguer de boi",
+                    qtdBacon: "Bacon",
+                    qtdSalsicha: "Salsicha",
+                    qtdAlface: "Alface",
+                    qtdTomate: "Tomate",
+                    qtdPicles: "Picles",
+                    qtdCebola: "Cebola",
+                    qtdQueijo: "Queijo",
+                    qtdMilho: "Milho",
+                    qtdBatataPalha: "Batata-palha",
+                    qtdOvoFrito: "Ovo frito",
+                    qtdMaionese: "Maionese",
+                    qtdMostarda: "Mostarda",
+                    qtdKetchup: "Ketchup",
+                    qtdBarbecue: "Barbecue"
+                }]
+
+                const lista = document.getElementById("itens_aux").value.toString().split(",");
+                //Encontra o index do item inserido
+                var index = lista.indexOf(itens[0][quantidadeID]);
+                if(index !== -1) {
+                    //Remove caso já existir
+                    lista.splice(index, 1);
+                }
+                //Atualiza a lista
+                document.getElementById("itens_aux").value = lista.toString();
+
+                //Atualiza a tabela
+                var tabela = "<tr><th>Item</th><th>Quantidade</th></tr>";
+                lista.forEach(obj => {
+                    if(obj != ""){
+                        var qtdItem = "";
+                        //Gambiarra para encontrar o id do item através do nome
+                        if(obj.toString() == "Batata-palha"){
+                            qtdItem = "qtdBatataPalha";
+                        }
+                        else if(obj.toString() == "Hambuguer de boi"){
+                            qtdItem = "qtdBoi"; 
+                        }
+                        else if(obj.toString() == "Ovo frito"){
+                            qtdItem = "qtdOvoFrito";
+                        }
+                        else{
+                            qtdItem = "qtd" + obj.toString(); 
+                        }
+                    
+                        tabela += "<tr><td>"+ obj + "</td><td>" + document.getElementById(qtdItem).value + "</td></tr>";
+                    }
+                })
+                document.getElementById("tabela").innerHTML = tabela;
+            }
+        }
+
+        /*------------------------------------------------------------------------------------
+            FAZER PEDIDO - LER QR CODE DA MESA
+        ------------------------------------------------------------------------------------*/
+        function fazerPedido(){
+            //Verifica se existe algo no pedido
+            if(document.getElementById("valor").value == 0){
+                alert("Monte seu lanche antes de fazer o pedido.");
+            }
+            else{
+                var result = confirm("Seu pedido ficou em R$ " + document.getElementById("valor").value +  "\nA câmera será aberta para você ler o QR Code de sua mesa e prosseguir com o pedido.")
+                if(result){
+                    cordova.plugins.barcodeScanner.scan(
+                        result => {
+                            //Recupera o número da mesa
+                            var numeroMesa = result.text.toString();
+                            firebase.database().ref("mesa").child(numeroMesa).orderByKey().once("value", snapshot => {
+                                //Se a mesa existir após a leitura do QR Code
+                                if(snapshot.exists()){
+                                    //Recupera o cliente
+                                    var usuario = localStorage.getItem("usuarioLogado"); //Recupera o usuário logado (em cache)
+                                    //Recupera os itens do pedido
+                                    var pedido = document.getElementById("itens_aux").value;
+                                    //Recupera o valor do pedido
+                                    var valor = "R$ " + document.getElementById("valor").value;
+                                    //Cadastra o pedido com as informações recuperadas
+                                    firebase.database().ref("pedido").push({cliente: usuario, mesa: numeroMesa, pedido: pedido, valor: valor, status: "Na fila"})
+                                    
+                                    alert("Seu pedido foi enviado para cozinha, aguarde um pouco :D");
+                                    location.href = "menu_cliente.html";
+                                }
+                                //Se for lido outro QR Code
+                                else{
+                                    alert("Não há nenhuma mesa relacionada com este QR Code!");
+                                }
+                            })
+                        },
+                        error => {
+                            alert("Verifique as permissões para uso da câmera!" + error);
+                        }
+                    );
+                }
+            }
+        }
+
+        /*------------------------------------------------------------------------------------
+           LIMPAR CAMPOS
+        ------------------------------------------------------------------------------------*/
+        function limparPedido(){
+            var result = confirm("Confirmar cancelamento?");
+            if(result){
+                document.getElementById("valor").value = "";
+                document.getElementById("qtdPresunto").value = "0";
+                document.getElementById("qtdBacon").value = "0";
+                document.getElementById("qtdBoi").value = "0";
+                document.getElementById("qtdSalsicha").value = "0";
+                document.getElementById("qtdAlface").value = "0";
+                document.getElementById("qtdTomate").value = "0";
+                document.getElementById("qtdPicles").value = "0";
+                document.getElementById("qtdCebola").value = "0";
+                document.getElementById("qtdQueijo").value = "0";
+                document.getElementById("qtdMilho").value = "0";
+                document.getElementById("qtdBatataPalha").value = "0";
+                document.getElementById("qtdOvoFrito").value = "0";
+                document.getElementById("qtdMaionese").value = "0";
+                document.getElementById("qtdMostarda").value = "0";
+                document.getElementById("qtdKetchup").value = "0";
+                document.getElementById("qtdBarbecue").value = "0";
+                document.getElementById("itens_aux").value = "";
+                location.href = "formulario_pedido.html";
+            }
+        }
+    </script>
 </html>

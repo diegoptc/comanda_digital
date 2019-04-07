@@ -10,7 +10,11 @@
   "cordova-plugin-compat": {
     "source": {
       "type": "registry",
+<<<<<<< HEAD
       "id": "cordova-plugin-compat@^1.0.0"
+=======
+      "id": "cordova-plugin-camera@^4.0.3"
+>>>>>>> cffee0e6f71104a0a8dde736ccfe7adf2110f251
     },
     "is_top_level": false,
     "variables": {}

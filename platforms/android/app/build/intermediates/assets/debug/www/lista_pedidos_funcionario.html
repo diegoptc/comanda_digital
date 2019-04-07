@@ -11,17 +11,17 @@
         <link rel="stylesheet" href="css/folha.css">
         <script src="js/jquery-3.3.1.min.js" type="text/javascript"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script> 
-        <script src="js/conexao.js" type="text/javascript"></script>
         <script type="text/javascript" src="cordova.js"></script>
-        <script type="text/javascript" src="js/index.js"></script>
     </head>
 
     <body>
         <ul>
             <li><a href="menu_cliente.html">Menu</a></li>
         </ul>
-        <div id="listaPedidos" class="form-group">
-            <!--Listagem-->
+        <div class="container">
+            <div id="listaPedidos" class="form-group">
+                    <!--Listagem-->
+            </div>
         </div>
     </body>
 
@@ -43,5 +43,34 @@
                 document.getElementById("listaPedidos").innerHTML = tabela;
             })
         })
+        /*------------------------------------------------------------------------------------
+            INICIALIZAÇÃO DO FIREBASE
+        ------------------------------------------------------------------------------------*/
+        var config = {
+            apiKey: "AIzaSyC1UdL35EsKpGZo_tNyzTQpX11ZZuEpx0g",
+            authDomain: "appinventario-a8acd.firebaseapp.com",
+            databaseURL: "https://appinventario-a8acd.firebaseio.com",
+            projectId: "appinventario-a8acd",
+            storageBucket: "appinventario-a8acd.appspot.com",
+            messagingSenderId: "827922887965"
+        };
+        firebase.initializeApp(config);
+
+        /*------------------------------------------------------------------------------------
+            ATUALIZAR STATUS DO PEDIDO - INICIADO E ENTREGUE
+        ------------------------------------------------------------------------------------*/
+        function statusPedido(idPedido){
+            firebase.database().ref("pedido").child(idPedido).update({status: "Iniciado"})
+            location.href = "lista_pedidos_funcionario.html";
+        }
+
+        function finalizarPedido(idPedido){
+            //Confirmar a conclusão do pedido
+            var confirmar =  confirm("Concluir pedido?");
+            if(confirmar){
+                firebase.database().ref("pedido").child(idPedido).update({status: "Entregue"})
+                location.href = "lista_pedidos_funcionario.html";
+            }
+        }
     </script>
 </html>

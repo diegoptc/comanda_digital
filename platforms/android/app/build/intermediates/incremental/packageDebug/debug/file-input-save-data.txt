@@ -1,9 +1,17 @@
 #Internal package file, do not edit.
+<<<<<<< HEAD
 #Sat Apr 06 19:20:15 BRT 2019
 20.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 143.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 237.path=www/css/semantic/components/accordion.2124279b81f8.js
 53.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+=======
+#Sat Apr 06 23:53:45 BRT 2019
+20.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+143.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+237.path=www/css/semantic/components/transition.min.702420a4d3e6.css
+53.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+>>>>>>> cffee0e6f71104a0a8dde736ccfe7adf2110f251
 66.set=ASSET
 317.set=ASSET
 86.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
@@ -14,12 +22,21 @@
 118.set=ASSET
 270.baseType=DIRECTORY
 0.set=ASSET
+<<<<<<< HEAD
 331.path=www/css/semantic/components/container.39dc70425bb4.css
 191.set=ASSET
 61.path=www/css/semantic/components/form.min.js
 193.path=www/css/semantic/components/rating.css
 270.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 100.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+=======
+331.path=www/css/semantic/components/embed.f89b8f338406.js
+191.set=ASSET
+61.path=www/css/semantic/components/rating.min.css
+193.path=www/css/semantic/components/site.04d802c19f65.css
+270.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+100.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+>>>>>>> cffee0e6f71104a0a8dde736ccfe7adf2110f251
 69.baseType=DIRECTORY
 43.set=ASSET
 7.baseType=DIRECTORY
@@ -34,6 +51,7 @@
 217.set=ASSET
 123.baseType=DIRECTORY
 151.baseType=DIRECTORY
+<<<<<<< HEAD
 76.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 141.path=www/css/semantic/components/nag.38d1a7349a79.css
 97.set=ASSET
@@ -47,6 +65,21 @@
 293.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 6.path=www/css/semantic/components/form.min.11cbf4f8bfe1.css
 123.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+=======
+76.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+141.path=www/css/semantic/components/rail.min.css
+97.set=ASSET
+348.set=ASSET
+51.path=www/css/semantic/components/state.min.js
+20.set=ASSET
+354.path=www/css/semantic/components/rating.js
+260.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+84.path=www/css/semantic/components/visibility.min.js
+210.baseType=DIRECTORY
+293.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+6.path=www/css/semantic/components/checkbox.js
+123.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+>>>>>>> cffee0e6f71104a0a8dde736ccfe7adf2110f251
 149.set=ASSET
 156.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 327.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
@@ -56,14 +89,23 @@
 43.baseType=DIRECTORY
 74.set=ASSET
 325.set=ASSET
+<<<<<<< HEAD
 99.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 131.path=www/css/semantic/themes/default/assets/fonts/icons.faff92145777.woff
 302.path=www/img/background.png
 41.path=www/css/semantic/components/modal.js
 164.path=www/css/semantic/components/step.min.e9a2563d1031.css
+=======
+99.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+131.path=www/css/semantic/components/reset.min.3936629a3534.css
+302.path=www/plugins/cordova-plugin-barcodescanner/www/barcodescanner.js
+41.path=www/css/semantic/components/sticky.min.c738c3ffbb90.js
+164.path=www/css/semantic/README.md
+>>>>>>> cffee0e6f71104a0a8dde736ccfe7adf2110f251
 248.set=ASSET
 250.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 126.set=ASSET
+<<<<<<< HEAD
 74.path=www/css/semantic/components/visit.min.8cafb057ff75.js
 283.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 14.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
@@ -81,19 +123,49 @@
 187.path=www/css/semantic/components/image.min.9a4e3b33df15.css
 273.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 97.path=www/css/semantic/components/api.min.js
+=======
+74.path=www/css/semantic/components/header.css
+283.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+14.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+317.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+51.set=ASSET
+302.set=ASSET
+179.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+291.path=www/css/folha.css
+225.set=ASSET
+121.path=www/css/semantic/themes/default/assets/fonts/outline-icons.woff
+103.set=ASSET
+154.path=www/css/semantic/components/feed.min.css
+325.path=www/css/semantic/components/message.min.css
+64.path=www/css/semantic/components/transition.css
+187.path=www/css/semantic/components/dropdown.css
+273.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+97.path=www/css/semantic/components/search.css
+>>>>>>> cffee0e6f71104a0a8dde736ccfe7adf2110f251
 279.set=ASSET
 202.set=ASSET
 37.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 157.set=ASSET
 338.baseType=DIRECTORY
+<<<<<<< HEAD
 281.path=www/css/semantic/components/rating.eda4ffbc7cac.css
 12.path=www/css/semantic/LICENSE
 315.path=www/css/semantic/components/dimmer.js
+=======
+281.path=www/css/semantic/components/dropdown.d4b5e9d7f6ad.js
+12.path=www/css/semantic/components/list.css
+315.path=www/css/semantic/components/popup.min.e2ed51c806e9.css
+>>>>>>> cffee0e6f71104a0a8dde736ccfe7adf2110f251
 82.set=ASSET
 221.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 333.set=ASSET
+<<<<<<< HEAD
 177.path=www/css/semantic/components/container.min.css
 348.path=www/css/semantic/themes/default/assets/images/flags.9c74e172f879.png
+=======
+177.path=www/css/semantic/themes/default/assets/fonts/icons.svg
+348.path=www/css/semantic/themes/default/assets/fonts/icons.0b462f5cc077.otf
+>>>>>>> cffee0e6f71104a0a8dde736ccfe7adf2110f251
 256.set=ASSET
 269.baseType=DIRECTORY
 134.set=ASSET
@@ -108,10 +180,17 @@
 233.set=ASSET
 306.baseType=DIRECTORY
 334.baseType=DIRECTORY
+<<<<<<< HEAD
 35.path=www/css/semantic/components/shape.min.5ee4c5337d7d.js
 184.baseType=DIRECTORY
 111.set=ASSET
 338.path=www/css/semantic/components/popup.min.94e7bf0419fa.js
+=======
+35.path=www/css/semantic/components/rating.css
+184.baseType=DIRECTORY
+111.set=ASSET
+338.path=www/css/semantic/components/icon.min.dd250bb701d3.css
+>>>>>>> cffee0e6f71104a0a8dde736ccfe7adf2110f251
 312.baseType=DIRECTORY
 244.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 340.baseType=DIRECTORY
@@ -123,6 +202,7 @@
 243.baseType=DIRECTORY
 210.set=ASSET
 165.set=ASSET
+<<<<<<< HEAD
 115.path=www/css/semantic/components/tab.js
 201.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 25.path=www/css/semantic/components/checkbox.3fa9c6982ebb.css
@@ -130,6 +210,15 @@
 8.baseType=DIRECTORY
 48.baseType=DIRECTORY
 58.path=www/cordova-js-src/android/promptbasednativeapi.js
+=======
+115.path=www/css/semantic/components/menu.min.css
+201.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+25.path=www/css/semantic/components/transition.min.84a81c356c97.js
+234.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+8.baseType=DIRECTORY
+48.baseType=DIRECTORY
+58.path=www/css/semantic/components/sidebar.9ff802e41429.css
+>>>>>>> cffee0e6f71104a0a8dde736ccfe7adf2110f251
 76.baseType=DIRECTORY
 90.set=ASSET
 341.set=ASSET
@@ -140,6 +229,7 @@
 180.baseType=DIRECTORY
 264.set=ASSET
 142.set=ASSET
+<<<<<<< HEAD
 242.path=www/css/semantic/components/accordion.css
 187.set=ASSET
 105.path=www/css/semantic/components/input.css
@@ -147,10 +237,20 @@
 138.path=www/css/semantic/components/statistic.8bdb0c7d2ebe.css
 211.baseType=DIRECTORY
 48.path=www/css/semantic/components/search.min.e31b97ae1f83.css
+=======
+242.path=www/css/semantic/components/sidebar.css
+187.set=ASSET
+105.path=www/css/semantic/components/modal.min.css
+39.set=ASSET
+138.path=www/css/semantic/components/flag.min.css
+211.baseType=DIRECTORY
+48.path=www/css/semantic/themes/default/assets/fonts/icons.otf
+>>>>>>> cffee0e6f71104a0a8dde736ccfe7adf2110f251
 241.set=ASSET
 257.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 16.baseType=DIRECTORY
 44.baseType=DIRECTORY
+<<<<<<< HEAD
 232.path=www/css/semantic/themes/default/assets/fonts/outline-icons.cd6c777f1945.woff2
 50.baseType=DIRECTORY
 120.baseType=DIRECTORY
@@ -168,21 +268,51 @@
 4.set=ASSET
 288.path=www/css/semantic/components/step.min.css
 71.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+=======
+232.path=www/css/semantic/components/list.min.40b83cfeaa64.css
+50.baseType=DIRECTORY
+120.baseType=DIRECTORY
+16.set=ASSET
+265.path=www/css/semantic/components/api.db942f662105.js
+298.path=www/css/semantic/components/site.min.js
+295.set=ASSET
+81.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+128.path=www/css/semantic/components/card.css
+3.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+272.set=ASSET
+255.path=www/css/semantic/components/video.min.e3ee25feab24.css
+161.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+150.set=ASSET
+4.set=ASSET
+288.path=www/css/semantic/components/loader.4c9826d72ca0.css
+71.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+>>>>>>> cffee0e6f71104a0a8dde736ccfe7adf2110f251
 195.set=ASSET
 47.set=ASSET
 339.baseType=DIRECTORY
 1.path=www/plugins/cordova-plugin-camera/www/CameraPopoverHandle.js
 172.set=ASSET
+<<<<<<< HEAD
 151.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 322.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 184.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 278.path=www/css/semantic/components/divider.min.css
+=======
+151.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+322.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+184.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+278.path=www/css/semantic/components/grid.0e7e343bdce2.css
+>>>>>>> cffee0e6f71104a0a8dde736ccfe7adf2110f251
 24.set=ASSET
 94.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 218.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 248.baseType=DIRECTORY
 276.baseType=DIRECTORY
+<<<<<<< HEAD
 226.path=www/css/semantic/components/checkbox.css
+=======
+226.path=www/css/semantic/components/form.css
+>>>>>>> cffee0e6f71104a0a8dde736ccfe7adf2110f251
 78.set=ASSET
 329.set=ASSET
 312.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
@@ -195,20 +325,35 @@
 185.baseType=DIRECTORY
 313.baseType=DIRECTORY
 341.baseType=DIRECTORY
+<<<<<<< HEAD
 208.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 320.path=www/css/semantic/components/rating.min.css
 182.path=www/css/semantic/components/button.0f75b9897fee.css
 353.path=www/css/semantic/themes/default/assets/fonts/icons.woff2
+=======
+208.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+320.path=www/css/semantic/components/loader.css
+182.path=www/css/semantic/components/segment.min.css
+353.path=www/css/semantic/components/accordion.css
+>>>>>>> cffee0e6f71104a0a8dde736ccfe7adf2110f251
 55.set=ASSET
 306.set=ASSET
-92.path=www/css/semantic/components/message.css
+92.path=www/css/semantic/components/visibility.min.2f27403bb8f5.js
 216.baseType=DIRECTORY
 244.baseType=DIRECTORY
+<<<<<<< HEAD
 216.path=www/css/semantic/themes/default/assets/fonts/icons.b87b9ba532ac.ttf
 250.baseType=DIRECTORY
 229.set=ASSET
 32.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 249.path=www/css/semantic/components/progress.min.0a6628100514.css
+=======
+216.path=www/css/semantic/components/feed.css
+250.baseType=DIRECTORY
+229.set=ASSET
+32.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+249.path=www/css/semantic/components/rating.e6d2c3ec19f4.js
+>>>>>>> cffee0e6f71104a0a8dde736ccfe7adf2110f251
 107.set=ASSET
 335.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 180.set=ASSET
@@ -218,11 +363,16 @@
 77.baseType=DIRECTORY
 119.baseType=DIRECTORY
 83.baseType=DIRECTORY
+<<<<<<< HEAD
 310.path=www/css/semantic/components/statistic.min.30b64adae04e.css
+=======
+310.path=www/css/semantic/themes/default/assets/fonts/icons.b87b9ba532ac.ttf
+>>>>>>> cffee0e6f71104a0a8dde736ccfe7adf2110f251
 125.baseType=DIRECTORY
 32.set=ASSET
 153.baseType=DIRECTORY
 181.baseType=DIRECTORY
+<<<<<<< HEAD
 172.path=www/css/semantic/components/placeholder.min.css
 343.path=www/css/semantic/components/header.min.css
 206.set=ASSET
@@ -244,10 +394,34 @@
 51.baseType=DIRECTORY
 195.path=www/css/semantic/components/list.f7ecc916a57e.css
 272.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+=======
+172.path=www/css/semantic/components/reveal.min.f39c31d70784.css
+343.path=www/css/semantic/components/progress.css
+206.set=ASSET
+112.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+206.path=www/css/semantic/components/sidebar.js
+145.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+239.path=www/css/semantic/components/colorize.js
+22.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+55.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+86.set=ASSET
+337.set=ASSET
+88.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+30.path=www/css/semantic/components/rail.min.ac25e0b94d66.css
+138.set=ASSET
+17.baseType=DIRECTORY
+333.path=www/css/semantic/themes/default/assets/fonts/brand-icons.e8c322de9658.woff2
+45.baseType=DIRECTORY
+23.baseType=DIRECTORY
+51.baseType=DIRECTORY
+195.path=www/css/semantic/components/item.548b171cbde4.css
+272.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+>>>>>>> cffee0e6f71104a0a8dde736ccfe7adf2110f251
 121.baseType=DIRECTORY
 102.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 63.set=ASSET
 314.set=ASSET
+<<<<<<< HEAD
 229.path=www/css/semantic/themes/default/assets/fonts/icons.0b462f5cc077.otf
 135.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 306.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
@@ -304,6 +478,64 @@
 275.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 308.baseType=DIRECTORY
 99.path=www/css/semantic/components/site.min.js
+=======
+229.path=www/css/semantic/components/reset.min.css
+135.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+306.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+45.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+168.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+237.set=ASSET
+115.set=ASSET
+78.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+110.path=www/css/semantic/components/video.f1b2e6428f69.css
+143.path=www/css/semantic/components/placeholder.fcb0667666b3.css
+20.path=www/css/semantic/themes/default/assets/fonts/brand-icons.svg
+53.path=www/css/semantic/components/checkbox.min.js
+40.set=ASSET
+262.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+86.path=www/css/semantic/themes/default/assets/fonts/icons.448f2aaa315f.svg
+295.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+214.set=ASSET
+8.path=www/css/semantic/components/visibility.js
+125.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+169.set=ASSET
+158.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+329.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+270.path=www/css/semantic/components/feed.min.3a3c65d13e67.css
+68.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+100.path=www/menu_cliente.html
+94.set=ASSET
+345.set=ASSET
+133.path=www/css/semantic/components/checkbox.css
+304.path=www/css/semantic/components/image.min.css
+166.path=www/css/semantic/components/comment.css
+268.set=ASSET
+43.path=www/css/semantic/components/segment.aa29e373d43c.css
+252.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+146.set=ASSET
+76.path=www/css/semantic/themes/default/assets/fonts/icons.woff2
+285.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+16.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+148.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+319.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+71.set=ASSET
+322.set=ASSET
+260.path=www/css/semantic/components/popup.e1e3928827c7.js
+249.baseType=DIRECTORY
+277.baseType=DIRECTORY
+293.path=www/css/semantic/components/rail.css
+245.set=ASSET
+283.baseType=DIRECTORY
+123.path=www/css/semantic/components/image.css
+123.set=ASSET
+156.path=www/css/semantic/components/checkbox.min.4a5135e9a4a0.css
+327.path=www/css/semantic/components/container.css
+66.path=www/css/semantic/themes/default/assets/fonts/icons.eot
+189.path=www/css/semantic/components/loader.min.css
+275.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+308.baseType=DIRECTORY
+99.path=www/css/semantic/components/tab.css
+>>>>>>> cffee0e6f71104a0a8dde736ccfe7adf2110f251
 158.baseType=DIRECTORY
 186.baseType=DIRECTORY
 314.baseType=DIRECTORY
@@ -311,6 +543,7 @@
 309.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 299.set=ASSET
 222.set=ASSET
+<<<<<<< HEAD
 39.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 250.path=www/css/semantic/components/reset.min.3936629a3534.css
 100.set=ASSET
@@ -318,11 +551,24 @@
 14.path=www/css/semantic/components/nag.min.2b34a6ad3f8e.js
 317.path=www/css/semantic/components/statistic.css
 223.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+=======
+39.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+250.path=www/css/semantic/components/dimmer.min.js
+100.set=ASSET
+283.path=www/css/semantic/components/divider.css
+14.path=www/css/semantic/components/dimmer.min.a3c9f5835cc7.js
+317.path=www/css/semantic/themes/default/assets/fonts/icons.faff92145777.woff
+223.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+>>>>>>> cffee0e6f71104a0a8dde736ccfe7adf2110f251
 217.baseType=DIRECTORY
 353.set=ASSET
 245.baseType=DIRECTORY
 223.baseType=DIRECTORY
+<<<<<<< HEAD
 179.path=www/css/semantic/components/dimmer.min.css
+=======
+179.path=www/css/semantic/components/feed.b3f59b5a0d6e.css
+>>>>>>> cffee0e6f71104a0a8dde736ccfe7adf2110f251
 251.baseType=DIRECTORY
 276.set=ASSET
 154.set=ASSET
@@ -334,25 +580,41 @@
 84.baseType=DIRECTORY
 126.baseType=DIRECTORY
 154.baseType=DIRECTORY
+<<<<<<< HEAD
 273.path=www/css/semantic/components/reveal.d92d4e9ff994.css
 350.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+=======
+273.path=www/js/jquery-3.3.1.min.js
+350.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+>>>>>>> cffee0e6f71104a0a8dde736ccfe7adf2110f251
 330.set=ASSET
 310.baseType=DIRECTORY
 160.baseType=DIRECTORY
 213.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 253.set=ASSET
+<<<<<<< HEAD
 37.path=www/css/semantic/components/segment.min.css
+=======
+37.path=www/css/semantic/components/nag.min.d785a9c3c38f.css
+>>>>>>> cffee0e6f71104a0a8dde736ccfe7adf2110f251
 131.set=ASSET
 246.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 176.set=ASSET
+<<<<<<< HEAD
 109.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 221.path=www/plugins/cordova-plugin-camera/www/CameraPopoverOptions.js
 19.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+=======
+109.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+221.path=www/css/semantic/themes/default/assets/fonts/icons.8e3c7f5520f5.eot
+19.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+>>>>>>> cffee0e6f71104a0a8dde736ccfe7adf2110f251
 28.set=ASSET
 340.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 230.set=ASSET
 18.baseType=DIRECTORY
 46.baseType=DIRECTORY
+<<<<<<< HEAD
 117.path=www/css/semantic/components/search.bb5645641514.css
 24.baseType=DIRECTORY
 52.baseType=DIRECTORY
@@ -372,10 +634,32 @@
 192.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 107.path=www/css/semantic/themes/default/assets/fonts/brand-icons.a046592bac8f.woff
 17.path=www/css/semantic/components/grid.min.css
+=======
+117.path=www/css/semantic/components/shape.min.css
+24.baseType=DIRECTORY
+52.baseType=DIRECTORY
+80.baseType=DIRECTORY
+203.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+27.path=www/css/semantic/components/popup.css
+122.baseType=DIRECTORY
+100.baseType=DIRECTORY
+236.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+269.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+211.path=www/css/semantic/components/message.min.76a0fdf311b5.css
+284.set=ASSET
+162.set=ASSET
+244.path=www/menu_funcionario.html
+330.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+60.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+192.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+107.path=www/css/semantic/components/modal.min.1ac2a8c25a32.css
+17.path=www/css/semantic/components/button.0f75b9897fee.css
+>>>>>>> cffee0e6f71104a0a8dde736ccfe7adf2110f251
 59.set=ASSET
 261.set=ASSET
 259.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 20.baseType=DIRECTORY
+<<<<<<< HEAD
 201.path=www/css/semantic/components/visibility.js
 184.set=ASSET
 140.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
@@ -385,16 +669,34 @@
 50.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 83.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 5.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+=======
+201.path=www/css/semantic/components/form.min.js
+184.set=ASSET
+140.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+234.path=www/css/semantic/components/popup.min.94e7bf0419fa.js
+36.set=ASSET
+267.path=www/css/semantic/components/dropdown.min.b0101346d0ee.js
+50.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+83.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+5.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+>>>>>>> cffee0e6f71104a0a8dde736ccfe7adf2110f251
 13.set=ASSET
 278.baseType=DIRECTORY
 130.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 301.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 284.baseType=DIRECTORY
 292.set=ASSET
+<<<<<<< HEAD
 257.path=www/css/semantic/components/item.min.746d50c3e453.css
 40.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 163.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 73.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+=======
+257.path=www/css/semantic/components/search.js
+40.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+163.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+73.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+>>>>>>> cffee0e6f71104a0a8dde736ccfe7adf2110f251
 309.baseType=DIRECTORY
 159.baseType=DIRECTORY
 187.baseType=DIRECTORY
@@ -402,10 +704,17 @@
 318.set=ASSET
 315.baseType=DIRECTORY
 343.baseType=DIRECTORY
+<<<<<<< HEAD
 81.path=www/css/semantic/components/video.js
 290.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 120.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 3.path=www/css/semantic/components/sticky.min.css
+=======
+81.path=www/css/semantic/components/container.39dc70425bb4.css
+290.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+120.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+3.path=www/css/semantic/components/visit.1b6c5e9fc6db.js
+>>>>>>> cffee0e6f71104a0a8dde736ccfe7adf2110f251
 119.set=ASSET
 1.set=ASSET
 192.set=ASSET
@@ -421,9 +730,15 @@
 280.baseType=DIRECTORY
 96.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 218.set=ASSET
+<<<<<<< HEAD
 161.path=www/css/semantic/components/table.css
 79.baseType=DIRECTORY
 71.path=www/css/semantic/components/checkbox.min.4a5135e9a4a0.css
+=======
+161.path=www/css/semantic/components/accordion.2124279b81f8.js
+79.baseType=DIRECTORY
+71.path=www/css/semantic/components/visit.js
+>>>>>>> cffee0e6f71104a0a8dde736ccfe7adf2110f251
 85.baseType=DIRECTORY
 280.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 127.baseType=DIRECTORY
@@ -435,6 +750,7 @@
 349.set=ASSET
 314.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 21.set=ASSET
+<<<<<<< HEAD
 176.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 347.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 151.path=www/css/semantic/themes/default/assets/fonts/brand-icons.woff2
@@ -445,6 +761,18 @@
 326.set=ASSET
 94.path=www/css/semantic/themes/default/assets/fonts/icons.0ab54153eeec.woff2
 218.path=www/css/semantic/components/accordion.min.732fde311596.js
+=======
+176.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+347.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+151.path=www/cordova-js-src/android/nativeapiprovider.js
+322.path=www/css/semantic/components/search.11a195e73e42.js
+220.baseType=DIRECTORY
+184.path=www/css/semantic/components/rating.min.c4b1327e0e77.js
+75.set=ASSET
+326.set=ASSET
+94.path=www/plugins/cordova-plugin-camera/www/CameraConstants.js
+218.path=www/css/semantic/components/tab.73afaac9d5ff.js
+>>>>>>> cffee0e6f71104a0a8dde736ccfe7adf2110f251
 19.baseType=DIRECTORY
 249.set=ASSET
 25.baseType=DIRECTORY
@@ -454,6 +782,7 @@
 127.set=ASSET
 337.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 101.baseType=DIRECTORY
+<<<<<<< HEAD
 199.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 312.path=www/css/semantic/components/transition.css
 52.set=ASSET
@@ -474,6 +803,28 @@
 241.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 197.path=www/css/semantic/components/sticky.bff0e2483af4.css
 104.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+=======
+199.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+312.path=www/css/semantic/components/divider.min.css
+52.set=ASSET
+303.set=ASSET
+174.path=www/css/semantic/components/progress.js
+345.path=www/css/semantic/components/table.min.e80323145f57.css
+226.set=ASSET
+104.set=ASSET
+114.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+208.path=www/plugins/cordova-plugin-camera/www/CameraPopoverHandle.js
+24.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+57.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+21.baseType=DIRECTORY
+203.set=ASSET
+158.set=ASSET
+32.path=www/css/semantic/components/placeholder.min.css
+335.path=www/css/semantic/components/list.min.css
+241.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+197.path=www/css/semantic/components/colorize.d122c89a4bf4.js
+104.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+>>>>>>> cffee0e6f71104a0a8dde736ccfe7adf2110f251
 83.set=ASSET
 334.set=ASSET
 137.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
@@ -482,6 +833,7 @@
 47.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 257.set=ASSET
 135.set=ASSET
+<<<<<<< HEAD
 112.path=www/css/semantic/components/colorize.js
 22.path=www/css/semantic/components/colorize.d122c89a4bf4.js
 145.path=www/css/semantic/themes/default/assets/fonts/icons.otf
@@ -494,42 +846,81 @@
 264.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 88.path=www/lista_pedidos_funcionario.html
 297.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+=======
+112.path=www/css/semantic/themes/default/assets/fonts/outline-icons.woff2
+22.path=www/css/semantic/components/transition.js
+145.path=www/css/semantic/themes/default/assets/fonts/brand-icons.13db00b7a34f.eot
+231.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+279.baseType=DIRECTORY
+55.path=www/css/semantic/components/video.min.css
+60.set=ASSET
+311.set=ASSET
+285.baseType=DIRECTORY
+264.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+88.path=www/css/semantic/components/shape.565ea561cc3a.css
+297.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+>>>>>>> cffee0e6f71104a0a8dde736ccfe7adf2110f251
 234.set=ASSET
 127.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 112.set=ASSET
-272.path=www/css/semantic/themes/default/assets/fonts/icons.ttf
+272.path=www/lista_pedidos_funcionario.html
 188.baseType=DIRECTORY
+<<<<<<< HEAD
 102.path=www/css/semantic/components/reset.css
+=======
+102.path=www/css/semantic/components/step.min.css
+>>>>>>> cffee0e6f71104a0a8dde736ccfe7adf2110f251
 316.baseType=DIRECTORY
 344.baseType=DIRECTORY
 194.baseType=DIRECTORY
 350.baseType=DIRECTORY
+<<<<<<< HEAD
 135.path=www/css/semantic/components/feed.css
 306.path=www/css/semantic/components/sidebar.min.js
 288.set=ASSET
 168.path=www/css/semantic/components/dropdown.d4b5e9d7f6ad.js
 45.path=www/plugins/cordova-plugin-camera/www/Camera.js
+=======
+135.path=www/css/semantic/components/step.1de2757eb779.css
+306.path=www/css/semantic/components/reset.css
+288.set=ASSET
+168.path=www/css/semantic/components/visit.min.js
+45.path=www/css/semantic/components/dropdown.js
+>>>>>>> cffee0e6f71104a0a8dde736ccfe7adf2110f251
 211.set=ASSET
 254.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 166.set=ASSET
+<<<<<<< HEAD
 78.path=www/menu_cliente.html
 287.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+=======
+78.path=www/css/semantic/components/statistic.min.30b64adae04e.css
+287.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+>>>>>>> cffee0e6f71104a0a8dde736ccfe7adf2110f251
 219.baseType=DIRECTORY
 225.baseType=DIRECTORY
 253.baseType=DIRECTORY
 281.baseType=DIRECTORY
 91.set=ASSET
 342.set=ASSET
+<<<<<<< HEAD
 262.path=www/css/semantic/components/popup.e1e3928827c7.js
 295.path=www/css/semantic/components/flag.46c3dea6bd9c.css
 265.set=ASSET
 125.path=www/css/semantic/components/shape.min.css
+=======
+262.path=www/css/semantic/components/sticky.min.css
+295.path=www/css/semantic/components/tab.js
+265.set=ASSET
+125.path=www/css/semantic/components/dimmer.css
+>>>>>>> cffee0e6f71104a0a8dde736ccfe7adf2110f251
 143.set=ASSET
 86.baseType=DIRECTORY
 0.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 128.baseType=DIRECTORY
 188.set=ASSET
 156.baseType=DIRECTORY
+<<<<<<< HEAD
 158.path=www/css/semantic/components/rail.css
 329.path=www/css/semantic/themes/default/assets/fonts/brand-icons.eot
 134.baseType=DIRECTORY
@@ -547,6 +938,25 @@
 148.path=www/css/semantic/components/progress.3de4c5f66a1b.js
 319.path=www/css/semantic/components/tab.min.0010608496f5.css
 225.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+=======
+158.path=www/css/semantic/components/visit.min.8cafb057ff75.js
+329.path=www/css/semantic/components/breadcrumb.min.b7e7950c8897.css
+134.baseType=DIRECTORY
+162.baseType=DIRECTORY
+190.baseType=DIRECTORY
+68.path=www/css/semantic/components/search.bb5645641514.css
+277.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+242.set=ASSET
+252.path=www/cadastro.html
+120.set=ASSET
+221.baseType=DIRECTORY
+191.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+285.path=www/css/semantic/components/sticky.js
+16.path=www/css/semantic/components/flag.min.5e1b2edb3c6a.css
+148.path=www/css/semantic/components/api.min.961041155e45.js
+319.path=www/css/semantic/components/tab.min.css
+225.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+>>>>>>> cffee0e6f71104a0a8dde736ccfe7adf2110f251
 17.set=ASSET
 26.baseType=DIRECTORY
 54.baseType=DIRECTORY
@@ -555,6 +965,7 @@
 60.baseType=DIRECTORY
 102.baseType=DIRECTORY
 130.baseType=DIRECTORY
+<<<<<<< HEAD
 181.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 275.path=www/css/semantic/components/ad.min.css
 352.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
@@ -564,10 +975,22 @@
 215.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 273.set=ASSET
 39.path=www/css/semantic/components/checkbox.min.21ab395cd8d4.js
+=======
+181.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+275.path=www/css/semantic/semantic.min.js
+352.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+350.set=ASSET
+91.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+309.path=www/css/semantic/components/dropdown.min.css
+215.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+273.set=ASSET
+39.path=www/css/semantic/components/statistic.8bdb0c7d2ebe.css
+>>>>>>> cffee0e6f71104a0a8dde736ccfe7adf2110f251
 151.set=ASSET
 248.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 5.set=ASSET
 196.set=ASSET
+<<<<<<< HEAD
 223.path=www/css/semantic/components/modal.min.js
 22.baseType=DIRECTORY
 48.set=ASSET
@@ -594,11 +1017,40 @@
 340.path=www/css/semantic/components/input.ce47bb5b7580.css
 281.set=ASSET
 203.path=www/css/semantic/themes/default/assets/fonts/brand-icons.svg
+=======
+223.path=www/css/semantic/components/search.min.js
+22.baseType=DIRECTORY
+48.set=ASSET
+171.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+342.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+250.set=ASSET
+119.path=www/css/semantic/components/sidebar.min.b6dee0c813a2.js
+205.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+173.set=ASSET
+29.path=www/css/semantic/components/colorize.min.80cb7a655d74.js
+238.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+349.baseType=DIRECTORY
+350.path=www/css/semantic/themes/default/assets/fonts/icons.0ab54153eeec.woff2
+25.set=ASSET
+213.path=www/css/semantic/components/popup.8b49cca6798f.css
+246.path=www/css/semantic/components/placeholder.css
+332.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+194.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+109.path=www/css/semantic/components/transition.min.css
+286.baseType=DIRECTORY
+19.path=www/css/semantic/components/nag.min.css
+79.set=ASSET
+228.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+340.path=www/css/semantic/components/card.3d2a2a0c64d5.css
+281.set=ASSET
+203.path=www/css/semantic/components/modal.js
+>>>>>>> cffee0e6f71104a0a8dde736ccfe7adf2110f251
 189.baseType=DIRECTORY
 317.baseType=DIRECTORY
 345.baseType=DIRECTORY
 142.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 195.baseType=DIRECTORY
+<<<<<<< HEAD
 236.path=www/css/semantic/components/colorize.min.js
 351.baseType=DIRECTORY
 269.path=www/css/semantic/components/feed.min.3a3c65d13e67.css
@@ -610,21 +1062,44 @@
 7.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 108.set=ASSET
 330.path=www/css/semantic/components/sticky.min.c738c3ffbb90.js
+=======
+236.path=www/css/semantic/components/embed.js
+351.baseType=DIRECTORY
+269.path=www/css/semantic/components/progress.min.js
+52.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+56.set=ASSET
+307.set=ASSET
+85.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+7.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+108.set=ASSET
+330.path=www/css/semantic/components/card.min.d29adeb06890.css
+>>>>>>> cffee0e6f71104a0a8dde736ccfe7adf2110f251
 181.set=ASSET
 226.baseType=DIRECTORY
 254.baseType=DIRECTORY
 282.baseType=DIRECTORY
+<<<<<<< HEAD
 60.path=www/css/semantic/README.md
 192.path=www/css/semantic/themes/default/assets/fonts/outline-icons.svg
+=======
+60.path=www/css/semantic/components/accordion.min.e2f5e1466c9b.css
+192.path=www/css/semantic/LICENSE
+>>>>>>> cffee0e6f71104a0a8dde736ccfe7adf2110f251
 260.baseType=DIRECTORY
 33.set=ASSET
 132.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 303.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 59.baseType=DIRECTORY
 87.baseType=DIRECTORY
+<<<<<<< HEAD
 42.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 165.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 259.path=www/css/semantic/components/grid.0e7e343bdce2.css
+=======
+42.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+165.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+259.path=www/css/semantic/components/modal.672e10d4cc22.js
+>>>>>>> cffee0e6f71104a0a8dde736ccfe7adf2110f251
 207.set=ASSET
 129.baseType=DIRECTORY
 157.baseType=DIRECTORY
@@ -632,6 +1107,7 @@
 75.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 163.baseType=DIRECTORY
 191.baseType=DIRECTORY
+<<<<<<< HEAD
 140.path=www/css/semantic/components/api.js
 87.set=ASSET
 338.set=ASSET
@@ -641,6 +1117,17 @@
 292.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 5.path=www/css/semantic/themes/default/assets/fonts/icons.svg
 122.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+=======
+140.path=www/css/semantic/components/button.css
+87.set=ASSET
+338.set=ASSET
+50.path=www/img/background.png
+10.set=ASSET
+83.path=www/css/semantic/components/dimmer.ec9b6fef157b.css
+292.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+5.path=www/css/semantic/components/statistic.min.css
+122.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+>>>>>>> cffee0e6f71104a0a8dde736ccfe7adf2110f251
 139.set=ASSET
 222.baseType=DIRECTORY
 200.baseType=DIRECTORY
@@ -652,6 +1139,7 @@
 315.set=ASSET
 27.baseType=DIRECTORY
 55.baseType=DIRECTORY
+<<<<<<< HEAD
 98.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 130.path=www/css/semantic/themes/default/assets/fonts/outline-icons.701ae6abd471.eot
 301.path=www/css/semantic/themes/default/assets/fonts/icons.woff
@@ -679,18 +1167,59 @@
 95.set=ASSET
 346.set=ASSET
 96.path=www/css/semantic/themes/default/assets/fonts/outline-icons.ttf
+=======
+98.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+130.path=www/css/semantic/components/modal.css
+301.path=www/css/semantic/components/api.js
+61.baseType=DIRECTORY
+40.path=www/css/semantic/components/statistic.css
+103.baseType=DIRECTORY
+163.path=www/css/semantic/components/dropdown.min.623708d31118.css
+238.set=ASSET
+131.baseType=DIRECTORY
+116.set=ASSET
+73.path=www/css/semantic/components/breadcrumb.55f563727300.css
+282.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+13.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+316.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+41.set=ASSET
+178.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+349.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+290.path=www/css/semantic/themes/default/assets/fonts/brand-icons.a046592bac8f.woff
+215.set=ASSET
+120.path=www/css/semantic/components/menu.8d59945fbf02.css
+153.path=www/css/semantic/components/video.e9118bb8a3c8.js
+324.path=www/css/semantic/components/accordion.c7bdd94898b3.css
+63.path=www/css/semantic/components/input.min.css
+186.path=www/css/semantic/components/checkbox.3fa9c6982ebb.css
+95.set=ASSET
+346.set=ASSET
+96.path=www/css/semantic/package.js
+>>>>>>> cffee0e6f71104a0a8dde736ccfe7adf2110f251
 269.set=ASSET
 36.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 147.set=ASSET
+<<<<<<< HEAD
 339.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 280.path=www/css/semantic/components/input.min.css
 11.path=www/css/semantic/components/message.min.76a0fdf311b5.css
 314.path=www/css/semantic/components/comment.6ca8b0ecdfba.css
+=======
+339.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+280.path=www/css/semantic/themes/default/assets/fonts/outline-icons.ttf
+11.path=www/css/semantic/semantic.js
+314.path=www/css/semantic/components/input.css
+>>>>>>> cffee0e6f71104a0a8dde736ccfe7adf2110f251
 72.set=ASSET
 220.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 323.set=ASSET
+<<<<<<< HEAD
 176.path=www/css/semantic/semantic.js
 347.path=www/css/semantic/themes/default/assets/fonts/icons.448f2aaa315f.svg
+=======
+176.path=www/css/semantic/components/transition.dc93c0d28205.css
+347.path=www/css/semantic/components/loader.min.f4e139b4b130.css
+>>>>>>> cffee0e6f71104a0a8dde736ccfe7adf2110f251
 246.set=ASSET
 124.set=ASSET
 116.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
@@ -701,15 +1230,26 @@
 300.set=ASSET
 210.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 223.set=ASSET
+<<<<<<< HEAD
 34.path=www/css/semantic/components/form.css
 101.set=ASSET
 337.path=www/css/semantic/components/embed.min.70c8a57e214b.css
 243.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+=======
+34.path=www/css/semantic/components/sticky.bff0e2483af4.css
+101.set=ASSET
+337.path=www/css/semantic/components/site.min.css
+243.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+>>>>>>> cffee0e6f71104a0a8dde736ccfe7adf2110f251
 318.baseType=DIRECTORY
 346.baseType=DIRECTORY
 196.baseType=DIRECTORY
 324.baseType=DIRECTORY
+<<<<<<< HEAD
 199.path=www/css/semantic/components/flag.min.5e1b2edb3c6a.css
+=======
+199.path=www/css/semantic/components/video.min.5e69610546c7.js
+>>>>>>> cffee0e6f71104a0a8dde736ccfe7adf2110f251
 352.baseType=DIRECTORY
 106.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 354.set=ASSET
@@ -719,14 +1259,24 @@
 200.set=ASSET
 155.set=ASSET
 227.baseType=DIRECTORY
+<<<<<<< HEAD
 114.path=www/css/semantic/components/label.min.6e4d14badfae.css
+=======
+114.path=www/css/semantic/themes/default/assets/fonts/brand-icons.ttf
+>>>>>>> cffee0e6f71104a0a8dde736ccfe7adf2110f251
 255.baseType=DIRECTORY
 9.set=ASSET
 200.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 261.baseType=DIRECTORY
+<<<<<<< HEAD
 24.path=www/css/semantic/components/nag.d825314925f3.js
 233.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 57.path=www/css/semantic/components/tab.c5f9ce1d76bb.css
+=======
+24.path=www/css/semantic/components/modal.905f787e3c09.css
+233.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+57.path=www/css/semantic/components/input.ce47bb5b7580.css
+>>>>>>> cffee0e6f71104a0a8dde736ccfe7adf2110f251
 80.set=ASSET
 331.set=ASSET
 266.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
@@ -739,6 +1289,7 @@
 192.baseType=DIRECTORY
 132.set=ASSET
 320.baseType=DIRECTORY
+<<<<<<< HEAD
 241.path=www/css/semantic/components/breadcrumb.min.b7e7950c8897.css
 177.set=ASSET
 104.path=www/css/semantic/themes/default/assets/fonts/brand-icons.e8c322de9658.woff2
@@ -746,9 +1297,19 @@
 137.path=www/css/semantic/components/divider.min.57673370e246.css
 308.path=www/css/semantic/components/flag.min.css
 47.path=www/css/semantic/components/dropdown.min.623708d31118.css
+=======
+241.path=www/css/semantic/components/progress.e9c545eb70a4.css
+177.set=ASSET
+104.path=www/css/semantic/components/rating.min.b70702c49011.css
+29.set=ASSET
+137.path=www/css/semantic/components/accordion.min.css
+308.path=www/css/semantic/components/nag.css
+47.path=www/css/semantic/components/step.min.e9a2563d1031.css
+>>>>>>> cffee0e6f71104a0a8dde736ccfe7adf2110f251
 231.set=ASSET
 256.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 201.baseType=DIRECTORY
+<<<<<<< HEAD
 289.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 231.path=www/css/semantic/components/progress.css
 28.baseType=DIRECTORY
@@ -762,32 +1323,70 @@
 80.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 285.set=ASSET
 127.path=www/css/semantic/components/nag.js
+=======
+289.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+231.path=www/css/semantic/components/sticky.c2d22f251361.js
+28.baseType=DIRECTORY
+56.baseType=DIRECTORY
+62.baseType=DIRECTORY
+264.path=www/css/semantic/themes/default/assets/images/flags.9c74e172f879.png
+90.baseType=DIRECTORY
+104.baseType=DIRECTORY
+132.baseType=DIRECTORY
+297.path=www/css/semantic/components/header.min.02bb6ef1a7c1.css
+80.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+285.set=ASSET
+127.path=www/css/semantic/components/ad.css
+>>>>>>> cffee0e6f71104a0a8dde736ccfe7adf2110f251
 163.set=ASSET
 2.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 279.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 262.set=ASSET
+<<<<<<< HEAD
 160.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 254.path=www/css/semantic/components/feed.min.css
+=======
+160.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+254.path=www/css/semantic/components/progress.3de4c5f66a1b.js
+>>>>>>> cffee0e6f71104a0a8dde736ccfe7adf2110f251
 140.set=ASSET
 70.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 185.set=ASSET
+<<<<<<< HEAD
 287.path=www/css/semantic/components/icon.css
+=======
+287.path=www/css/semantic/components/menu.css
+>>>>>>> cffee0e6f71104a0a8dde736ccfe7adf2110f251
 30.baseType=DIRECTORY
 227.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 37.set=ASSET
+<<<<<<< HEAD
 0.path=www/css/semantic/components/site.fa37aa4548c9.js
 150.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 321.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 183.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 277.path=www/plugins/cordova-plugin-barcodescanner/www/barcodescanner.js
+=======
+0.path=www/css/semantic/components/comment.min.180b5df56057.css
+150.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+321.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+183.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+277.path=www/cordova-js-src/platform.js
+>>>>>>> cffee0e6f71104a0a8dde736ccfe7adf2110f251
 14.set=ASSET
 93.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 217.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 293.set=ASSET
 288.baseType=DIRECTORY
+<<<<<<< HEAD
 191.path=www/css/semantic/components/video.e9118bb8a3c8.js
 225.path=www/css/semantic/components/shape.min.ec13c06ad90d.css
 68.set=DEX
+=======
+191.path=www/css/semantic/components/tab.c5f9ce1d76bb.css
+225.path=www/css/semantic/components/flag.46c3dea6bd9c.css
+68.set=ASSET
+>>>>>>> cffee0e6f71104a0a8dde736ccfe7adf2110f251
 319.set=ASSET
 311.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 173.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
@@ -801,6 +1400,7 @@
 2.set=ASSET
 353.baseType=DIRECTORY
 193.set=ASSET
+<<<<<<< HEAD
 181.path=www/css/semantic/components/flag.min.d95315d184af.css
 352.path=www/css/semantic/components/segment.aa29e373d43c.css
 45.set=ASSET
@@ -816,23 +1416,54 @@
 334.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 170.set=ASSET
 196.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+=======
+181.path=www/css/semantic/components/rating.min.js
+352.path=www/plugins/cordova-plugin-camera/www/Camera.js
+45.set=ASSET
+91.path=www/css/semantic/components/message.css
+215.path=www/css/semantic/components/sidebar.min.css
+228.baseType=DIRECTORY
+256.baseType=DIRECTORY
+219.set=ASSET
+31.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+248.path=www/css/semantic/components/icon.min.170f11a0d3e0.css
+262.baseType=DIRECTORY
+290.baseType=DIRECTORY
+334.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+170.set=DEX
+196.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+>>>>>>> cffee0e6f71104a0a8dde736ccfe7adf2110f251
 89.baseType=DIRECTORY
 99.set=ASSET
 22.set=ASSET
 95.baseType=DIRECTORY
 137.baseType=DIRECTORY
+<<<<<<< HEAD
 171.path=www/css/semantic/components/item.css
 342.path=www/css/semantic/components/embed.js
+=======
+171.path=www/css/semantic/components/accordion.min.js
+342.path=www/css/semantic/components/reset.4445555dc4c8.css
+>>>>>>> cffee0e6f71104a0a8dde736ccfe7adf2110f251
 165.baseType=DIRECTORY
 193.baseType=DIRECTORY
 321.baseType=DIRECTORY
 171.baseType=DIRECTORY
+<<<<<<< HEAD
 205.path=www/css/semantic/components/container.css
 111.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 144.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 238.path=www/css/semantic/components/video.min.js
 21.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 54.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+=======
+205.path=www/css/semantic/components/reveal.min.css
+111.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+144.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+238.path=www/css/semantic/components/transition.min.js
+21.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+54.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+>>>>>>> cffee0e6f71104a0a8dde736ccfe7adf2110f251
 76.set=ASSET
 327.set=ASSET
 87.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
@@ -840,9 +1471,15 @@
 230.baseType=DIRECTORY
 9.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 128.set=ASSET
+<<<<<<< HEAD
 332.path=www/css/semantic/components/container.min.c7b37632928a.css
 29.baseType=DIRECTORY
 194.path=www/css/semantic/components/dropdown.afd3898769bb.css
+=======
+332.path=www/css/semantic/components/label.594c12df8755.css
+29.baseType=DIRECTORY
+194.path=www/css/semantic/components/checkbox.min.21ab395cd8d4.js
+>>>>>>> cffee0e6f71104a0a8dde736ccfe7adf2110f251
 57.baseType=DIRECTORY
 271.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 101.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
@@ -854,14 +1491,21 @@
 105.baseType=DIRECTORY
 304.set=ASSET
 133.baseType=DIRECTORY
+<<<<<<< HEAD
 228.path=www/css/semantic/components/step.1de2757eb779.css
 134.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 305.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+=======
+228.path=www/css/semantic/components/placeholder.min.22b0ed24ae07.css
+134.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+305.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+>>>>>>> cffee0e6f71104a0a8dde736ccfe7adf2110f251
 111.baseType=DIRECTORY
 44.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 167.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 227.set=ASSET
 105.set=ASSET
+<<<<<<< HEAD
 77.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 142.path=www/css/semantic/components/nag.min.js
 52.path=www/css/semantic/components/ad.css
@@ -873,6 +1517,18 @@
 204.set=ASSET
 7.path=www/css/semantic/components/placeholder.css
 124.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+=======
+77.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+142.path=www/index.html
+52.path=www/css/semantic/components/header.min.css
+30.set=ASSET
+261.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+85.path=www/css/semantic/components/checkbox.f7c68f012d41.js
+294.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+204.set=ASSET
+7.path=www/css/semantic/components/form.min.css
+124.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+>>>>>>> cffee0e6f71104a0a8dde736ccfe7adf2110f251
 159.set=ASSET
 157.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 328.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
@@ -880,13 +1536,21 @@
 67.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 84.set=ASSET
 335.set=ASSET
+<<<<<<< HEAD
 132.path=www/css/semantic/components/sidebar.css
 303.path=www/css/semantic/components/icon.f0c9814531cc.css
 42.path=www/css/semantic/components/video.min.5e69610546c7.js
 165.path=www/css/semantic/components/sticky.c2d22f251361.js
+=======
+132.path=www/css/semantic/components/popup.js
+303.path=www/formulario_pedido.html
+42.path=www/css/semantic/components/table.css
+165.path=www/css/semantic/components/menu.min.1e752cf05f45.css
+>>>>>>> cffee0e6f71104a0a8dde736ccfe7adf2110f251
 258.set=ASSET
 251.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 136.set=ASSET
+<<<<<<< HEAD
 75.path=www/css/semantic/themes/default/assets/fonts/outline-icons.eot
 284.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 15.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
@@ -906,6 +1570,27 @@
 188.path=www/css/semantic/components/colorize.min.80cb7a655d74.js
 274.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 98.path=www/css/semantic/themes/default/assets/fonts/outline-icons.ef60a4f6c25e.woff
+=======
+75.path=www/css/semantic/components/popup.min.css
+284.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+15.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+147.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+318.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+61.set=ASSET
+312.set=ASSET
+292.path=www/css/semantic/components/segment.css
+235.set=ASSET
+289.baseType=DIRECTORY
+122.path=www/css/semantic/components/accordion.min.732fde311596.js
+113.set=ASSET
+295.baseType=DIRECTORY
+155.path=www/css/semantic/themes/default/assets/fonts/outline-icons.cd6c777f1945.woff2
+326.path=www/css/semantic/components/ad.e8724f879159.css
+65.path=www/css/semantic/components/icon.396259bfc673.css
+188.path=www/css/semantic/components/form.min.11cbf4f8bfe1.css
+274.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+98.path=www/css/semantic/components/search.min.css
+>>>>>>> cffee0e6f71104a0a8dde736ccfe7adf2110f251
 289.set=ASSET
 198.baseType=DIRECTORY
 212.set=ASSET
@@ -913,15 +1598,27 @@
 38.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 354.baseType=DIRECTORY
 167.set=ASSET
+<<<<<<< HEAD
 282.path=www/css/folha.css
 13.path=www/css/semantic/components/accordion.min.js
 316.path=www/css/semantic/components/sidebar.0c6c1c55bf6a.js
+=======
+282.path=www/css/semantic/components/icon.f0c9814531cc.css
+13.path=www/css/semantic/components/dimmer.min.css
+316.path=www/css/semantic/components/step.css
+>>>>>>> cffee0e6f71104a0a8dde736ccfe7adf2110f251
 92.set=ASSET
 222.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 343.set=ASSET
+<<<<<<< HEAD
 178.path=www/css/semantic/components/grid.css
 229.baseType=DIRECTORY
 349.path=www/css/semantic/components/visit.js
+=======
+178.path=www/cordova.js
+229.baseType=DIRECTORY
+349.path=www/css/semantic/components/modal.min.js
+>>>>>>> cffee0e6f71104a0a8dde736ccfe7adf2110f251
 257.baseType=DIRECTORY
 235.baseType=DIRECTORY
 266.set=ASSET
@@ -940,6 +1637,7 @@
 212.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 300.baseType=DIRECTORY
 243.set=ASSET
+<<<<<<< HEAD
 36.path=www/css/semantic/components/embed.min.css
 121.set=ASSET
 339.path=www/css/semantic/semantic.min.css
@@ -947,27 +1645,48 @@
 108.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 220.path=www/css/semantic/components/api.min.961041155e45.js
 18.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+=======
+36.path=www/css/semantic/components/list.f7ecc916a57e.css
+121.set=ASSET
+339.path=www/css/semantic/components/ad.min.ad6d8b9d2c14.css
+245.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+108.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+220.path=www/css/semantic/components/state.js
+18.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+>>>>>>> cffee0e6f71104a0a8dde736ccfe7adf2110f251
 18.set=ASSET
 203.baseType=DIRECTORY
 231.baseType=DIRECTORY
 297.set=ASSET
 220.set=ASSET
+<<<<<<< HEAD
 116.path=www/css/semantic/components/modal.min.css
 202.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 58.baseType=DIRECTORY
 26.path=www/css/semantic/components/popup.8b49cca6798f.css
+=======
+116.path=www/css/semantic/components/sidebar.min.js
+202.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+58.baseType=DIRECTORY
+26.path=www/css/semantic/components/image.min.9a4e3b33df15.css
+>>>>>>> cffee0e6f71104a0a8dde736ccfe7adf2110f251
 36.baseType=DIRECTORY
 64.baseType=DIRECTORY
 92.baseType=DIRECTORY
 235.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 2.baseType=DIRECTORY
 106.baseType=DIRECTORY
+<<<<<<< HEAD
 59.path=www/css/semantic/components/item.548b171cbde4.css
+=======
+59.path=www/css/semantic/themes/default/assets/fonts/brand-icons.woff2
+>>>>>>> cffee0e6f71104a0a8dde736ccfe7adf2110f251
 351.set=ASSET
 112.baseType=DIRECTORY
 268.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 140.baseType=DIRECTORY
 274.set=ASSET
+<<<<<<< HEAD
 210.path=www/css/semantic/components/modal.905f787e3c09.css
 152.set=ASSET
 243.path=www/css/semantic/components/comment.min.css
@@ -977,9 +1696,21 @@
 139.path=www/css/semantic/components/tab.73afaac9d5ff.js
 49.set=ASSET
 49.path=www/css/semantic/components/transition.b2ddb09aa9d8.js
+=======
+210.path=www/css/semantic/components/table.190dc6f90478.css
+152.set=ASSET
+243.path=www/CRUD_mesa.html
+6.set=ASSET
+197.set=ASSET
+106.path=www/css/semantic/components/rail.b80e2a14ead3.css
+139.path=www/css/semantic/themes/default/assets/fonts/outline-icons.ad97afd3337e.ttf
+49.set=ASSET
+49.path=www/css/semantic/themes/default/assets/fonts/icons.woff
+>>>>>>> cffee0e6f71104a0a8dde736ccfe7adf2110f251
 251.set=ASSET
 258.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 32.baseType=DIRECTORY
+<<<<<<< HEAD
 200.path=www/css/semantic/components/form.min.css
 174.set=ASSET
 233.path=www/css/semantic/components/dropdown.min.css
@@ -997,10 +1728,30 @@
 160.set=ASSET
 289.path=www/css/semantic/components/header.min.02bb6ef1a7c1.css
 72.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+=======
+200.path=www/css/semantic/components/embed.min.css
+174.set=ASSET
+233.path=www/css/semantic/components/message.320e4f37097b.css
+26.set=ASSET
+266.path=www/css/semantic/components/video.js
+299.path=www/css/semantic/components/nag.38d1a7349a79.css
+82.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+129.path=www/css/semantic/themes/default/assets/fonts/brand-icons.woff
+4.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+300.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+282.set=ASSET
+256.path=www/css/semantic/components/embed.min.js
+162.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+296.baseType=DIRECTORY
+160.set=ASSET
+289.path=www/css/semantic/components/modal.min.9e836ae47ce1.js
+72.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+>>>>>>> cffee0e6f71104a0a8dde736ccfe7adf2110f251
 57.set=ASSET
 308.set=ASSET
 199.baseType=DIRECTORY
 327.baseType=DIRECTORY
+<<<<<<< HEAD
 355.baseType=DIRECTORY
 80.path=www/css/semantic/components/table.min.e80323145f57.css
 2.path=www/css/semantic/components/reveal.min.css
@@ -1011,6 +1762,17 @@
 185.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 279.path=www/css/semantic/components/progress.e9c545eb70a4.css
 62.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+=======
+80.path=www/css/semantic/components/dimmer.9aba5c175969.js
+2.path=www/css/semantic/components/progress.min.0a6628100514.css
+109.set=ASSET
+182.set=ASSET
+152.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+323.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+185.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+279.path=www/css/semantic/components/segment.min.54bbd599a938.css
+62.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+>>>>>>> cffee0e6f71104a0a8dde736ccfe7adf2110f251
 34.set=ASSET
 258.baseType=DIRECTORY
 95.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
@@ -1019,10 +1781,17 @@
 292.baseType=DIRECTORY
 219.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 208.set=ASSET
+<<<<<<< HEAD
 160.path=www/css/semantic/components/search.min.js
 70.path=www/css/semantic/components/icon.min.dd250bb701d3.css
 97.baseType=DIRECTORY
 227.path=www/css/semantic/components/site.min.css
+=======
+160.path=www/css/semantic/components/item.min.746d50c3e453.css
+70.path=www/css/semantic/components/container.min.c7b37632928a.css
+97.baseType=DIRECTORY
+227.path=www/css/semantic/themes/default/assets/fonts/brand-icons.eot
+>>>>>>> cffee0e6f71104a0a8dde736ccfe7adf2110f251
 139.baseType=DIRECTORY
 10.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 167.baseType=DIRECTORY
@@ -1036,16 +1805,28 @@
 175.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 346.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 290.set=ASSET
+<<<<<<< HEAD
 209.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 150.path=www/cadastro.html
 321.path=www/css/semantic/components/transition.min.702420a4d3e6.css
 183.path=www/js/conexao.js
+=======
+209.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+150.path=www/css/semantic/components/shape.min.ec13c06ad90d.css
+321.path=www/css/semantic/components/dimmer.min.83df9513ee51.css
+183.path=www/css/semantic/components/sticky.min.js
+>>>>>>> cffee0e6f71104a0a8dde736ccfe7adf2110f251
 204.baseType=DIRECTORY
 232.baseType=DIRECTORY
 65.set=ASSET
 316.set=ASSET
+<<<<<<< HEAD
 93.path=www/css/semantic/semantic.min.js
 217.path=www/css/semantic/components/menu.8d59945fbf02.css
+=======
+93.path=www/lista_pedidos_cliente.html
+217.path=www/css/semantic/components/sticky.min.4bc108443eda.css
+>>>>>>> cffee0e6f71104a0a8dde736ccfe7adf2110f251
 239.set=ASSET
 33.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 117.set=ASSET
@@ -1060,6 +1841,7 @@
 71.baseType=DIRECTORY
 113.baseType=DIRECTORY
 141.baseType=DIRECTORY
+<<<<<<< HEAD
 311.path=www/css/semantic/components/breadcrumb.css
 42.set=ASSET
 173.path=www/css/semantic/components/rail.min.ac25e0b94d66.css
@@ -1070,17 +1852,38 @@
 146.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 23.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 56.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+=======
+311.path=www/css/semantic/components/label.min.css
+42.set=ASSET
+173.path=www/css/semantic/components/nag.min.2b34a6ad3f8e.js
+344.path=www/css/semantic/components/item.css
+216.set=ASSET
+113.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+207.path=www/css/semantic/components/nag.d825314925f3.js
+146.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+23.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+56.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+>>>>>>> cffee0e6f71104a0a8dde736ccfe7adf2110f251
 96.set=ASSET
 347.set=ASSET
 89.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 33.baseType=DIRECTORY
 148.set=ASSET
+<<<<<<< HEAD
 31.path=www/css/semantic/components/loader.min.css
 11.baseType=DIRECTORY
 334.path=www/css/semantic/components/sidebar.min.b6dee0c813a2.js
 240.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 196.path=www/css/semantic/components/embed.88db2772b532.css
 103.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+=======
+31.path=www/css/semantic/components/nag.js
+11.baseType=DIRECTORY
+334.path=www/css/semantic/components/embed.88db2772b532.css
+240.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+196.path=www/css/semantic/components/sticky.css
+103.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+>>>>>>> cffee0e6f71104a0a8dde736ccfe7adf2110f251
 73.set=ASSET
 324.set=ASSET
 136.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
@@ -1089,6 +1892,7 @@
 46.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 247.set=ASSET
 125.set=ASSET
+<<<<<<< HEAD
 79.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 111.path=www/css/semantic/components/label.594c12df8755.css
 144.path=www/css/semantic/components/icon.min.170f11a0d3e0.css
@@ -1099,9 +1903,22 @@
 301.set=ASSET
 263.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 87.path=www/css/semantic/components/progress.min.css
+=======
+79.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+111.path=www/css/semantic/components/grid.min.1a2e3de372cd.css
+144.path=www/css/semantic/components/colorize.min.js
+21.path=www/css/semantic/components/state.min.9820193df123.js
+230.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+54.path=www/css/semantic/components/rating.eda4ffbc7cac.css
+50.set=ASSET
+301.set=ASSET
+263.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+87.path=www/css/semantic/components/accordion.js
+>>>>>>> cffee0e6f71104a0a8dde736ccfe7adf2110f251
 297.baseType=DIRECTORY
 296.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 224.set=ASSET
+<<<<<<< HEAD
 9.path=www/css/semantic/components/rating.min.js
 126.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 102.set=ASSET
@@ -1116,17 +1933,39 @@
 167.path=www/css/semantic/components/button.min.css
 278.set=ASSET
 44.path=www/index.html
+=======
+9.path=www/css/semantic/themes/default/assets/fonts/outline-icons.svg
+126.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+102.set=ASSET
+159.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+271.path=www/css/semantic/themes/default/assets/fonts/icons.ttf
+69.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+101.path=www/css/semantic/components/embed.min.70c8a57e214b.css
+328.baseType=DIRECTORY
+134.path=www/cordova-js-src/android/promptbasednativeapi.js
+305.path=www/css/semantic/components/api.min.js
+167.path=www/css/semantic/components/comment.min.css
+278.set=ASSET
+44.path=www/css/semantic/components/state.29e1af5ae74c.js
+>>>>>>> cffee0e6f71104a0a8dde736ccfe7adf2110f251
 201.set=ASSET
 253.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 156.set=ASSET
+<<<<<<< HEAD
 77.path=www/css/semantic/components/label.min.css
 286.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 149.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+=======
+77.path=www/css/semantic/semantic.min.css
+286.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+149.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+>>>>>>> cffee0e6f71104a0a8dde736ccfe7adf2110f251
 237.baseType=DIRECTORY
 81.set=ASSET
 332.set=ASSET
 265.baseType=DIRECTORY
 293.baseType=DIRECTORY
+<<<<<<< HEAD
 261.path=www/css/semantic/components/menu.css
 271.baseType=DIRECTORY
 294.path=www/css/semantic/themes/default/assets/fonts/brand-icons.woff
@@ -1139,12 +1978,27 @@
 98.baseType=DIRECTORY
 168.baseType=DIRECTORY
 67.path=www/css/semantic/components/dropdown.css
+=======
+261.path=www/cordova-js-src/plugin/android/app.js
+271.baseType=DIRECTORY
+294.path=www/css/semantic/semantic.css
+255.set=ASSET
+124.path=www/css/semantic/components/sidebar.0c6c1c55bf6a.js
+133.set=ASSET
+178.set=ASSET
+157.path=www/cordova-js-src/exec.js
+328.path=www/css/semantic/components/dropdown.min.js
+98.baseType=DIRECTORY
+168.baseType=DIRECTORY
+67.path=www/css/semantic/components/dropdown.afd3898769bb.css
+>>>>>>> cffee0e6f71104a0a8dde736ccfe7adf2110f251
 146.baseType=DIRECTORY
 276.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 174.baseType=DIRECTORY
 302.baseType=DIRECTORY
 330.baseType=DIRECTORY
 232.set=ASSET
+<<<<<<< HEAD
 251.path=www/css/semantic/components/accordion.c7bdd94898b3.css
 110.set=ASSET
 284.path=www/css/semantic/components/flag.2912870439be.css
@@ -1155,6 +2009,18 @@
 147.path=www/css/semantic/components/video.css
 318.path=www/css/semantic/components/reveal.css
 224.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+=======
+251.path=www/css/semantic/components/reveal.d92d4e9ff994.css
+110.set=ASSET
+284.path=www/css/semantic/components/tab.min.js
+190.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+205.baseType=DIRECTORY
+233.baseType=DIRECTORY
+15.path=www/css/semantic/components/container.min.css
+147.path=www/css/semantic/components/transition.b2ddb09aa9d8.js
+318.path=www/css/semantic/components/search.min.89e4cec11ecd.js
+224.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+>>>>>>> cffee0e6f71104a0a8dde736ccfe7adf2110f251
 286.set=ASSET
 38.baseType=DIRECTORY
 66.baseType=DIRECTORY
@@ -1166,26 +2032,45 @@
 114.baseType=DIRECTORY
 142.baseType=DIRECTORY
 170.baseType=DIRECTORY
+<<<<<<< HEAD
 180.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 274.path=www/css/semantic/components/item.min.css
 351.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+=======
+180.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+274.path=www/css/semantic/components/header.0c4b1b390547.css
+351.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+>>>>>>> cffee0e6f71104a0a8dde736ccfe7adf2110f251
 340.set=ASSET
 90.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 214.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 263.set=ASSET
+<<<<<<< HEAD
 38.path=www/css/semantic/components/placeholder.min.22b0ed24ae07.css
+=======
+38.path=www/css/semantic/components/dimmer.js
+>>>>>>> cffee0e6f71104a0a8dde736ccfe7adf2110f251
 141.set=ASSET
 247.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 186.set=ASSET
+<<<<<<< HEAD
 222.path=www/css/semantic/components/dimmer.css
 38.set=ASSET
 34.baseType=DIRECTORY
 170.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 341.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+=======
+222.path=www/css/semantic/components/divider.min.57673370e246.css
+38.set=ASSET
+34.baseType=DIRECTORY
+170.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+341.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+>>>>>>> cffee0e6f71104a0a8dde736ccfe7adf2110f251
 0.baseType=DIRECTORY
 12.baseType=DIRECTORY
 240.set=ASSET
 40.baseType=DIRECTORY
+<<<<<<< HEAD
 118.path=www/css/semantic/components/input.min.aef53a065fd9.css
 110.baseType=DIRECTORY
 204.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
@@ -1200,10 +2085,27 @@
 193.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 108.path=www/css/semantic/themes/default/assets/fonts/outline-icons.woff
 18.path=www/css/semantic/components/sticky.css
+=======
+118.path=www/css/semantic/components/visibility.3ffd29b7c81d.js
+110.baseType=DIRECTORY
+204.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+28.path=www/css/semantic/components/site.js
+237.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+15.set=ASSET
+294.set=ASSET
+212.path=www/css/semantic/components/search.min.e31b97ae1f83.css
+245.path=www/css/semantic/components/embed.css
+331.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+61.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+193.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+108.path=www/css/semantic/components/form.f827288c402c.css
+18.path=www/css/semantic/components/site.min.f1d38cc9eaa2.js
+>>>>>>> cffee0e6f71104a0a8dde736ccfe7adf2110f251
 69.set=ASSET
 298.baseType=DIRECTORY
 271.set=ASSET
 3.set=ASSET
+<<<<<<< HEAD
 202.path=www/css/semantic/components/site.min.f1d38cc9eaa2.js
 194.set=ASSET
 141.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
@@ -1215,31 +2117,59 @@
 354.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 84.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 6.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+=======
+202.path=www/css/semantic/components/shape.f60f178d6e80.js
+194.set=ASSET
+141.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+235.path=www/css/semantic/components/breadcrumb.css
+329.baseType=DIRECTORY
+46.set=ASSET
+268.path=www/css/semantic/components/form.663b8fe7cba9.js
+51.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+354.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+84.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+6.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+>>>>>>> cffee0e6f71104a0a8dde736ccfe7adf2110f251
 171.set=ASSET
 238.baseType=DIRECTORY
 266.baseType=DIRECTORY
 294.baseType=DIRECTORY
 272.baseType=DIRECTORY
 23.set=ASSET
+<<<<<<< HEAD
 131.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 302.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 41.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 164.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 258.path=www/css/semantic/components/embed.min.js
+=======
+131.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+302.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+41.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+164.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+258.path=www/css/semantic/components/shape.js
+>>>>>>> cffee0e6f71104a0a8dde736ccfe7adf2110f251
 99.baseType=DIRECTORY
 74.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 169.baseType=DIRECTORY
 147.baseType=DIRECTORY
 175.baseType=DIRECTORY
-count=356
+count=355
 303.baseType=DIRECTORY
 331.baseType=DIRECTORY
 77.set=ASSET
 328.set=ASSET
+<<<<<<< HEAD
 82.path=www/css/semantic/components/visibility.min.js
 291.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 4.path=www/css/semantic/components/table.190dc6f90478.css
 121.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+=======
+82.path=www/css/semantic/components/popup.min.js
+291.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+4.path=www/css/semantic/components/flag.min.d95315d184af.css
+121.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+>>>>>>> cffee0e6f71104a0a8dde736ccfe7adf2110f251
 129.set=ASSET
 206.baseType=DIRECTORY
 154.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
@@ -1251,26 +2181,43 @@ count=356
 187.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 54.set=ASSET
 305.set=ASSET
+<<<<<<< HEAD
 97.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 300.path=www/css/semantic/package.js
+=======
+97.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+300.path=www/css/semantic/components/icon.css
+>>>>>>> cffee0e6f71104a0a8dde736ccfe7adf2110f251
 39.baseType=DIRECTORY
 67.baseType=DIRECTORY
 228.set=ASSET
 5.baseType=DIRECTORY
+<<<<<<< HEAD
 162.path=www/cordova.js
+=======
+162.path=www/css/semantic/components/video.min.js
+>>>>>>> cffee0e6f71104a0a8dde736ccfe7adf2110f251
 109.baseType=DIRECTORY
 73.baseType=DIRECTORY
 106.set=ASSET
 115.baseType=DIRECTORY
 143.baseType=DIRECTORY
+<<<<<<< HEAD
 72.path=www/css/semantic/components/reset.4445555dc4c8.css
 281.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 12.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 315.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+=======
+72.path=www/css/semantic/components/nag.min.js
+281.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+12.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+315.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+>>>>>>> cffee0e6f71104a0a8dde736ccfe7adf2110f251
 31.set=ASSET
 177.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 348.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 205.set=ASSET
+<<<<<<< HEAD
 152.path=www/css/semantic/components/shape.js
 323.path=www/css/semantic/components/transition.min.js
 62.path=www/css/semantic/components/site.min.32e99ec9fc21.css
@@ -1280,10 +2227,22 @@ count=356
 95.path=www/cordova-js-src/platform.js
 13.baseType=DIRECTORY
 219.path=www/css/semantic/components/step.css
+=======
+152.path=www/css/semantic/components/progress.min.b8dbc6c44ec6.js
+323.path=www/css/semantic/components/form.js
+62.path=www/css/semantic/components/card.min.css
+185.path=www/css/semantic/components/site.fa37aa4548c9.js
+85.set=ASSET
+336.set=ASSET
+95.path=www/css/semantic/components/image.20408eb0b2ce.css
+13.baseType=DIRECTORY
+219.path=www/css/semantic/components/tab.min.0010608496f5.css
+>>>>>>> cffee0e6f71104a0a8dde736ccfe7adf2110f251
 41.baseType=DIRECTORY
 259.set=ASSET
 35.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 137.set=ASSET
+<<<<<<< HEAD
 338.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 10.path=www/css/semantic/components/shape.min.js
 313.path=www/css/semantic/components/accordion.min.e2f5e1466c9b.css
@@ -1296,15 +2255,37 @@ count=356
 115.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 209.path=www/css/semantic/components/state.min.9820193df123.js
 25.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+=======
+338.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+10.path=www/css/semantic/components/flag.css
+313.path=www/css/semantic/themes/default/assets/fonts/outline-icons.ef60a4f6c25e.woff
+62.set=ASSET
+313.set=ASSET
+175.path=www/css/semantic/components/shape.min.js
+346.path=www/css/semantic/themes/default/assets/images/flags.png
+236.set=ASSET
+114.set=ASSET
+115.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+209.path=www/css/semantic/components/icon.min.css
+25.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+>>>>>>> cffee0e6f71104a0a8dde736ccfe7adf2110f251
 299.baseType=DIRECTORY
 58.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 213.set=ASSET
 168.set=ASSET
+<<<<<<< HEAD
 33.path=www/css/semantic/components/transition.dc93c0d28205.css
 336.path=www/css/semantic/components/embed.min.2df6adc3f8e1.js
 242.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 198.path=www/css/semantic/components/card.css
 105.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+=======
+33.path=www/img/hamburger.png
+336.path=www/css/semantic/components/sidebar.min.4d398da8b8ad.css
+242.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+198.path=www/css/semantic/components/grid.min.css
+105.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+>>>>>>> cffee0e6f71104a0a8dde736ccfe7adf2110f251
 336.baseType=DIRECTORY
 93.set=ASSET
 344.set=ASSET
@@ -1312,6 +2293,7 @@ count=356
 48.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 267.set=ASSET
 145.set=ASSET
+<<<<<<< HEAD
 113.path=www/css/semantic/components/card.min.d29adeb06890.css
 239.baseType=DIRECTORY
 267.baseType=DIRECTORY
@@ -1325,15 +2307,35 @@ count=356
 265.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 89.path=www/css/semantic/components/shape.565ea561cc3a.css
 298.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+=======
+113.path=www/css/semantic/components/tab.min.ee862e314d4d.js
+239.baseType=DIRECTORY
+267.baseType=DIRECTORY
+23.path=www/css/semantic/components/video.css
+146.path=www/cordova_plugins.js
+232.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+273.baseType=DIRECTORY
+56.path=www/css/semantic/themes/default/assets/fonts/outline-icons.701ae6abd471.eot
+70.set=ASSET
+321.set=ASSET
+265.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+89.path=www/css/semantic/components/input.min.aef53a065fd9.css
+298.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+>>>>>>> cffee0e6f71104a0a8dde736ccfe7adf2110f251
 244.set=ASSET
 128.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 122.set=ASSET
+<<<<<<< HEAD
 240.path=www/css/semantic/components/comment.css
+=======
+240.path=www/css/semantic/components/comment.6ca8b0ecdfba.css
+>>>>>>> cffee0e6f71104a0a8dde736ccfe7adf2110f251
 148.baseType=DIRECTORY
 176.baseType=DIRECTORY
 304.baseType=DIRECTORY
 332.baseType=DIRECTORY
 182.baseType=DIRECTORY
+<<<<<<< HEAD
 103.path=www/css/semantic/components/sticky.js
 19.set=ASSET
 136.path=www/css/semantic/components/rating.e6d2c3ec19f4.js
@@ -1341,9 +2343,19 @@ count=356
 298.set=ASSET
 169.path=www/css/semantic/components/divider.60499bd93b84.css
 46.path=www/css/semantic/components/ad.e8724f879159.css
+=======
+103.path=www/css/semantic/components/flag.2912870439be.css
+19.set=ASSET
+136.path=www/css/semantic/components/checkbox.min.css
+307.path=www/css/semantic/themes/default/assets/fonts/outline-icons.b551b554a67e.svg
+298.set=ASSET
+169.path=www/plugins/cordova-plugin-camera/www/CameraPopoverOptions.js
+46.path=www/css/semantic/components/site.css
+>>>>>>> cffee0e6f71104a0a8dde736ccfe7adf2110f251
 221.set=ASSET
 255.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 207.baseType=DIRECTORY
+<<<<<<< HEAD
 79.path=www/css/semantic/components/search.js
 288.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 213.baseType=DIRECTORY
@@ -1357,6 +2369,21 @@ count=356
 296.path=www/css/semantic/components/grid.min.1a2e3de372cd.css
 275.set=ASSET
 126.path=www/css/semantic/components/tab.css
+=======
+79.path=www/css/semantic/components/ad.min.css
+288.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+213.baseType=DIRECTORY
+241.baseType=DIRECTORY
+230.path=www/css/semantic/components/shape.css
+352.set=ASSET
+263.path=www/css/semantic/components/progress.min.css
+68.baseType=DIRECTORY
+6.baseType=DIRECTORY
+74.baseType=DIRECTORY
+296.path=www/css/semantic/themes/default/assets/fonts/brand-icons.c5ebe0b32dc1.ttf
+275.set=ASSET
+126.path=www/css/semantic/components/label.min.6e4d14badfae.css
+>>>>>>> cffee0e6f71104a0a8dde736ccfe7adf2110f251
 116.baseType=DIRECTORY
 144.baseType=DIRECTORY
 153.set=ASSET
@@ -1364,6 +2391,7 @@ count=356
 7.set=ASSET
 150.baseType=DIRECTORY
 198.set=ASSET
+<<<<<<< HEAD
 159.path=www/css/semantic/components/state.js
 69.path=www/css/semantic/components/list.min.css
 278.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
@@ -1374,10 +2402,23 @@ count=356
 286.path=www/css/semantic/components/progress.min.b8dbc6c44ec6.js
 149.path=www/css/semantic/components/checkbox.min.js
 226.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+=======
+159.path=www/css/semantic/themes/default/assets/fonts/outline-icons.eot
+69.path=www/css/semantic/components/divider.60499bd93b84.css
+278.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+252.set=ASSET
+253.path=www/css/semantic/components/embed.min.2df6adc3f8e1.js
+130.set=ASSET
+175.set=ASSET
+286.path=www/css/semantic/components/button.min.css
+149.path=www/css/semantic/components/table.min.css
+226.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+>>>>>>> cffee0e6f71104a0a8dde736ccfe7adf2110f251
 14.baseType=DIRECTORY
 42.baseType=DIRECTORY
 27.set=ASSET
 70.baseType=DIRECTORY
+<<<<<<< HEAD
 320.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 182.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 276.path=www/css/semantic/components/nag.css
@@ -1390,6 +2431,20 @@ count=356
 190.path=www/css/semantic/components/transition.min.84a81c356c97.js
 10.baseType=DIRECTORY
 224.path=www/css/semantic/components/breadcrumb.min.css
+=======
+320.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+182.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+276.path=www/css/semantic/components/item.min.css
+353.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+92.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+216.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+283.set=ASSET
+161.set=ASSET
+249.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+190.path=www/css/semantic/package.json
+10.baseType=DIRECTORY
+224.path=www/css/semantic/components/shape.min.5ee4c5337d7d.js
+>>>>>>> cffee0e6f71104a0a8dde736ccfe7adf2110f251
 58.set=ASSET
 310.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 309.set=ASSET
@@ -1399,6 +2454,7 @@ count=356
 206.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 183.set=ASSET
 337.baseType=DIRECTORY
+<<<<<<< HEAD
 239.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 180.path=www/css/semantic/components/breadcrumb.55f563727300.css
 351.path=www/css/semantic/components/form.min.4dce38507086.js
@@ -1408,20 +2464,42 @@ count=356
 209.set=ASSET
 30.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 247.path=www/css/semantic/components/visit.1b6c5e9fc6db.js
+=======
+239.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+180.path=www/css/semantic/themes/default/assets/fonts/brand-icons.65363c4d5561.svg
+351.path=www/css/semantic/components/label.css
+35.set=ASSET
+90.path=www/css/semantic/components/form.min.4dce38507086.js
+214.path=www/css/semantic/components/reveal.css
+209.set=ASSET
+30.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+247.path=www/css/semantic/components/button.min.df7c3d734e96.css
+>>>>>>> cffee0e6f71104a0a8dde736ccfe7adf2110f251
 268.baseType=DIRECTORY
 333.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 274.baseType=DIRECTORY
 195.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 89.set=ASSET
 12.set=ASSET
+<<<<<<< HEAD
 229.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 170.path=www/css/semantic/components/loader.min.f4e139b4b130.css
 341.path=www/css/semantic/components/video.min.e3ee25feab24.css
+=======
+229.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+170.path=classes.dex
+341.path=www/css/semantic/components/breadcrumb.min.css
+>>>>>>> cffee0e6f71104a0a8dde736ccfe7adf2110f251
 291.set=ASSET
 149.baseType=DIRECTORY
 177.baseType=DIRECTORY
 305.baseType=DIRECTORY
 333.baseType=DIRECTORY
+<<<<<<< HEAD
 204.path=www/css/semantic/components/accordion.min.css
 110.base=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+=======
+204.path=www/css/semantic/components/site.min.32e99ec9fc21.css
+110.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
+>>>>>>> cffee0e6f71104a0a8dde736ccfe7adf2110f251
 183.baseType=DIRECTORY
