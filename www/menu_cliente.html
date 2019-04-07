@@ -17,6 +17,7 @@
     <body>
         <ul>
             <li><a href="index.html">Sair</a></li>
+            <li><a href="javascript:tirarFoto()">Foto <i class="camera icon"></i></a></li>
         </ul> 
 
         <div id="container" class="container">
@@ -34,4 +35,26 @@
             </div>
         </div>
     </body>
+
+    <script>
+        /*------------------------------------------------------------------------------------
+            TIRAR FOTO DO LANCHE
+        ------------------------------------------------------------------------------------*/
+        function tirarFoto(){
+            navigator.camera.getPicture(onSuccess, onFail, 
+            {
+                quality: 50, 
+                destinationType: Camera.DestinationType.FILE_URI,
+                saveToPhotoAlbum: true
+            }); 
+
+            function onSuccess(imageURI){
+                var image = document.getElementById('myImage'); 
+                image.src = imageURI; 
+            }
+            function onFail(error){
+                alert("Houve um erro ao acessar a câmera: " + error); 
+            }
+        }
+    </script>
 </html>
