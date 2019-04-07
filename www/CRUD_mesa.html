@@ -10,9 +10,7 @@
         <link rel="stylesheet" href="css/folha.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script> 
-        <script src="js/conexao.js" type="text/javascript"></script>
         <script type="text/javascript" src="cordova.js"></script>
-        <script type="text/javascript" src="js/index.js"></script>
     </head>
 
     <body>
@@ -61,5 +59,70 @@
                 document.getElementById("listagem").innerHTML = tabela;
             })
         })
+
+        /*------------------------------------------------------------------------------------
+            INICIALIZAÇÃO DO FIREBASE
+        ------------------------------------------------------------------------------------*/
+        var config = {
+            apiKey: "AIzaSyC1UdL35EsKpGZo_tNyzTQpX11ZZuEpx0g",
+            authDomain: "appinventario-a8acd.firebaseapp.com",
+            databaseURL: "https://appinventario-a8acd.firebaseio.com",
+            projectId: "appinventario-a8acd",
+            storageBucket: "appinventario-a8acd.appspot.com",
+            messagingSenderId: "827922887965"
+        };
+        firebase.initializeApp(config);
+
+        /*------------------------------------------------------------------------------------
+            CADASTRAR/ATUALIZAR MESA
+        ------------------------------------------------------------------------------------*/
+        function addMesa(){
+            var numero = document.getElementById("numero").value;
+            var descricao = document.getElementById("descricao").value;
+            firebase.database().ref("mesa").child(numero).update({numero: numero, descricao: descricao});
+            //Atualiza a página
+            location.href = "CRUD_mesa.html";
+        }
+
+        /*------------------------------------------------------------------------------------
+            ATUALIZAR MESA
+        ------------------------------------------------------------------------------------*/
+        function attMesa(id){
+            //Encontra a mesa correspondente ao id
+            firebase.database().ref("mesa").child(id).orderByKey().once("value", snapshot => {
+                //Repassa os valores para os imputs
+                document.getElementById("numero").value = snapshot.val().numero;
+                document.getElementById("descricao").value = snapshot.val().descricao;
+            })
+        }
+
+        /*------------------------------------------------------------------------------------
+            REMOVER MESA
+        ------------------------------------------------------------------------------------*/
+        function delMesa(id){
+            //Confirmar a remoção da mesa
+            var confirmar =  confirm("Confirmar exclusão?");
+            if(confirmar){
+                //Encontra a mesa correspondente ao id
+                firebase.database().ref("mesa").child(id).remove(); //Remove o registro no firebase
+                location.href = "CRUD_mesa.html"; //Refresh
+            }
+        }
+
+        /*------------------------------------------------------------------------------------
+            LISTAGEM DE MESAS
+        ------------------------------------------------------------------------------------*/
+        function listagem(){
+            var div = document.getElementById("listagem");
+            document.getElementById("isListagem").checked ? div.style.display = "block" : div.style.display = "none";
+        }
+
+        /*------------------------------------------------------------------------------------
+            LIMPAR FORMULÁRIO
+        ------------------------------------------------------------------------------------*/
+        function limpar(){
+            document.getElementById("numero").value = "";
+            document.getElementById("descricao").value = "";
+        }
     </script>
 </html>
