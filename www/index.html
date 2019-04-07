@@ -91,6 +91,7 @@
                     var senha_descriptografada = CryptoJS.AES.decrypt(snapshot.val().senha, usuario + senha).toString(CryptoJS.enc.Utf8);
                     //Verificação de senha
                     if(senha != senha_descriptografada){ 
+                        $("#mensagem_erro").hide(100);
                         $("#mensagem_erro").html("Senha incorreta");
                         $("#mensagem_erro").show(300);
                     }
@@ -106,6 +107,7 @@
                 }
                 //Usuário não existe
                 else{ 
+                    $("#mensagem_erro").hide(100);
                     $("#mensagem_erro").html("Este usuário não existe no sistema")
                     $("#mensagem_erro").show(300);
                 }
@@ -113,6 +115,7 @@
         }
         //Campos vazios
         else{
+            $("#mensagem_erro").hide(100);
             $("#mensagem_erro").htlm("Entre com usuario e senha");
             $("#mensagem_erro").show(300);
         }
