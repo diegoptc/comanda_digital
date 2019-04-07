@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -11,6 +12,7 @@
         <link rel="stylesheet" href="css/folha.css">
         <script src="js/jquery-3.3.1.min.js" type="text/javascript"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script> 
+        <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
         <script type="text/javascript" src="cordova.js"></script>
     </head>
 
@@ -31,13 +33,13 @@
                     <legend>Carnes</legend>
                     <div class="form-group">
                         <div class="ui labeled button" tabindex="0">
-                            <div class="ui basic blue button" onclick="addItem('0.50', 'qtdPresunto')" style="width: 150px">
-                                Presunto
-                            </div>
+                                <div class="ui basic blue button" onclick="addItem('0.50', 'qtdPresunto')" style="width: 150px">
+                                    Presunto
+                                </div>
                             <a class="ui basic left pointing green label">R$ 0,50</a>
                             <a class="ui basic left blue label"><input id="qtdPresunto" type="text" value="0" class="input" readonly style="width: 20px"></a>
                             <div>
-                                <a style="border: none" class="ui basic left red label"><button onclick="delItem('0.50', 'qtdPresunto')" class="btn btn-danger">X</button></a>
+                                <a style="border: none" class="ui basic left red label"><button onclick="teste()" class="btn btn-danger">X</button></a>
                             </div>
                         </div>
                     </div>
@@ -348,7 +350,7 @@
             CALCULAR PEDIDO DE CLIENTE - REMOVER ITEM
         ------------------------------------------------------------------------------------*/
         function delItem(valor, quantidadeID){
-        
+            alert("remover item");
             //Verifica se a quantidade não é zero
             if(document.getElementById(quantidadeID).value != 0){
                 //Decrementa a quantidade do item
@@ -486,5 +488,9 @@
                 location.href = "formulario_pedido.html";
             }
         }
+
+        function teste(){
+            alert("botão ok")
+        };
     </script>
 </html>
