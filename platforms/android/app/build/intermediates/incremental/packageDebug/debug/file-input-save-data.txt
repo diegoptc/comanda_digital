@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sat Apr 06 21:17:29 BRT 2019
+#Sat Apr 06 21:27:37 BRT 2019
 20.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 143.base=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\assets\\debug
 237.path=www/css/semantic/components/transition.min.702420a4d3e6.css

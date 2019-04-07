@@ -25,6 +25,19 @@
     </body>
 
     <script>
+        /*------------------------------------------------------------------------------------
+            INICIALIZAÇÃO DO FIREBASE
+        ------------------------------------------------------------------------------------*/
+        var config = {
+            apiKey: "AIzaSyC1UdL35EsKpGZo_tNyzTQpX11ZZuEpx0g",
+            authDomain: "appinventario-a8acd.firebaseapp.com",
+            databaseURL: "https://appinventario-a8acd.firebaseio.com",
+            projectId: "appinventario-a8acd",
+            storageBucket: "appinventario-a8acd.appspot.com",
+            messagingSenderId: "827922887965"
+        };
+        firebase.initializeApp(config);
+        
         $(document).ready(function(){
             firebase.database().ref().child("pedido").orderByKey().once("value", snapshot => {
                 var tabela = "<table class='table table-striped'><tr><th>Status</th><th>Lanche</th><th>Valor</th></tr>";
