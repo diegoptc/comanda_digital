@@ -15,8 +15,7 @@
     <!--<script type="text/javascript" src="js/index.js"></script>-->
     <style type="text/css">
         body {
-            /*background-image: url("img/background.png")*/
-            background-color: black;
+            background-color: #F1D4AF;
         }
         body > .grid {
           height: 100%;
@@ -62,18 +61,26 @@
                                 Senhas não coincidem
                             </div>
                         </div>
-
                         <div class="ui fluid large green submit button" onclick="novoUsuario();">Cadastrar</div>
                     </div>
                     <div class="ui error message" id="mensagem_erro">
                     </div>
                 </form>
-                <div class="field">
-                    <div class="ui action input">
-                        <input type="text" id="token" name="token" placeholder="Token de funcionário">
-                        <button class="ui button" onclick="lerToken()"><i class="expand icon"></i>QR Code</button>
+                <div class="ui grid">
+                    <div class="row centered">
+                        <div class="field">
+                            <div class="ui action input">
+                                <input type="text" id="token" name="token" placeholder="Token de funcionário">
+                                <button class="ui button" onclick="lerToken()"><i class="expand icon"></i>QR Code</button>
+                            </div>
+                        </div>
                     </div>
-                </div>
+                    <div class="row centered">
+                        <button class="ui labeled icon teal button" onclick="window.location = 'index.html' ">
+                            <i class="angle left icon"></i>
+                            Voltar para Login
+                        </button>
+                    </div>
             </div>
         </div>
     </div>
@@ -83,15 +90,24 @@
         $("#pointing_confirm").hide();
     });
 
-    $("#confirmacao_senha").keyup(function(){
-        senha = $("#senha").val()
-        if($("#confirmacao_senha").val() != senha){
+    function valida_coincidencia(){
+        senha = $("#senha").val();
+        confirm_senha = $("#confirmacao_senha").val();
+        if(confirm_senha != senha && confirm_senha.length >= 1){
             $("#campo_confirmacao_senha").addClass("error")
             $("#pointing_confirm").show(300);
         }else{
             $("#campo_confirmacao_senha").removeClass("error");
             $("#pointing_confirm").hide(300);
         }
+    };
+
+    $("#confirmacao_senha").keyup(function(){
+        valida_coincidencia();
+    });
+
+    $("#senha").keyup(function(){
+        valida_coincidencia();
     });
 </script>
 </html>

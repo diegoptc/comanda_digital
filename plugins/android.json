@@ -7,13 +7,13 @@
     "files": {}
   },
   "installed_plugins": {
-    "cordova-plugin-barcodescanner": {
+    "cordova-plugin-whitelist": {
       "PACKAGE_NAME": "com.example.appcomanda"
     },
     "cordova-plugin-camera": {
       "PACKAGE_NAME": "com.example.appcomanda"
     },
-    "cordova-plugin-whitelist": {
+    "cordova-plugin-barcodescanner": {
       "PACKAGE_NAME": "com.example.appcomanda"
     }
   },

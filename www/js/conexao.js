@@ -25,6 +25,7 @@ function autenticar(){
                 var senha_descriptografada = CryptoJS.AES.decrypt(snapshot.val().senha, usuario + senha).toString(CryptoJS.enc.Utf8);
                 //Verificação de senha
                 if(senha != senha_descriptografada){ 
+                    $("#mensagem_erro").hide(100);
                     $("#mensagem_erro").html("Senha incorreta");
                     $("#mensagem_erro").show(300);
                 }
@@ -40,6 +41,7 @@ function autenticar(){
             }
             //Usuário não existe
             else{ 
+                $("#mensagem_erro").hide(100);
                 $("#mensagem_erro").html("Este usuário não existe no sistema")
                 $("#mensagem_erro").show(300);
             }
@@ -47,7 +49,8 @@ function autenticar(){
     }
     //Campos vazios
     else{
-        $("#mensagem_erro").htlm("Entre com usuario e senha");
+        $("#mensagem_erro").hide(100);
+        $("#mensagem_erro").html("Entre com usuario e senha");
         $("#mensagem_erro").show(300);
     }
 }
@@ -61,10 +64,12 @@ function novoUsuario(){
     var csenha = document.getElementById("confirmacao_senha").value;
 
     if(usuario == ""  || senha == "" || csenha == ""){
+        $("#mensagem_erro").hide(100);
         $("#mensagem_erro").html("Preencha todos os campos necessários!");
         $("#mensagem_erro").show(300);
     }
     else if(senha != csenha){
+        $("#mensagem_erro").hide(100);
         $("#mensagem_erro").html("Senha e confirmação não coincidem!");
         $("#mensagem_erro").show(300);
     }
@@ -72,6 +77,7 @@ function novoUsuario(){
         firebase.database().ref("usuario").child(usuario).orderByKey().once("value", snapshot => {
             //Usuário já existe no banco de dados
             if(snapshot.exists()){ 
+                $("#mensagem_erro").hide(100);
                 $("#mensagem_erro").html("Já existe um usuário com este nome!");
                 $("#mensagem_erro").show(300)
             }
@@ -87,6 +93,7 @@ function novoUsuario(){
                 }
                 //Se informado um token verifica se é o correto
                 else if($("#token").val() != "180c4e8f50a356b7408cd08029083d77"){ //token = md5(prova01)
+                    $("#mensagem_erro").hide(100);
                     $("#mensagem_erro").html("Token inválido!");
                     $("#mensagem_erro").show(300)
                 }
