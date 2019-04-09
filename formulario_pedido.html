@@ -422,16 +422,20 @@
         function atualiza_tabela(){
             itens = retorna_itens();
             conteudo = '';
+            mostra_tabela = 0
             for (item in itens) {
                 if(itens[item]['quantidade'] > 0) {
                     $("#tabela").show()
+                    mostra_tabela = 1
                     nome = configura_nome(item);
                     conteudo += '<tr>';
                     conteudo +=     '<td>'+nome+'</td>';
                     conteudo +=     '<td>'+itens[item]["quantidade"]+'</td>'
                     conteudo += '</tr>';
-                }else{
-                    $("#tabela").hide()
+                }else if (mostra_tabela == 0){
+                    $("#tabela").hide();
+                }else if (mostra_tabela == 1){
+                    mostra_tabela = 0;
                 }
             }
             $("#dados").html(conteudo);
