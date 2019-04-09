@@ -268,6 +268,10 @@
             messagingSenderId: "827922887965"
         };
         firebase.initializeApp(config);
+
+        $(document).ready(function(){
+            soma_tudo();
+        });
     
         var itens = {
             'presunto': {
@@ -376,17 +380,37 @@
             $("#qtdBarbecue").val(itens['barbecue']['quantidade']);
         }
 
+        function soma_tudo(){
+            itens = retorna_itens();
+            soma = 0.0;
+            for(var item in itens){
+                itens[item]['total'] = itens[item]['quantidade'] * itens[item]['valor'];
+                soma += itens[item]['total'];
+            }
+            soma = parseFloat(soma).toFixed(2);
+            $("#valor").val('R$ ' + soma);
+        }
+
         /*------------------------------------------------------------------------------------
             CALCULAR PEDIDO DE CLIENTE - ADICIONAR ITEM
         ------------------------------------------------------------------------------------*/
         //Adicionar itens ao lanche final
         function addItem(produto){
-            //Nomes dos itens
-            //Incrementa a quantidade do item
+            //retorna na varivel itens o objeto de itens
             itens = retorna_itens();
+            
+            //itens produto recebido como parametro adiciona +1
             itens[produto]['quantidade'] += 1;
+            
+            //chama a função de atualizar_quantidades para interface
             atualiza_quantidades();
-            //Recupera o valor  unitário do item
+            
+            //chama a função para atualizar a soma
+            soma_tudo();
+            
+            /*
+
+            //Recupera o valor  unitário do ite
             var valorAux = parseFloat(valor);
             //Se ainda não tiver nenhum pedido
             if(document.getElementById("valor").value == ""){
@@ -398,6 +422,7 @@
             }
 
             //** Oculto **/
+            /*
             //Insere o item na lista
             document.getElementById("itens_aux").value += itens[0][quantidadeID] + "," ;
             //Divide os itens
@@ -408,6 +433,7 @@
             document.getElementById("itens_aux").value = listaSemRepeticoes.toString();
 
             //** Visivel **/
+            /*
             //Recupera a lista atual
             var tabela = "<tr><th>Item</th><th>Quantidade</th></tr>";
             listaSemRepeticoes.forEach(obj => {
@@ -432,6 +458,7 @@
                 }
             })
             document.getElementById("tabela").innerHTML = tabela;
+            */
         }
 
         /*------------------------------------------------------------------------------------
@@ -439,12 +466,14 @@
         ------------------------------------------------------------------------------------*/
         function delItem(produto){
             itens = retorna_itens();
-            console.log(itens)
-            if(itens[produto]['quantidade'] <= 0) {
+            if(itens[produto]['quantidade'] > 0) {
                 itens[produto]['quantidade'] -= 1;
-                console.log(itens[produto]['quantidade']);
+            }else{
+                alert('O item já é igual a 0');
             }
             atualiza_quantidades();
+            soma_tudo();
+
             //Verifica se a quantidade não é zero
             /*
             if(document.getElementById(quantidadeID).value != 0 && 1==2){
@@ -562,28 +591,16 @@
            LIMPAR CAMPOS
         ------------------------------------------------------------------------------------*/
         function limparPedido(){
-            var result = confirm("Confirmar cancelamento?");
+            result = confirm("Tem certeza que deseja cancelar?");
             if(result){
-                document.getElementById("valor").value = "";
-                document.getElementById("qtdPresunto").value = "0";
-                document.getElementById("qtdBacon").value = "0";
-                document.getElementById("qtdBoi").value = "0";
-                document.getElementById("qtdSalsicha").value = "0";
-                document.getElementById("qtdAlface").value = "0";
-                document.getElementById("qtdTomate").value = "0";
-                document.getElementById("qtdPicles").value = "0";
-                document.getElementById("qtdCebola").value = "0";
-                document.getElementById("qtdQueijo").value = "0";
-                document.getElementById("qtdMilho").value = "0";
-                document.getElementById("qtdBatataPalha").value = "0";
-                document.getElementById("qtdOvoFrito").value = "0";
-                document.getElementById("qtdMaionese").value = "0";
-                document.getElementById("qtdMostarda").value = "0";
-                document.getElementById("qtdKetchup").value = "0";
-                document.getElementById("qtdBarbecue").value = "0";
-                document.getElementById("itens_aux").value = "";
-                location.href = "formulario_pedido.html";
+                itens = retorna_itens();
+                for (item in itens){
+                    itens[item]['quantidade'] = 0
+                }
+                atualiza_quantidades();
+                soma_tudo();
             }
-        }
+        };
+
     </script>
 </html>
