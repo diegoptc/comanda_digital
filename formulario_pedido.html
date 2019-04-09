@@ -240,7 +240,7 @@
                         <textarea type="text" id="itens_aux" readonly></textarea>
                     </div>
                     <div id="itens" class="form-group">
-                        <table class="table table-striped" id="tabela">
+                        <table class="table table-striped">
                             <thead>
                                 <tr>
                                     <th>Item</th>
@@ -279,7 +279,6 @@
 
         $(document).ready(function(){
             soma_tudo();
-            $("#tabela").hide();
         });
     
         var itens = {
@@ -422,20 +421,13 @@
         function atualiza_tabela(){
             itens = retorna_itens();
             conteudo = '';
-            mostra_tabela = 0
             for (item in itens) {
                 if(itens[item]['quantidade'] > 0) {
-                    $("#tabela").show()
-                    mostra_tabela = 1
                     nome = configura_nome(item);
                     conteudo += '<tr>';
                     conteudo +=     '<td>'+nome+'</td>';
                     conteudo +=     '<td>'+itens[item]["quantidade"]+'</td>'
                     conteudo += '</tr>';
-                }else if (mostra_tabela == 0){
-                    $("#tabela").hide();
-                }else if (mostra_tabela == 1){
-                    mostra_tabela = 0;
                 }
             }
             $("#dados").html(conteudo);
