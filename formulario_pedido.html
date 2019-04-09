@@ -268,12 +268,12 @@
             INICIALIZAÇÃO DO FIREBASE
         ------------------------------------------------------------------------------------*/
         var config = {
-            apiKey: "AIzaSyC1UdL35EsKpGZo_tNyzTQpX11ZZuEpx0g",
-            authDomain: "appinventario-a8acd.firebaseapp.com",
-            databaseURL: "https://appinventario-a8acd.firebaseio.com",
-            projectId: "appinventario-a8acd",
-            storageBucket: "appinventario-a8acd.appspot.com",
-            messagingSenderId: "827922887965"
+            apiKey: "AIzaSyAHGPhQVqK3Gbz5AZA6kD8SUyMtyBNA54w",
+            authDomain: "appcordovacomanda.firebaseapp.com",
+            databaseURL: "https://appcordovacomanda.firebaseio.com",
+            projectId: "appcordovacomanda",
+            storageBucket: "appcordovacomanda.appspot.com",
+            messagingSenderId: "274205887574"
         };
         firebase.initializeApp(config);
 
@@ -438,72 +438,11 @@
         ------------------------------------------------------------------------------------*/
         //Adicionar itens ao lanche final
         function addItem(produto){
-            //retorna na varivel itens o objeto de itens
             itens = retorna_itens();
-            
-            //itens produto recebido como parametro adiciona +1
             itens[produto]['quantidade'] += 1;
-            
-            //chama a função de atualizar_quantidades para interface
             atualiza_quantidades();
-            
-            //chama a função para atualizar a soma
             soma_tudo();
-
-            //chama a função para atualizar a tabela
             atualiza_tabela();
-            
-            /*
-
-            //Recupera o valor  unitário do ite
-            var valorAux = parseFloat(valor);
-            //Se ainda não tiver nenhum pedido
-            if(document.getElementById("valor").value == ""){
-                document.getElementById("valor").value = valorAux.toFixed(2);
-            }
-            //Se não soma com o valor atual
-            else{
-                document.getElementById("valor").value = (parseFloat(document.getElementById("valor").value) + valorAux).toFixed(2);
-            }
-
-            //** Oculto **/
-            /*
-            //Insere o item na lista
-            document.getElementById("itens_aux").value += itens[0][quantidadeID] + "," ;
-            //Divide os itens
-            const lista = document.getElementById("itens_aux").value.toString().split(",");
-            //Elimina repetições
-            const listaSemRepeticoes = [...new Set(lista)];
-            //Insere a nova lista
-            document.getElementById("itens_aux").value = listaSemRepeticoes.toString();
-
-            //** Visivel **/
-            /*
-            //Recupera a lista atual
-            var tabela = "<tr><th>Item</th><th>Quantidade</th></tr>";
-            listaSemRepeticoes.forEach(obj => {
-                //console.log(obj.toString())
-                if(obj != ""){
-                    var qtdItem = "";
-                    //Gambiarra para encontrar o id do item através do nome
-                    if(obj.toString() == "Batata-palha"){
-                        qtdItem = "qtdBatataPalha";
-                    }
-                    else if(obj.toString() == "Hambuguer de boi"){
-                        qtdItem = "qtdBoi"; 
-                    }
-                    else if(obj.toString() == "Ovo frito"){
-                        qtdItem = "qtdOvoFrito";
-                    }
-                    else{
-                        qtdItem = "qtd" + obj.toString(); 
-                    }
-                
-                    tabela += "<tr><td>"+ obj + "</td><td>" + document.getElementById(qtdItem).value + "</td></tr>";
-                }
-            })
-            document.getElementById("tabela").innerHTML = tabela;
-            */
         }
 
         /*------------------------------------------------------------------------------------
@@ -513,80 +452,12 @@
             itens = retorna_itens();
             if(itens[produto]['quantidade'] > 0) {
                 itens[produto]['quantidade'] -= 1;
+                atualiza_quantidades();
+                soma_tudo();
+                atualiza_tabela();
             }else{
                 alert('O item já é igual a 0');
             }
-            atualiza_quantidades();
-            soma_tudo();
-            atualiza_tabela();
-
-            //Verifica se a quantidade não é zero
-            /*
-            if(document.getElementById(quantidadeID).value != 0 && 1==2){
-                //Decrementa a quantidade do item
-                document.getElementById(quantidadeID).value = parseInt(document.getElementById(quantidadeID).value) - 1;
-                //Recupera o valor  unitário do item
-                var valorAux = parseFloat(valor);
-                //Decrementa o valor do item no valor total R$
-                document.getElementById("valor").value = (parseFloat(document.getElementById("valor").value) - valorAux).toFixed(2);
-                //Atualiza a lista de pedidos
-                //Nomes dos itens
-                var itens = 
-                [{
-                    qtdPresunto: "Presunto",
-                    qtdBoi: "Hambuguer de boi",
-                    qtdBacon: "Bacon",
-                    qtdSalsicha: "Salsicha",
-                    qtdAlface: "Alface",
-                    qtdTomate: "Tomate",
-                    qtdPicles: "Picles",
-                    qtdCebola: "Cebola",
-                    qtdQueijo: "Queijo",
-                    qtdMilho: "Milho",
-                    qtdBatataPalha: "Batata-palha",
-                    qtdOvoFrito: "Ovo frito",
-                    qtdMaionese: "Maionese",
-                    qtdMostarda: "Mostarda",
-                    qtdKetchup: "Ketchup",
-                    qtdBarbecue: "Barbecue"
-                }]
-
-                const lista = document.getElementById("itens_aux").value.toString().split(",");
-                //Encontra o index do item inserido
-                var index = lista.indexOf(itens[0][quantidadeID]);
-
-                if(index !== -1) {
-                    //Remove caso já existir
-                    lista.splice(index, 1);
-                }
-                //Atualiza a lista
-                document.getElementById("itens_aux").value = lista.toString();
-
-                //Atualiza a tabela
-                var tabela = "<tr><th>Item</th><th>Quantidade</th></tr>";
-                lista.forEach(obj => {
-                    if(obj != ""){
-                        var qtdItem = "";
-                        //Gambiarra para encontrar o id do item através do nome
-                        if(obj.toString() == "Batata-palha"){
-                            qtdItem = "qtdBatataPalha";
-                        }
-                        else if(obj.toString() == "Hambuguer de boi"){
-                            qtdItem = "qtdBoi"; 
-                        }
-                        else if(obj.toString() == "Ovo frito"){
-                            qtdItem = "qtdOvoFrito";
-                        }
-                        else{
-                            qtdItem = "qtd" + obj.toString(); 
-                        }
-                    
-                        tabela += "<tr><td>"+ obj + "</td><td>" + document.getElementById(qtdItem).value + "</td></tr>";
-                    }
-                })
-                document.getElementById("tabela").innerHTML = tabela;
-            }
-            */
         }
 
         /*------------------------------------------------------------------------------------
@@ -594,11 +465,11 @@
         ------------------------------------------------------------------------------------*/
         function fazerPedido(){
             //Verifica se existe algo no pedido
-            if(document.getElementById("valor").value == 0){
+            if($("#valor").val() == 'R$ 0.00'){
                 alert("Monte seu lanche antes de fazer o pedido.");
             }
             else{
-                var result = confirm("Seu pedido ficou em R$ " + document.getElementById("valor").value +  "\nA câmera será aberta para você ler o QR Code de sua mesa e prosseguir com o pedido.")
+                var result = confirm("Seu pedido ficou em " + document.getElementById("valor").value +  "\nA câmera será aberta para você ler o QR Code de sua mesa e prosseguir com o pedido.")
                 if(result){
                     cordova.plugins.barcodeScanner.scan(
                         result => {
@@ -610,9 +481,9 @@
                                     //Recupera o cliente
                                     var usuario = localStorage.getItem("usuarioLogado"); //Recupera o usuário logado (em cache)
                                     //Recupera os itens do pedido
-                                    var pedido = document.getElementById("itens_aux").value;
+                                    var pedido = retorna_itens();
                                     //Recupera o valor do pedido
-                                    var valor = "R$ " + document.getElementById("valor").value;
+                                    var valor = $("#valor").val();
                                     //Cadastra o pedido com as informações recuperadas
                                     firebase.database().ref("pedido").push({cliente: usuario, mesa: numeroMesa, pedido: pedido, valor: valor, status: "Na fila"})
                                     
@@ -645,6 +516,7 @@
                 }
                 atualiza_quantidades();
                 soma_tudo();
+                atualiza_tabela();
             }
         };
 
