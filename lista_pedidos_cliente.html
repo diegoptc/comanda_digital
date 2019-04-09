@@ -6,12 +6,11 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>Comanda Digital</title>
         <script src="https://www.gstatic.com/firebasejs/5.9.2/firebase.js"></script>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <script src="js/jquery-3.3.1.min.js" type="text/javascript"></script>
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="css/semantic/semantic.min.js"></script>
         <link rel="stylesheet" href="css/semantic/semantic.min.css">
         <link rel="stylesheet" href="css/folha.css">
-        <script src="js/jquery-3.3.1.min.js" type="text/javascript"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script> 
-        <script type="text/javascript" src="cordova.js"></script>
     </head>
 
     <body>
@@ -20,9 +19,38 @@
             <li><a href="lista_pedidos_cliente.html">Atualizar página</a></li>
         </ul>
         <div id="listaPedidos" class="form-group">
-            <!--Listagem-->
+            <table class="ui striped table">
+                <tr>
+                    <thead>
+                        <th>Status</th>
+                        <th>Lanche</th>
+                        <th>Valor</th>
+                    </thead>
+                    <tbody id="dados">
+
+                    </tbody>
+                </tr>
+            </table>
+        </div>
+        <div class="ui modal">
+            <i class="close icon" onclick="close_modal();"></i>    
+            <div class="header">Itens do Pedido</div>
+                <div class="content">
+                    <table class="ui table">
+                        <thead>
+                            <tr>
+                                <th>Item</th>
+                                <th>Quantidade</th>
+                            </tr>
+                        </thead>
+                        <tbody id="dados_modal">
+                            
+                        </tbody>
+                    </table>
+                </div>
         </div>
     </body>
+    
 
     <script>
         /*------------------------------------------------------------------------------------
@@ -38,17 +66,68 @@
         };
         firebase.initializeApp(config);
         
+        var itens = {};
+
         $(document).ready(function(){
             firebase.database().ref().child("pedido").orderByKey().once("value", snapshot => {
-                var tabela = "<table class='table table-striped'><tr><th>Status</th><th>Lanche</th><th>Valor</th></tr>";
+                var conteudo = "";
                 snapshot.forEach(pedido => {
                     if(pedido.val().cliente == localStorage.getItem("usuarioLogado")){
-                        tabela+= "<tr><td>" + pedido.val().status + "</td><td>" + pedido.val().pedido + "<td>" + pedido.val().valor + "</tr>";
+                        conteudo+= "<tr><td>" + pedido.val().status + "</td><td>" + "<button class='ui teal button' onclick='recupera_itens("+'"'+pedido.key+'"'+")'>Visualizar pedido</button>" + "<td>" + pedido.val().valor + "</tr>";
                     }
                 })
-                tabela+= "</table";
-                document.getElementById("listaPedidos").innerHTML = tabela;
+                $("#dados").html(conteudo);
             })
         })
+
+        function recupera_itens(chave){
+            firebase.database().ref().child("pedido").orderByKey().once("value", snapshot => {
+                snapshot.forEach(pedido => {
+                    if(pedido.key == chave){
+                        itens = pedido.val().pedido;
+                        atualiza_tabela();
+                        $('.ui.modal').modal('show');
+                    }
+                })
+            })
+        }
+
+        function configura_nome(nome){
+            nome_aux = '';
+            espaco = 0;
+            for (key in nome){
+                if(key == 0){
+                    nome_aux += nome[key].toUpperCase();
+                }else if(nome[key] == '_'){
+                    nome_aux += ' '
+                    espaco = 1;
+                }else if(espaco == 1) {
+                    nome_aux += nome[key].toUpperCase();
+                    espaco = 0;
+                }else{
+                    nome_aux += nome[key];
+                }   
+            }
+            return nome_aux;
+        }
+
+        function atualiza_tabela(){
+            conteudo = '';
+            for (item in itens) {
+                if(itens[item]['quantidade'] > 0) {
+                    nome = configura_nome(item);
+                    conteudo += '<tr>';
+                    conteudo +=     '<td>'+nome+'</td>';
+                    conteudo +=     '<td>'+itens[item]["quantidade"]+'</td>'
+                    conteudo += '</tr>';
+                }
+            }
+            $("#dados_modal").html(conteudo);
+            console.log(conteudo);
+        }
+
+        function close_modal(){
+            $('.ui.modal').modal('hide');
+        }
     </script>
 </html>
