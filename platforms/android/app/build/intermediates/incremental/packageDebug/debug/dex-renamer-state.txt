@@ -1,9 +1,4 @@
-<<<<<<< HEAD
-#Sat Apr 06 19:20:14 BRT 2019
+#Tue Apr 09 01:03:20 BRT 2019
 base.0=C\:\\Users\\diego\\Desktop\\IFTM - ADS - 5 Periodo\\Aplicativos Mobile\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
-=======
-#Sun Apr 07 12:33:48 BRT 2019
-base.0=C\:\\Users\\Artur\\Documents\\comanda_digital\\platforms\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
->>>>>>> cffee0e6f71104a0a8dde736ccfe7adf2110f251
 path.0=classes.dex
 renamed.0=classes.dex

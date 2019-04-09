@@ -1,0 +1,9 @@
+hooks/*
+node_modules/*
+platforms/*
+plugins/*
+res/*
+.npmignore
+config.xml
+package.json
+package-lock.json
