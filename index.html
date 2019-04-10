@@ -11,6 +11,8 @@
         <link rel="stylesheet" href="css/semantic/semantic.min.css">
         <script src="css/semantic/semantic.min.js" type="text/javascript"></script>
         <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/global.js"></script>
+        <script type="text/javascript" src="js/login.js"></script>
         <style type="text/css">
             body {
             background-color: #F1D4AF;
@@ -58,8 +60,8 @@
                         <div class="ui error message" id="mensagem_erro">
                         </div>
                     </form>
-                    <div class="ui teal message">
-                        <a href="cadastro.html">
+                    <div class="ui teal message" onclick="window.location = 'cadastro.html'">
+                        <a>
                             Cadastrar novo usuario
                         </a>
                     </div>
@@ -67,58 +69,4 @@
             </div>
         </div>
     </body>
-
-    <script>
-    var config = {
-            apiKey: "AIzaSyAHGPhQVqK3Gbz5AZA6kD8SUyMtyBNA54w",
-            authDomain: "appcordovacomanda.firebaseapp.com",
-            databaseURL: "https://appcordovacomanda.firebaseio.com",
-            projectId: "appcordovacomanda",
-            storageBucket: "appcordovacomanda.appspot.com",
-            messagingSenderId: "274205887574"
-    };
-    firebase.initializeApp(config);
-    /*------------------------------------------------------------------------------------
-    AUTENTICAR USUÁRIO
-    ------------------------------------------------------------------------------------*/
-    function autenticar(){
-        var usuario = document.getElementById("usuario").value;
-        var senha = document.getElementById("senha").value;
-        if(usuario != "" && senha != ""){
-            firebase.database().ref("usuario").child(usuario).orderByKey().once("value", snapshot => {
-                if(snapshot.exists()){
-                    //Descriptografando a senha do usuário para comparação
-                    var senha_descriptografada = CryptoJS.AES.decrypt(snapshot.val().senha, usuario + senha).toString(CryptoJS.enc.Utf8);
-                    //Verificação de senha
-                    if(senha != senha_descriptografada){ 
-                        $("#mensagem_erro").hide(100);
-                        $("#mensagem_erro").html("Senha incorreta");
-                        $("#mensagem_erro").show(300);
-                    }
-                    //Senha correta, redireciona para próxima página
-                    //Verifica o grupo de usuário para redirecionamento
-                    else{
-                        localStorage.setItem("usuarioLogado", usuario); //Armazena em cache o usuário logado
-                        if(snapshot.val().grupo == "Cliente")
-                            window.location = "menu_cliente.html";
-                        else
-                        window.location = "menu_funcionario.html";
-                    }
-                }
-                //Usuário não existe
-                else{ 
-                    $("#mensagem_erro").hide(100);
-                    $("#mensagem_erro").html("Este usuário não existe no sistema")
-                    $("#mensagem_erro").show(300);
-                }
-            })
-        }
-        //Campos vazios
-        else{
-            $("#mensagem_erro").hide(100);
-            $("#mensagem_erro").html("Entre com usuario e senha");
-            $("#mensagem_erro").show(300);
-        }
-    }
-    </script>
 </html>
