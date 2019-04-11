@@ -5,7 +5,7 @@ $(document).ready(function(){
         var conteudo = "";
         snapshot.forEach(pedido => {
             if(pedido.val().cliente == localStorage.getItem("usuarioLogado")){
-                conteudo+= "<tr><td>" + pedido.val().status + "</td><td>" + "<button class='ui teal button' onclick='recupera_itens("+'"'+pedido.key+'"'+")'>Visualizar pedido</button>" + "<td>" + pedido.val().valor + "</tr>";
+                conteudo+= "<tr><td>" + pedido.val().status + "</td><td>" + "<button class='ui teal button' onclick='recupera_itens("+'"'+pedido.key+'"'+")'>Visualizar pedido</button>" + "</td><td>" + pedido.val().valor + "</tr>";
             }
         })
         $("#dados").html(conteudo);
@@ -55,7 +55,6 @@ function atualiza_tabela(){
         }
     }
     $("#dados_modal").html(conteudo);
-    console.log(conteudo);
 }
 
 function close_modal(){

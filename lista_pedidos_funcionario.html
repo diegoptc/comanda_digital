@@ -6,24 +6,48 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>Comanda Digital</title>
         <script src="https://www.gstatic.com/firebasejs/5.9.2/firebase.js"></script>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
         <link rel="stylesheet" href="css/semantic/semantic.min.css">
         <link rel="stylesheet" href="css/folha.css">
         <script src="js/jquery-3.3.1.min.js" type="text/javascript"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script> 
         <script type="text/javascript" src="cordova.js"></script>
+        <script src="css/semantic/semantic.min.js" type="text/javascript"></script>
         <script type="text/javascript" src="js/global.js"></script>
         <script type="text/javascript" src="js/lista_pedidos_funcionario.js"></script>
     </head>
-
     <body>
         <ul>
             <li><a href="menu_funcionario.html">Menu</a></li>
         </ul>
-        <div class="container">
-            <div id="listaPedidos" class="form-group">
-                    <!--Listagem-->
-            </div>
+        <div id="listaPedidos" class="form-group">
+            <table class="ui striped table">
+                <tr>
+                    <thead>
+                        <th>Status</th>
+                        <th>Lanche</th>
+                        <th>Mesa</th>
+                    </thead>
+                    <tbody id="dados">
+
+                    </tbody>
+                </tr>
+            </table>
+        </div>
+        <div class="ui modal">
+            <i class="close icon" onclick="close_modal();"></i>    
+            <div class="header">Itens do Pedido</div>
+                <div class="content">
+                    <table class="ui table">
+                        <thead>
+                            <tr>
+                                <th>Item</th>
+                                <th>Quantidade</th>
+                            </tr>
+                        </thead>
+                        <tbody id="dados_modal">
+                            
+                        </tbody>
+                    </table>
+                </div>
         </div>
     </body>
 </html>
